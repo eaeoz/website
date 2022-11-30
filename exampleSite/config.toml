@@ -49,11 +49,6 @@ URL = "tools/"
 name = "tools"
 weight = 2
 
-[[menu.main]]
-URL = "https://gethugothemes.com/products/northendlab/"
-name = "Buy Premium"
-weight = 2
-
 # footer menu
 [[menu.footer]]
 URL = "contact/"
