@@ -102,12 +102,12 @@ image = "images/banner/illustration.svg"
 [params.cta]
 enable = true
 image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+title = "Contact Me"
+description = "Have question?"
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+label = "Send Email"
+link = "mailto:mail@sedat.cf"
 
 
 ############################## Social Site ##########################
