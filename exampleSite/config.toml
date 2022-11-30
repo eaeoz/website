@@ -85,7 +85,7 @@ expire_days = 2
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
+title = "Hi, I'm Sedat. <br> I share my daily tech posts with people"
 image = "images/banner/illustration.svg"
 
 
