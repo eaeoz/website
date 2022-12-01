@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://demo.gethugothemes.com/northendlab-light/examplesite/"
+baseURL = "https://lime.ml"
 languageCode = "en-us"
 # site title 
-title = "Northendlab | Blog Template"
+title = "lime.ml | Sedat's Articles"
 # theme
 theme = "northendlab-light"
 # post pagination
@@ -119,9 +119,9 @@ link = "mailto:mail@sedat.cf"
 #[[params.social]]
 #icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
 #link = "#"
-#[[params.social]]
-#icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-#link = "#"
+[[params.social]]
+icon = "ti-github" # themify icon pack https://themify.me/themify-icons
+link = "https://github.com/eaeoz"
 #[[params.social]]
 #icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
 #link = "#"
