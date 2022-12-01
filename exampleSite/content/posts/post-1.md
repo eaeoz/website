@@ -23,6 +23,10 @@ Above Paragraph, you see SERP or Keywords that are common SEO Term so Before sta
 
 * and if you find you've got the penalty then quickly take necessary step undereating the guidelines given by search engine company.
 
-** Algorithm Refresh: Search engine operator after a regular interval re-run the existing algorithm to find out the new spammer.
+### Algorithm Refresh
 
-*** New Algorithm: Improving search quality google and other search engines regularly bringing new algorithms. All new algorithm has its special purpose to serve in the total search engine working process.
+Search engine operator after a regular interval re-run the existing algorithm to find out the new spammer.
+
+#### New Algorithm
+
+Improving search quality google and other search engines regularly bringing new algorithms. All new algorithm has its special purpose to serve in the total search engine working process.
