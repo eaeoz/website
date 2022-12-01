@@ -33,6 +33,10 @@
             {{ end }}
           {{ end }}
         </ul>
+
+        <!-- Dark Mode Addition-->
+        {{- partial "toggle" -}}
+
         {{ if .Site.Params.search.enable }}
         {{ "<!-- search -->" | safeHTML }}
         <div class="search">
