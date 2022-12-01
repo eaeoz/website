@@ -22,11 +22,6 @@ sections:
   path: exampleSite/documentation
   label: Documentation
 - type: directory
-  path: exampleSite/content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
   path: exampleSite/
   label: Configuration
   create: all
