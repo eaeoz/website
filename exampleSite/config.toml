@@ -39,10 +39,15 @@ link = "plugins/search/search.js"
 ########################### Navigation ###################################
 
 # main menu
-#[[menu.main]]
-#URL = "contact/"
-#name = "Contact"
-#weight = 1
+[[menu.main]]
+URL = "https://c.sedat.cf/s/PsAaxmsQ5sNFWPe"
+name = "Shared Files from Home Server"
+weight = 1
+
+[[menu.main]]
+URL = "https://c.sedat.cf/call/pyerrr5k"
+name = "Public Chat Discussion"
+weight = 1
 
 # footer menu
 #[[menu.footer]]
