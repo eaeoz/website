@@ -32,7 +32,7 @@ Improving search quality google and other search engines regularly bringing new 
 
 - But SEO related blogs and journals give the news what the changes made. So Keep update regular visit this industry-related community is important. 
 
-{{< youtube jAu0jYn9VEs >}}
+<!-- {{< youtube jAu0jYn9VEs >}} -->
 
 ##### Table
 
