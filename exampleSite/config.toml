@@ -104,8 +104,8 @@ image = "images/banner/illustration.svg"
 [params.cta]
 enable = true
 image = "images/hugo-muscot.svg"
-title = "Contact Me"
-description = "Have question?"
+title = "Have question?"
+description = "Contact Me"
 [params.cta.button]
 enable = true
 label = "Send Email"
