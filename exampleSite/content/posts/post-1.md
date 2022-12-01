@@ -31,7 +31,7 @@ Improving search quality google and other search engines regularly bringing new 
 - Algorithm Update: Search Engines regularly making minor changes in their system they normally don’t give an official announcement. 
 
 - But SEO related blogs and journals give the news what the changes made. So Keep update regular visit this industry-related community is important. 
-
+{{< youtube jAu0jYn9VEs >}}
 | test | test2 |
 |-----|-----|
 | test3 | test4 |
