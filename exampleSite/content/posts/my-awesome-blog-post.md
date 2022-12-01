@@ -1,5 +1,5 @@
 +++
-title = "My awesome blog post"
+title = "My first awesome blog post"
 image = "/images/post/post-1.jpg"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
