@@ -49,6 +49,11 @@ name = "Public Chat Discussion"
 weight = 1
 
 [[menu.main]]
+URL = "https://sedat.3cx.com.tr:5001/meet/7e04c83973bc7224fb247ab4d6ed086661de32dd"
+name = "Meeting Room"
+weight = 1
+
+[[menu.main]]
 URL = "https://louislam-uptim-prod-sedat-f8x3ue.mo6.mogenius.io/status/services"
 name = "Home Cloud Service Status"
 weight = 1
