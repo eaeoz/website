@@ -95,7 +95,7 @@ expire_days = 2
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Tech. Articles"
+title = ""
 image = "images/banner/illustration.svg"
 
 
