@@ -1,9 +1,9 @@
 +++
-title = "My first awesome blog post"
+title = "my first awesome blog post"
 image = "/images/post/post-1.jpg"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
-description = "Site First Article"
+description = "site first article meta description"
 categories = ["Site Info"]
 type = "post"
 
