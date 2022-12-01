@@ -35,18 +35,6 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 
-[params.variables]
-# Color Variables
-primary_color = "#47c4f1"
-secondary_color = "#9AC4F8"
-text_color = "#666666"
-text_color_dark = "#222222"
-body_color = "#fff"
-border_color = "#ACB9C4"
-black = "#000"
-white = "#fff"
-light = "#F8F8F8"
-
 ########################### Navigation ###################################
 
 # main menu
