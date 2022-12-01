@@ -93,10 +93,10 @@ enable = true
 expire_days = 2
 
 ####################### banner #######################################
-[params.banner]
-bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Sedat. <br> I share my daily tech posts with people"
-image = "images/banner/illustration.svg"
+#[params.banner]
+#bgImage = "images/banner/banner-bg.svg"
+#title = "Hi, I'm Sedat. <br> I share my daily tech posts with people"
+#image = "images/banner/illustration.svg"
 
 
 ######################## call to action ###############################
