@@ -21,22 +21,6 @@
           {{range .Params.Tags }} <a href="{{ `tags/` | relLangURL}}{{ . | urlize | lower }}/">#{{ . | title }}</a>,  {{ end }}
         </div>
       </div>
-      <div class="col-lg-8 mx-auto block shadow">
-        {{ $related := .Site.RegularPages.Related . | first 5 }}
-        {{ with $related }}
-        <h3>See Also</h3>
-        <ul>
-          {{ range . }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-        {{ end }}
-      </div>
-      <!-- {{ if .Site.DisqusShortname}}
-      <div class="col-lg-8 mx-auto block shadow">
-        {{ template "_internal/disqus.html" . }}
-      </div>
-      {{ end }} -->
     </div>
   </div>
 </section>
