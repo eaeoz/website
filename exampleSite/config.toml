@@ -45,7 +45,7 @@ weight = 1
 
 [[menu.main]]
 URL = "https://c.sedat.cf/call/pyerrr5k"
-name = "Public Chat Discussion"
+name = "Public Chat Room For Discussion"
 weight = 1
 
 [[menu.main]]
@@ -55,7 +55,7 @@ weight = 1
 
 [[menu.main]]
 URL = "https://louislam-uptim-prod-sedat-f8x3ue.mo6.mogenius.io/status/services"
-name = "Home Cloud Service Status"
+name = "Home Server Status"
 weight = 1
 
 
