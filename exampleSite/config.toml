@@ -4,7 +4,7 @@ languageCode = "en-us"
 # site title 
 title = "lime.ml | Sedat's Articles"
 # theme
-theme = "northendlab-light"
+theme = "northendlab-dark"
 # post pagination
 paginate = "5"
 # post excerpt
