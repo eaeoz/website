@@ -19,7 +19,9 @@ Above Paragraph, you see SERP or Keywords that are common SEO Term so Before sta
 * Algorithm Update: Search Engines regularly making minor changes in their system they normally don’t give an official announcement. 
 
 - But SEO related blogs and journals give the news what the changes made. So Keep update regular visit this industry-related community is important. 
-- And when the Major update come You must observe your ranking behavior and if you find you've got the penalty then quickly take necessary step undereating the guidelines given by search engine company.
+-- And when the Major update come You must observe your ranking behavior 
+
+* and if you find you've got the penalty then quickly take necessary step undereating the guidelines given by search engine company.
 
 ** Algorithm Refresh: Search engine operator after a regular interval re-run the existing algorithm to find out the new spammer.
 
