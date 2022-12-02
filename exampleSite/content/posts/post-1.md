@@ -28,7 +28,9 @@ Search engine operator after a regular interval re-run the existing algorithm to
 
 Improving search quality google and other search engines regularly bringing new algorithms. All new algorithm has its special purpose to serve in the total search engine working process.
 
-- Algorithm Update: Search Engines regularly making minor changes in their system they normally don’t give an official announcement. 
+##### Algorithm Update
+
+Search *Engines* regularly making minor changes in their system they normally don’t give an official announcement. 
 
 - But SEO related blogs and journals give the news what the changes made. So Keep update regular visit this industry-related community is important. 
 
