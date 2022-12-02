@@ -40,12 +40,12 @@ link = "plugins/search/search.js"
 # main menu
 [[menu.main]]
 URL = "https://c.sedat.cf/s/PsAaxmsQ5sNFWPe"
-name = "Shared Files from Home Server"
+name = "Shared Files"
 weight = 1
 
 [[menu.main]]
 URL = "https://c.sedat.cf/call/pyerrr5k"
-name = "Public Chat Room For Discussion"
+name = "Chat Room"
 weight = 1
 
 [[menu.main]]
