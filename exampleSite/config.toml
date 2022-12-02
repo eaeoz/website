@@ -105,11 +105,11 @@ image = "images/banner/illustration.svg"
 
 
 ######################## call to action ###############################
-# [params.cta]
-# enable = true
-# image = "images/hugo-muscot.svg"
-# title = "Have question?"
-# description = "keep in touch"
+[params.cta]
+enable = true
+image = "images/hugo-muscot.svg"
+title = "Have question?"
+description = "keep in touch"
 [params.cta.button]
 enable = true
 label = "Send Email"
