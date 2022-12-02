@@ -114,10 +114,6 @@ description = "keep in touch"
 enable = true
 label = "Send Email"
 link = "mailto:mail@sedat.cf"
-[params.cta.button]
-enable = true
-label = "Send Email"
-link = "mailto:mail@sedat.cf"
 
 
 ############################## Social Site ##########################
