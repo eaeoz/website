@@ -8,16 +8,16 @@ categories = ["english"]
 type = "post"
 
 +++
-Greetings 
+#####For greetings, always use Ms and not Mrs when writing to a woman in a professional context.
 Dear Mr/Ms Jones
-Always use Ms and not Mrs when writing to a woman in a professional context.
 
-In formal emails we always use the surname, so if the person’s name is Mary Franklin, don’t write Dear Ms. Mary or Dear Ms. Mary Franklin, write Dear Ms. Franklin
+In formal emails we always use the surname, so if the person’s name is Mary Franklin, don’t write Dear Ms. Mary or Dear Ms. Mary Franklin, 
+write Dear Ms. Franklin
 
 Sometimes you don’t know the name of the person you’re writing to because the email address starts with info or office. In this case write:
 Dear Sir/Madam 
 
-Introducing yourself – name, job title and company
+**Introducing yourself – name, job title and company**
 My name is Susan Whitby and I am the Head of Marketing at HMU.
 
 Friendly opening – this all depends on your relationship with the person. If you know someone a little better, but still have a formal relationship it might be nice to use a phrase like this at the beginning of your mails. 
