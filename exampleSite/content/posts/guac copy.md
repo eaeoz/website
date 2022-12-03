@@ -8,8 +8,6 @@ categories = ["technology"]
 type = "post"
 
 +++
-https://github.com/wting/autojump
-
 in the history you should be visited that directory to work j command
 
 ```
@@ -50,3 +48,7 @@ interactive shells) and your `~/.bash_profile` (for login shells):
 If you use Zsh, add the following line to your `~/.zshrc` (for all interactive shells):
 
 `. /usr/share/autojump/autojump.sh`
+
+More Info:
+
+https://github.com/wting/autojump
