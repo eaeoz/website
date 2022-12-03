@@ -67,7 +67,14 @@ Example Nginx Proxy Manager Backup with volumes:
         ],n": "rprivate"
 ```
 
-we got the volume information: `/docker/appdata/nginx-proxy-manager`
+we got the volume information, we should copy on the recent computer files same as here on the source specified section.
+
+destination section inside the container it will be running as same.
+
+```
+                "Source": "/docker/appdata/nginx-proxy-manager",
+                "Destination": "/config",
+```
 
 now lets deploy the application:
 
