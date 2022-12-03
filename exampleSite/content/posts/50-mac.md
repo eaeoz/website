@@ -113,11 +113,11 @@ address ipv4 and ipv6
 
 -sudo touch id (sudo nano /etc/pam.d/sudo, and copy this to the first line:auth sufficient pam_tid.so) save click ok, then run and test with sample command: sudo killall -HUP mDNSResponder (clear dns cache)
 
-use this command to see what you download
--sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent'
+-use this command to see what you download:
+sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent'
 
-clear browsing history
--sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'
+-clear browsing history:
+sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'
 
 
 
