@@ -36,7 +36,9 @@ sudo apt install ansible
 `mkdir ansible_test`
 
 `cd ansible_test/`
----
+
+___
+
 #### Config File
 
 \
