@@ -23,7 +23,7 @@
       <div class="col-lg-8 mx-auto px-0">
         <div class="bg-white shadow block">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
-          {{ range $paginator.Pages.ByPublishDate }}
+          {{ range $paginator.Pages.ByPublishDate.Reverse }}
           {{ .Render "article" }}
           {{ end }}
           <!-- pagination -->
