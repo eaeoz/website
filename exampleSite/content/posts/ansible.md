@@ -9,6 +9,7 @@ type = "post"
 
 +++
 #### Installation
+
 ```
 sudo apt update
 sudo apt upgrade
@@ -35,7 +36,7 @@ sudo apt install ansible
 `mkdir ansible_test`
 
 `cd ansible_test/`
-
+---
 #### Config File
 
 \
