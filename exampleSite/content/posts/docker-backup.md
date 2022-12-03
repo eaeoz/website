@@ -82,3 +82,5 @@ now lets deploy the application:
 
 if more then one volumes we need to add more volume parameters with -v flag.
 
+> If application not deployed with volume information, you should check under overlay2 folder.
+
