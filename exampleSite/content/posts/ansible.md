@@ -13,7 +13,7 @@ INSTALLATION
 sudo apt update
 sudo apt upgrade
 sudo apt install software-properties-common
-``
+```
 Add the following line to /etc/apt/sources.list or /etc/apt/sources.
 
 `list.d/ansible.list:`
