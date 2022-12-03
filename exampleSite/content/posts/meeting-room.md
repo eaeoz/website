@@ -31,4 +31,4 @@ Then scan this code to join:
  
  If application already installed then click the link from your mobile The 3CX Video conferencing app will launch automatically.
 
- [Join Now](https://sedat.3cx.com.tr:5001/meet/sedat "Join to Meeting")
+ **[Join Now](https://sedat.3cx.com.tr:5001/meet/sedat "Join to Meeting")**
