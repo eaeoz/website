@@ -1,5 +1,5 @@
 +++
-title = "21 Phrases For Formal Emails"
+title = "Phrases For Formal Emails"
 #image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z

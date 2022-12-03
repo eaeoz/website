@@ -1,5 +1,5 @@
 +++
-title = "28 Advanced Phrases For Meetings"
+title = "Advanced Phrases For Meetings"
 #image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z

@@ -1,5 +1,5 @@
 +++
-title = "40 Windows Commands"
+title = "Windows Commands"
 #image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
