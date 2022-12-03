@@ -10,7 +10,7 @@ type = "post"
 +++
 #### From Browser
 
-You can join to meeting room from your browser. Simply click link below. Type your name and press button ask for join.
+You can join to meeting room from your browser. Simply using thie link below. Type your name and press button ask for join.
 ```
 https://sedat.3cx.com.tr:5001/meet/sedat
 ```
@@ -23,6 +23,8 @@ You can download mobile application from the links below:
 
 Download the 3CX Video Conference App for your [Android](https://play.google.com/store/apps/details?id=org.tcx.webmeeting&hl=en&gl=US "Download 3CX android app") or [Android](https://apps.apple.com/us/app/3cx-webmeeting/id1039756959 "Download 3CX IOS app")
 
-Then scan this code to join ( or you can type given link for browser intead of scan code )
+Then scan this code to join:
 
 ![alt text](/images/post/meeting.png)
+
+ Or you can type given link for browser intead of scan code. If you click the link from your mobile The 3CX Video conferencing app will launch automatically.
