@@ -24,11 +24,9 @@ dhcp, sys, setting etc..
 
 reboot and remove iso disk
 
+Docker Installation
 
-
-
-> Docker Installation
-
+```
 apk add nano
 
 nano /etc/apk/repositories
@@ -44,7 +42,7 @@ rc-update add docker boot
 service docker start
 
 reboot
-
+```
 
 
 apk add docker-compose
