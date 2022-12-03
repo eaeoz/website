@@ -132,7 +132,8 @@ Now set the default storage class for the cluster.
 kubectl get storageclass
 kubectl patch storageclass nfs-client -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 ```
-Check on System 👀
+Check on System 
+
 Check on your system.
 ```
 kubectl get nodes
