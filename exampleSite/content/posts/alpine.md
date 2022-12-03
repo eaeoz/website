@@ -78,7 +78,7 @@ apk add lsblk
 
 
 Installation
->> apk add networkmanager
+#_ apk add networkmanager
 
 
 NetworkManager comes with a command line interface and a curses-based interface, nmcli and nmtui respectively or you can use a additional gui interface:
@@ -87,12 +87,12 @@ plasma-nm for Plasma integration and applet - network-manager-applet for a GTK s
 
 After installation start NetworkManager:
 
->> rc-service networkmanager start
+#_ rc-service networkmanager start
 
 
 Also your user needs to be in the plugdev group:
 
->> adduser <YourUsername> plugdev
+#_ adduser <YourUsInstallationername> plugdev
 
 
 
@@ -131,18 +131,18 @@ Viewing CPU Temperature On Alpine Linux
 
 Let us search and find the correct package name and drivers for CPU sensors. We use the apk command as follows:
 
->> apk search sensors
+#_ apk search sensors
 
 Confirm that we are going to install the correct package in Alpine Linux:
 
->> apk info lm-sensors
+#_ apk info lm-sensors
 
 
 Installation
 
 Install the lm-sensors package using apk command
 
->> apk add lm-sensors lm-sensors-detect
+#_ apk add lm-sensors lm-sensors-detect
 
 Setup
 
@@ -150,19 +150,19 @@ We need to run the following sensors-detect to identify and generate a list of k
 
 ThinkPad X140e with AMD A4-5000 APU with Radeon(TM) HD Graphics
 
->> sensors-detect
+#_ sensors-detect
 
 All you have to do is type the following command:
 
->> sensors
+#_ sensors
 
 Summing up
 
 You learned how to install, set up, and configure the lm-sensors package on Alpine Linux to view CPU fan speed, temperature, and other data. We can use the watch command to execute a program periodically, showing output fullscreen. For instance, we can watch sensors as follows:
 
->> watch sensors
+#_ watch sensors
 
->> watch -n 1 sensors
+#_ watch -n 1 sensors
 
 
 
