@@ -39,3 +39,24 @@ browser > hooked domain > create alert dialog
 * creates text box popup and letyou type and returns data which is typed from browser
 browser > hooked domain > prompt dialog
 ```
+
+##### Beef on Hyper-V
+
+on powershell
+
+`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+
+
+To install the enhanced session mode, run the following command in a terminal inside the Kali OS
+
+`kali-tweaks`
+
+opens up a GUI dialog box
+
+Select Virtulization → configure. Once the installation is complete reboot your Kali OS.
+
+On your Hyper-V host make go to `Action → Hyper-V settings → Enhanced Session Mode Policy → Allow enhanced session mode.` Make sure the checkbox is ticked.
+
+While keeping your VM in shutdown mode, reboot your host OS.
+
+Once the host OS is up, start the guest Kali OS. Connect to it and you should be presented with a dialog box that allows you to go full screen.
