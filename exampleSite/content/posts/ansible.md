@@ -17,7 +17,9 @@ sudo apt install software-properties-common
 `list.d/ansible.list:`
 
 Add the following line to /etc/apt/sources.list or /etc/apt/sources.
+
 `deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main`
+
 Then run these commands:
 
 \
