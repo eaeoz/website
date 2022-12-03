@@ -44,7 +44,9 @@ browser > hooked domain > prompt dialog
 
 on powershell
 
-`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+```
 
 
 To install the enhanced session mode, run the following command in a terminal inside the Kali OS
