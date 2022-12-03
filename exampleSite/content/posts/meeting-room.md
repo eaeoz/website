@@ -21,7 +21,7 @@ If meeting started, you'll be join after approvel.
 
 You can download mobile application from the links below: 
 
-Download the 3CX Video Conference App for your [Android](https://play.google.com/store/apps/details?id=org.tcx.webmeeting&hl=en&gl=US "Download 3CX android app") or [IOS](https://apps.apple.com/us/app/3cx-webmeeting/id1039756959 "Download 3CX IOS app")
+Download the 3CX Video Conference App for your **[Android](https://play.google.com/store/apps/details?id=org.tcx.webmeeting&hl=en&gl=US "Download 3CX android app")** or **[IOS](https://apps.apple.com/us/app/3cx-webmeeting/id1039756959 "Download 3CX IOS app")**
 
 Then scan this code to join:
 
