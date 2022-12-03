@@ -40,7 +40,6 @@ sudo apt install ansible
 \
 #### Config File
 
-\
 `touch ansible.cfg`
 
 `nano ansible.cfg`
@@ -53,7 +52,6 @@ host_key_checking=False
 \
 #### Inventory File
 
-\
 `touch inventory`
 
 `nano inventory`
