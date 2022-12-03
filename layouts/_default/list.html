@@ -7,8 +7,8 @@
       <div class="col-lg-8 mx-auto px-0">
         <h2 class="block">Posts related to <span class="text-primary">{{ .Title }}</span></h2>
         <div class="bg-white shadow block">
-          {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-          {{ range $paginator.Pages.ByPublishDate }}
+          {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
+          {{ range $paginator.Pages }}
           {{ .Render "article" }}
           {{ end }}
           <!-- pagination -->
