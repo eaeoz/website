@@ -1,5 +1,5 @@
 +++
-title = "50 mac terminal commands you need to know ( in 10 minutes)"
+title = "50 mac terminal commands"
 #image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
