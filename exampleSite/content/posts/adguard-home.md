@@ -1,5 +1,5 @@
 +++
-title = "Adding MySQL to and existing Node.js app using docker-compose"
+title = "Adguard Home & Adguard Home Sync docker-compose"
 #image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
