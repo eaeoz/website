@@ -4,7 +4,7 @@ title = "21 Phrases For Formal Emails"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
 description = "business english"
-categories = ["english"]
+categories = ["language"]
 type = "post"
 
 +++
