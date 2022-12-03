@@ -15,7 +15,7 @@ First of all, I’ll talk about ….
 Second, we’ll look at …
 And finally, I’ll explain/show you/tell you about
 
-**Timing **
+**Timing**
 My presentation will take about … (number of minutes)
 
 **Questions**
@@ -28,7 +28,7 @@ I’d like to begin by ….  telling you, showing you, etc.
 Let’s start with ...     
 So, let’s get started.
 
-Finishing one topic
+**Finishing one topic**
 So that covers everything I want to say about …       
 That concludes my first/second point.
 
