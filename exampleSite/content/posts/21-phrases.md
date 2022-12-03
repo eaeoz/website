@@ -9,7 +9,7 @@ type = "post"
 
 +++
 For greetings, always use Ms and not Mrs when writing to a woman in a professional context.
-Dear Mr/Ms Jones
+**Dear Mr/Ms Jones
 
 In formal emails we always use the surname, so if the person’s name is Mary Franklin, don’t write Dear Ms. Mary or Dear Ms. Mary Franklin, 
 write Dear Ms. Franklin
