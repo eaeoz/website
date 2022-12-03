@@ -37,7 +37,7 @@ sudo apt install ansible
 
 `cd ansible_test/`
 
-___
+---
 
 #### Config File
 
@@ -50,6 +50,7 @@ ___
 inventory=inventory
 host_key_checking=False
 ```
+
 
 #### Inventory File
 
