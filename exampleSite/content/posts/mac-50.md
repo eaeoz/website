@@ -2,7 +2,7 @@
 title = "Mac Terminal Commands"
 #image = "/images/post/meeting.png"
 author = "Sedat"
-date = 2019-11-07T05:00:00Z
+date = 2019-11-06T05:00:00Z
 description = "mac commands"
 categories = ["technology"]
 type = "post"

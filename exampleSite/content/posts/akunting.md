@@ -2,7 +2,7 @@
 title = "Akaunting docker-compose"
 #image = "/images/post/meeting.png"
 author = "Sedat"
-date = 2019-11-07T05:00:00Z
+date = 2019-11-09T05:00:00Z
 description = "akunting docker"
 categories = ["technology"]
 type = "post"
