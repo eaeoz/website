@@ -80,7 +80,7 @@ now lets deploy the application:
 
 `docker run -d --name nginxproxy -p 443:4443 -p 80:8080 -p 81:8181 -v "/docker/appdata/nginx-proxy-manager/:/config/" --dns=127.0.0.1 --dns=1.1.1.1 --restart=unless-stopped nginxproxy`
 
-if more then one volumes we need to add more volume parameters with -v flag.
+if more then one volumes exist then we need to add more volume parameters with -v flag.
 
 > If application not deployed with volume information, you should check under /var/lib/docker/overlay2 folder.
 
