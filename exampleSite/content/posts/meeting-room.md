@@ -1,6 +1,6 @@
 +++
 title = "How to Join to Meeting Room"
-image = "/images/post/post-1.jpg"
+image = "/images/post/meeting-room.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
 description = "site first article meta description"
