@@ -3,7 +3,7 @@ title = "How to Join to Meeting Room"
 #image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
-description = "site first article meta description"
+description = "sedat meeting room"
 categories = ["technology"]
 type = "post"
 
