@@ -14,20 +14,21 @@ sudo apt update
 sudo apt upgrade
 sudo apt install software-properties-common
 ```
-Add the following line to /etc/apt/sources.list or /etc/apt/sources.
-
 `list.d/ansible.list:`
+
+Add the following line to /etc/apt/sources.list or /etc/apt/sources.
+`deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main`
+Then run these commands:
 
 \
 for Debian 11 (Bullseye):
 ```
-deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main
-Then run these commands:
 sudo apt install gnupg2
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
 sudo apt update
 sudo apt install ansible
 ```
+
 \
 `mkdir ansible_test`
 
