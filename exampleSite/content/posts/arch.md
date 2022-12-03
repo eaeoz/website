@@ -19,5 +19,5 @@ or only test without deploying:
 
 you can download pc iso from the link below:
 
-`http://ftp.linux.org.tr/archlinux/iso/'
+http://ftp.linux.org.tr/archlinux/iso/
 
