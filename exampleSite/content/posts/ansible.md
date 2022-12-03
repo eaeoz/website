@@ -50,7 +50,7 @@ host_key_checking=False
 ```
 
 
-**Inventory File**
+**Inventory file**
 
 `touch inventory`
 
