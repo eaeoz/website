@@ -38,8 +38,8 @@ Reason for writing
 Giving information
 **I would like to inform you about the results of our customer survey.**
 
-**Attachments – don’t write "I have enclosed" in an email – we only use that for letters 
-I have attached a pdf with the most relevant information.**
+Attachments – don’t write "I have enclosed" in an email – we only use that for letters 
+**I have attached a pdf with the most relevant information.**
 
 Making a request
 **Could you please let me know if you can attend the event next week?**
@@ -47,9 +47,9 @@ Making a request
 **Would it be possible to deliver the goods one week earlier?**
 
 Making arrangements
-I was wondering if you would be available for a meeting next week.
+**I was wondering if you would be available for a meeting next week.
 Would 10am be a suitable time?
-I am afraid I am not available on Wednesday. Would Thursday work?
+I am afraid I am not available on Wednesday. Would Thursday work?**
 
 Confirming
 I would like to confirm our meeting for 3pm on Wednesday the 11th.
