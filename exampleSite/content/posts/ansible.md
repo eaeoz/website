@@ -38,7 +38,7 @@ sudo apt install ansible
 `cd ansible_test/`
 
 
-#### Config File
+**Config file:**
 
 `touch ansible.cfg`
 
@@ -50,7 +50,7 @@ host_key_checking=False
 ```
 
 
-#### Inventory File
+**Inventory File**
 
 `touch inventory`
 
