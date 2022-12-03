@@ -8,7 +8,7 @@ categories = ["technology"]
 type = "post"
 
 +++
-https://alpinelinux.org/downloads/
+>> https://alpinelinux.org/downloads/
 
 download standart x86_64
 
