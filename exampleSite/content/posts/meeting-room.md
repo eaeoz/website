@@ -1,6 +1,6 @@
 +++
 title = "How to Join to Meeting Room"
-image = "/images/post/meeting-room.png"
+image = "/images/post/meeting.png"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
 description = "site first article meta description"
@@ -16,7 +16,7 @@ Above Paragraph, you see SERP or Keywords that are common SEO Term so Before sta
 
 **Algorithm Change:** All the search engine service providers always try to give the best results to their users. So they always working on updating, refreshing or making and implementing new algorithms. The search engine service provider never revealed the exact date of rolling out any updates or new algorithms to make an effective date. Normally they give a boundary of time like this week or this month, we are going to rolling out a major update or applying new this algorithm. They give this new algorithm a name and they always call it by the given name. `Like, google spider, Google panda, etc.` Most of the time After one to two week we can see and understand the update or change impact but sometimes it also happens quicker also.
 
-![alt text](/images/post/meeting-room.png)
+![alt text](/images/post/meeting.png)
 
 * And when the Major update come You must observe your ranking behavior 
 
