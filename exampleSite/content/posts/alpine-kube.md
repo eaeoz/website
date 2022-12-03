@@ -8,33 +8,44 @@ categories = ["technology"]
 type = "post"
 
 +++
+```
 apk update
 apk upgrade
 apk add --update ca-certificates bash gnupg jq
 apk add --update -t deps curl gettext
 rm -rf /var/cache/apk/*
+```
 
 Build K8s on Alpine Linux 🌲
-Prerequisits 🔍
+
+Prerequisits
+
 You need an Alpine Linux install (this guide is written against version 3.15 standard image) with internet access. I recommend at least 2 CPU with 4GB of ram and 10GB of disk for each node.
 
 For HA control planes you'll need a mininum of three nodes
 
 1. Setup the Repositories 📗
+
 Update you repositories under /etc/apk/repositories to include community, edge community and testing.
 
+```
 #/media/cdrom/apks
 http://dl-cdn.alpinelinux.org/alpine/v3.15/main
 http://dl-cdn.alpinelinux.org/alpine/v3.15/community
 #http://dl-cdn.alpinelinux.org/alpine/edge/main
 http://dl-cdn.alpinelinux.org/alpine/edge/community
 http://dl-cdn.alpinelinux.org/alpine/edge/testing
-2. Node Setup 🖥️
+
+```
+
+2. Node Setup
+
 This series of commands solves a series is incremental problems and sets up the system (if the first control node) for kubectl/kubeadm to run properly on next login by linking the config.
 
-The result here gives you a functional node that can be joined to an existing cluster or can become the first control plane of a new cluster. 🎶
+The result here gives you a functional node that can be joined to an existing cluster or can become the first control plane of a new cluster.
 
-*** 🔔 This build assumes CNI usage of flannel for networking 🔔 ***
+
+*** This build assumes CNI usage of flannel for networking ***
 
 you can create nodesetup.sh and run ./nodesetup.sh
 
