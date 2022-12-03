@@ -27,4 +27,6 @@ Then scan this code to join:
 
 ![alt text](/images/post/meeting.png)
 
- Or you can type given link for browser intead of scan code. If you click the link from your mobile The 3CX Video conferencing app will launch automatically.
+ Or you can type given link for browser intead of scan code. If application already installed then click the link from your mobile The 3CX Video conferencing app will launch automatically.
+
+ [Join Now](https://sedat.3cx.com.tr:5001/meet/sedat "Join to Meeting")
