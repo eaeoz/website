@@ -8,7 +8,7 @@ categories = ["technology"]
 type = "post"
 
 +++
->> https://alpinelinux.org/downloads/
+https://alpinelinux.org/downloads/
 
 download standart x86_64
 
@@ -27,7 +27,7 @@ reboot and remove iso disk
 
 
 
-Docker Installation
+> Docker Installation
 
 apk add nano
 
@@ -78,7 +78,7 @@ apk add lsblk
 
 
 Installation
-#_ apk add networkmanager
+ apk add networkmanager
 
 
 NetworkManager comes with a command line interface and a curses-based interface, nmcli and nmtui respectively or you can use a additional gui interface:
@@ -87,12 +87,12 @@ plasma-nm for Plasma integration and applet - network-manager-applet for a GTK s
 
 After installation start NetworkManager:
 
-#_ rc-service networkmanager start
+ rc-service networkmanager start
 
 
 Also your user needs to be in the plugdev group:
 
-#_ adduser <YourUsInstallationername> plugdev
+ adduser <YourUsInstallationername> plugdev
 
 
 
@@ -105,10 +105,12 @@ Also your user needs to be in the plugdev group:
 list running services - rc-service --list
 
 rc-service networking status
- * status: started
+
+status: started
 
 rc-service networkmanager status
- * status: started
+
+status: started
 
 
 
@@ -131,18 +133,18 @@ Viewing CPU Temperature On Alpine Linux
 
 Let us search and find the correct package name and drivers for CPU sensors. We use the apk command as follows:
 
-#_ apk search sensors
+ apk search sensors
 
 Confirm that we are going to install the correct package in Alpine Linux:
 
-#_ apk info lm-sensors
+ apk info lm-sensors
 
 
 Installation
 
 Install the lm-sensors package using apk command
 
-#_ apk add lm-sensors lm-sensors-detect
+ apk add lm-sensors lm-sensors-detect
 
 Setup
 
@@ -150,19 +152,19 @@ We need to run the following sensors-detect to identify and generate a list of k
 
 ThinkPad X140e with AMD A4-5000 APU with Radeon(TM) HD Graphics
 
-#_ sensors-detect
+ sensors-detect
 
 All you have to do is type the following command:
 
-#_ sensors
+ sensors
 
 Summing up
 
 You learned how to install, set up, and configure the lm-sensors package on Alpine Linux to view CPU fan speed, temperature, and other data. We can use the watch command to execute a program periodically, showing output fullscreen. For instance, we can watch sensors as follows:
 
-#_ watch sensors
+ watch sensors
 
-#_ watch -n 1 sensors
+ watch -n 1 sensors
 
 
 
