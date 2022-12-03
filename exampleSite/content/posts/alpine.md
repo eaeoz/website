@@ -1,9 +1,9 @@
 +++
-title = "Akaunting docker-compose"
+title = "Alpine OS Commands"
 #image = "/images/post/meeting.png"
 author = "Sedat"
-date = 2019-11-09T05:00:00Z
-description = "akunting docker"
+date = 2019-11-10T05:00:00Z
+description = "alpine os"
 categories = ["technology"]
 type = "post"
 
