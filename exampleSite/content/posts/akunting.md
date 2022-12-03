@@ -28,11 +28,13 @@ services:
 
 for mysql password generate with bitwarden
 22 character with numerical, special characters, capital and noromal
-example
+example:
+
 9G!ixfCB7t@!*Gd8hTi9PY
 
 durin installation check docker logs from portainer interface and paste to installation window
-*****************************************************************
+
+```
 IMPORTANT!! GO TO THE WEB INTERFACE TO FINISH INSTALLATION!
 Use the following parameters in 'Database Setup':
 Hostname:     127.0.0.1:3306
@@ -40,7 +42,7 @@ Username:     akaunting
 Password:     RrNQpw+MxKE/oyJjpMKzmDs+ewP/KAeqr3Meu5Rp7fo=
 Database:     akaunting
 Please securely store these credentials!
-*****************************************************************
+```
 
 
 
