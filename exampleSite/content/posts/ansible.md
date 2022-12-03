@@ -40,8 +40,10 @@ sudo apt install ansible
 inventory=inventory
 host_key_checking=False
 ```
-touch inventory
-nano inventory
+`touch inventory`
+
+`nano inventory`
+
 ```
 [master]
 192.168.1.238
@@ -57,11 +59,11 @@ ansible_ssh_pass=sedatpass
 ansible_ssh_user=sedat
 ansible_ssh_pass=sedatpass
 ```
-ansible nodes -m ping
+`ansible nodes -m ping`
 
-ansible nodes -m shell -a "cat /etc/os-release"
+`ansible nodes -m shell -a "cat /etc/os-release"`
 
-nano install_nettools.yml
+`nano install_nettools.yml`
 ```
 ---
 - hosts: master
@@ -72,7 +74,7 @@ nano install_nettools.yml
         name: net-tools
 ```
 
-ansible-playbook install_nettools.yml -K
+`ansible-playbook install_nettools.yml -K`
 
 *-K mean running as sudo*
 
@@ -82,7 +84,7 @@ simdi masterdan bunu kaldirip ayni anda 239 makinasina net-toolsu yukleyelim.bun
 
 ama once inventorye -K ile sudo sifresi girmemek icin her client icin sudo passowrklerini yazalim.
 
-sedat@debian:~/ansible_test$ nano inventory
+sedat@debian:~/ansible_test$ `nano inventory`
 
 ```
 [master]
@@ -120,7 +122,7 @@ sedat@debian:~/ansible_test$ `nano install_nettools.yml`
         name: net-tools
         state: present
 ```
-sedat@debian:~/ansible_test$ ansible-playbook install_nettools.yml
+sedat@debian:~/ansible_test$ `ansible-playbook install_nettools.yml`
 
 absent olandan net-tools kaldirilacaktir.present olanda yuklenecektir.komutu yazdigimzda sifre sormadan islemi yapacaktir.
 
@@ -190,16 +192,18 @@ ornegin bu sekilde /etc/sudoers dosyasini editleyip sudoda sifre girilmeden isle
       validate: /usr/sbin/visudo -cf %s
 ```
 bunu calistirdikdan sorna ansible.cfg deki host_key_checking=False satirini kaldiriyoruz.
+
 cunku bu sadece kullanici adi ve parola authentication icindi
 
 ayrica inventorydeki 
+```
 ansible_ssh_pass=sedatpass
 ansible_become_pass=sedatpass
-
+```
 satirlarini da kaldiriyoruz.
 
 
-
+```
 [master]
 192.168.1.238
 
@@ -214,10 +218,12 @@ ansible_ssh_private_key_file=~/.ssh/ansible_id_rsa
 [nodes:vars]
 ansible_ssh_user=sedat
 ansible_ssh_private_key_file=~/.ssh/ansible_id_rsa
+```
 
+`ansible all -m ping`
 
-ansible all -m ping
 dedigimizde artik sifre olmadan makinalari pingleyebildigimizi gorecegiz.
 
 ayrica bu komutunda calistigini gorecegiz.bisey degismeyecek daha once calistirdik ancak auth oldugunu gorecegiz
-ansible-playbook add_public_keys.yml
+
+`ansible-playbook add_public_keys.yml`
