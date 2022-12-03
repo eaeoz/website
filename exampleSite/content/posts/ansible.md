@@ -8,7 +8,7 @@ categories = ["technology"]
 type = "post"
 
 +++
-INSTALLATION
+#### Installation
 ```
 sudo apt update
 sudo apt upgrade
@@ -36,6 +36,9 @@ sudo apt install ansible
 
 `cd ansible_test/`
 
+#### Config File
+
+\
 `touch ansible.cfg`
 
 `nano ansible.cfg`
@@ -44,6 +47,10 @@ sudo apt install ansible
 inventory=inventory
 host_key_checking=False
 ```
+
+#### Inventory File
+
+\
 `touch inventory`
 
 `nano inventory`
