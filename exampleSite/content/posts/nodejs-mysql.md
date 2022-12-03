@@ -8,6 +8,7 @@ categories = ["technology"]
 type = "post"
 
 +++
+```
 version: '3.8'
 services:
   db:
@@ -47,7 +48,7 @@ services:
 volumes:
   db:
     driver: local
-
+```
 
 
 
