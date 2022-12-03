@@ -16,7 +16,7 @@ apk add --update -t deps curl gettext
 rm -rf /var/cache/apk/*
 ```
 
-Build K8s on Alpine Linux 🌲
+Build K8s on Alpine Linux
 
 Prerequisits
 
@@ -24,7 +24,7 @@ You need an Alpine Linux install (this guide is written against version 3.15 sta
 
 For HA control planes you'll need a mininum of three nodes
 
-1. Setup the Repositories 📗
+#### 1. Setup the Repositories
 
 Update you repositories under /etc/apk/repositories to include community, edge community and testing.
 
@@ -38,7 +38,7 @@ http://dl-cdn.alpinelinux.org/alpine/edge/testing
 
 ```
 
-2. Node Setup
+#### 2. Node Setup
 
 This series of commands solves a series is incremental problems and sets up the system (if the first control node) for kubectl/kubeadm to run properly on next login by linking the config.
 
@@ -92,7 +92,7 @@ sysctl net.bridge.bridge-nf-call-iptables=1
 
 Your blank node is now ready! If it's the first, you'll want to make a control node.
 
-3. Setup the Control Plane (New Cluster!)
+#### 3. Setup the Control Plane (New Cluster!)
 
 Run this command to start the cluster and then apply a network.
 
@@ -107,7 +107,7 @@ kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Doc
 
 You now have a control plane. This also gives you the command to run on our blank nodes to add them to this cluster as workers.
 
-4. Join the cluster.
+#### 4. Join the cluster.
 
 Run this to get the join command from the control plane which you would then run on your new worker.
 
