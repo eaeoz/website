@@ -8,6 +8,7 @@ categories = ["technology"]
 type = "post"
 
 +++
+##### Installation
 
  Debian
 
@@ -49,12 +50,7 @@ type = "post"
 
 `docker run cmd.cat/arp arp`
 
-
-
-
-
-
-Show and manipulate your system's ARP cache.
+##### Commands
 
 Show current arp table:
 
