@@ -98,7 +98,9 @@ services:
 
 in container bash for settings:
 
-`root@d4bb39b8a40a:/bitnami/moodle# nano config-dist.php`
+```
+root@d4bb39b8a40a:/bitnami/moodle# nano config-dist.php
+```
 
 
 
