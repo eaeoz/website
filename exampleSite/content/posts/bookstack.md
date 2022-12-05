@@ -8,13 +8,6 @@ categories = ["technology"]
 type = "post"
 
 +++
-#### Docker CLI:
-
-```
-Username: admin@admin.com
-Password: password
-```
-
 #### Docker Compose:
 
 ```
@@ -66,4 +59,9 @@ services:
       - PMA_HOST=db
     ports:
       - 9632:80
+```
+
+```
+Username: admin@admin.com
+Password: password
 ```
