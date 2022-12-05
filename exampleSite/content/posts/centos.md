@@ -48,8 +48,15 @@ yum repo-pkgs repoID remove	Erase all packages from repoID repo
 yum repo-pkgs repoID reinstall	Reinstall all packages from repoID repo
 yum help
 yum help command
+
+other command examples:
+
 man yum	Show help about yum command or read yum command man page
 nmtui
 systemctl restart network
 /etc/sysconfig/network-scripts/ifcfg-eth0
+dnf install snapd
+firewall-cmd --list-all
+firewall-cmd --zone=public --permanent --add-port 25000/tcp
+
 ```
