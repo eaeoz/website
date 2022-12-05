@@ -4,7 +4,7 @@ title = "Arp Installation and Commands For Linux"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "arp installation commands"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

@@ -4,7 +4,7 @@ title = "Alpine Kubernetes Installation"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "alpine os kubernetes"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

@@ -4,7 +4,7 @@ title = "CheckMK Network and System Monitoring Tool"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "checkmk"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

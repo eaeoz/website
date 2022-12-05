@@ -4,7 +4,7 @@ title = "Plugins for Pycharm"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "pycharm plugins"
-categories = ["technology"]
+categories = ["coding"]
 type = "post"
 
 +++

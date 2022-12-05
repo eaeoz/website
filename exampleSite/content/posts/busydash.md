@@ -4,7 +4,7 @@ title = "a simple linux dashboard docker busydash"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "busydash dashboard docker"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

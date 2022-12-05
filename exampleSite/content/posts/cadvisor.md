@@ -4,7 +4,7 @@ title = "Cadvisor for Docker Monitoring Data"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "cadvisor docker monitor"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

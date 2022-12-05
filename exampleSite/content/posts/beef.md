@@ -4,7 +4,7 @@ title = "Beef Social Engineering"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "beef social engineering"
-categories = ["technology"]
+categories = ["hacking"]
 type = "post"
 
 +++

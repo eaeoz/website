@@ -4,7 +4,7 @@ title = "Pihole Blocked Domain List from Firebog"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "firebog block list"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

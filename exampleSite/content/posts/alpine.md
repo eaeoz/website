@@ -4,7 +4,7 @@ title = "Alpine OS Commands"
 author = "Sedat"
 date = 2019-11-10T05:00:00Z
 description = "alpine os"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

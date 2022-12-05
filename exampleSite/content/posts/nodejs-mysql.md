@@ -4,7 +4,7 @@ title = "Adding MySQL to and existing Node.js app using docker-compose"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
 description = "nodejs mysql docker"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

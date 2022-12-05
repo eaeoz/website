@@ -4,7 +4,7 @@ title = "Akaunting docker-compose"
 author = "Sedat"
 date = 2019-11-09T05:00:00Z
 description = "akunting docker"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

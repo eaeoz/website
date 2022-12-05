@@ -4,7 +4,7 @@ title = "Bookstack Docker Compose"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "bookstack docker compose"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

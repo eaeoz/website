@@ -4,7 +4,7 @@ title = "Alpine Php Docker CLI"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "alpine php docker"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

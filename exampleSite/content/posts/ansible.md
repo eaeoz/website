@@ -4,7 +4,7 @@ title = "Ansible"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "ansible"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

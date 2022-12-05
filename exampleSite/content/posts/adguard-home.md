@@ -4,7 +4,7 @@ title = "Adguard Home & Adguard Home Sync docker-compose"
 author = "Sedat"
 date = 2019-11-08T05:00:00Z
 description = "adguard home sync"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

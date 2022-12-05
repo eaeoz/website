@@ -4,7 +4,7 @@ title = "Arch Linux"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "arch linux docker"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

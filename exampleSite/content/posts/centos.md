@@ -4,7 +4,7 @@ title = "Yum Command Usage (CentOS/RHEL)"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "rhel centos yum"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

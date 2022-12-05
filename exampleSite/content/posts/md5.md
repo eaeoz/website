@@ -4,7 +4,7 @@ title = "MD5 Command Windows and Linux Usage"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "bitwarden raspberry docker"
-categories = ["technology"]
+categories = ["linux, windows"]
 type = "post"
 
 +++

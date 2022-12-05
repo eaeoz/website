@@ -4,7 +4,7 @@ title = "Base 64 Code and Decode"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "base64 code decode"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

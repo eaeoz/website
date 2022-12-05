@@ -4,7 +4,7 @@ title = "Autojump (jump to recent folders easly on command line)"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "autojump command installation"
-categories = ["technology"]
+categories = ["linux"]
 type = "post"
 
 +++

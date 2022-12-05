@@ -4,7 +4,7 @@ title = "Mac Terminal Commands"
 author = "Sedat"
 date = 2019-11-06T05:00:00Z
 description = "mac commands"
-categories = ["technology"]
+categories = ["macos"]
 type = "post"
 
 +++

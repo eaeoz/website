@@ -4,7 +4,7 @@ title = "Bitnami Moodle - Online Course Management"
 author = "Sedat"
 date = 2019-11-16T05:00:00Z
 description = "online course moodle"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++

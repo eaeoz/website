@@ -4,7 +4,7 @@ title = "How to Join to Meeting Room"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
 description = "sedat meeting room"
-categories = ["technology"]
+categories = ["info"]
 type = "post"
 
 +++

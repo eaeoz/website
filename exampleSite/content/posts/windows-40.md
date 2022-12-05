@@ -4,7 +4,7 @@ title = "Windows Commands"
 author = "Sedat"
 date = 2019-11-07T05:00:00Z
 description = "windows shortcut command"
-categories = ["technology"]
+categories = ["windows"]
 type = "post"
 
 +++

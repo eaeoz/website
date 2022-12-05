@@ -4,7 +4,7 @@ title = "Appsmith docker-compose"
 author = "Sedat"
 date = 2019-11-11T05:00:00Z
 description = "appsmith docker"
-categories = ["technology"]
+categories = ["docker"]
 type = "post"
 
 +++
