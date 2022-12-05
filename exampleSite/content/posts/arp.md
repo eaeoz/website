@@ -8,7 +8,7 @@ categories = ["technology"]
 type = "post"
 
 +++
-##### Installation
+#### Installation
 
  Debian
 
@@ -50,7 +50,7 @@ type = "post"
 
 `docker run cmd.cat/arp arp`
 
-##### Commands
+#### Commands
 
 Show current arp table:
 
