@@ -40,7 +40,7 @@ for dhcp assign
  `iface enp0s5 inet dhcp`
 
 
-for ubuntu dns conf
+for dns configuration
 
  `sudo nano /etc/resolv.conf`
 
