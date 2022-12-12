@@ -9,13 +9,15 @@ type = "post"
 
 +++
 #### File Permissions and Creating Tunnel
+first we create folder for tunnel and give permissions.
+
 ```
 sudo -i
 
 mkdir -p /mnt/user/appdata/cloudflared/ && chmod -R 777 /mnt/user/appdata/cloudflared/
 ```
 
-select domain which you want to use for tunnel
+then run container to create certificate. select domain which you want to use for tunnel on this process
 
 
 ```
