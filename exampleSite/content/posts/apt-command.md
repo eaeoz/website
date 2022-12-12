@@ -12,7 +12,7 @@ Apt is a command line package management utility for Ubuntu and Debian Linux. Ap
 
 In this post, we will cover 15 apt command examples in Ubuntu / Debian Linux. Let’s dive into the examples.
 
-1) Update Package Information 
+#### 1) Update Package Information 
 
 ‘apt update’ 
 this command is used to fetch latest package information from configured sources, here sources could repository over the internet or local repository.
@@ -21,7 +21,7 @@ $ sudo apt update
 
 It is always recommended to run this command before installing or upgrading packages.
 
-2) List Packages
+#### 2) List Packages
 
 To list all the available packages including installed and upgradeable use apt list command.
 
@@ -35,7 +35,7 @@ To List only upgradeable packages, run
 
 $ sudo apt list --upgradeable
 
-3) Installing New Package
+#### 3) Installing New Package
 
 To install a new package, use ‘apt install‘ command followed by package name, example is shown below:
 
@@ -49,7 +49,7 @@ When we don’t pass ‘-y’ option in ‘apt install’ command then it will p
 
 Apt-Install-Command-Ubuntu
 
-4) Remove Package
+#### 4) Remove Package
 
 To remove a package then use ‘apt remove’ command followed by the package name.
 
@@ -59,7 +59,7 @@ To remove package and configuration files associated to package then use ‘apt 
 
 $ sudo apt purge nginx
 
-5) Upgrade Package
+#### 5) Upgrade Package
 
 To upgrade all the packages which are currently installed on your system then run ‘apt upgrade’ command.
 
@@ -69,13 +69,13 @@ To upgrade a specific installed package then use following command
 
 $ sudo apt install snapd --only-upgrade
 
-6) Full System Upgrade
+#### 6) Full System Upgrade
 
 Always be careful while upgrading the whole system, as it might remove the installed packages and will install the updated packages. It is generally used when we want to update minor versions of Ubuntu / Debian systems. (like Ubuntu 20.04  to Ubuntu 20.04.4).
 
 $ sudo apt full-upgrade
 
-7) Search Package
+#### 7) Search Package
 
 To search a package, run ‘apt  search‘ command followed by package name.
 
@@ -85,7 +85,7 @@ $ sudo apt search ^mysql-server
 
 $ sudo apt search httpd*
 
-8) View Information About Package
+#### 8) View Information About Package
 
 To view the information about a package, run ‘apt show’ command followed by package name
 
@@ -93,7 +93,7 @@ $ sudo apt show nginx
 
 apt-show-command-ubuntu
 
-9) Autoremove Packages
+#### 9) Autoremove Packages
 
 Autoremove option in apt command is used to remove the packages that were 
 
@@ -103,7 +103,7 @@ $ sudo apt auotremove
 
 $ sudo apt --purge autoremove
 
-10) List Package Dependencies
+#### 10) List Package Dependencies
 
 To list package dependencies run ‘apt depends’ followed by package name
 
@@ -113,7 +113,7 @@ To list package dependencies recursively then run ‘apt rdepends’ followed by
 
 $ sudo apt rdepends docker
 
-11) Downloading Package without Installing
+#### 11) Downloading Package without Installing
 
 To download a package in the current working directory, run ‘apt download’ command followed by the package name.
 
@@ -121,7 +121,7 @@ $ sudo apt download phpmyadmin
 
 apt-download-ubuntu
 
-12) Hold and Unhold Package
+#### 12) Hold and Unhold Package
 
 When a package is marked as hold then that package will not be upgraded till it is marked as unhold again.
 
@@ -141,7 +141,7 @@ Canceled hold on nginx.
 
 $
 
-13) Clear Apt Cache
+#### 13) Clear Apt Cache
 
 When we run apt command then it is cached in /var/cache/apt/archives, Cache comes into the picture whenever we re-install the package as apt command looks for package in cache first. So cleaning up apt cache will free up the disk space as it will remove packages from the folder ‘/var/cache/apt/archives/’.
 
@@ -151,7 +151,7 @@ To clean obsolete deb-packages then run
 
 $ sudo apt autoclean
 
-14) Edit Sources (sources.list)
+#### 14) Edit Sources (sources.list)
 
 Apt command refers /etc/apt/sources.list for package repository url. Using ‘apt edit-sources’ command, sources.list file can be edited, example is shown below:
 
