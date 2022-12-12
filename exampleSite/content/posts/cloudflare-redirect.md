@@ -4,7 +4,7 @@ title = "Cloudflare Permanent Redirect"
 author = "Sedat"
 date = 2022-11-11T05:00:00Z
 description = "cloudflare permanent redirect"
-categories = ["docker"]
+categories = ["network"]
 type = "post"
 
 +++
