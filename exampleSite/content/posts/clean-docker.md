@@ -11,5 +11,7 @@ type = "post"
 *before run commands below make sure all containers are running.*
 
 sudo docker system prune --volumes
+
 sudo docker image prune -a
+
 sudo docker network prune
