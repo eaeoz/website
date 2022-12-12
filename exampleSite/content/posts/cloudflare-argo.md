@@ -4,7 +4,7 @@ title = "Cloudflare Argo Tunnel on Docker"
 author = "Sedat"
 date = 2022-11-11T05:00:00Z
 description = "cloudflare argo tunnel"
-categories = ["docker"]
+categories = ["docker", "network"]
 type = "post"
 
 +++
