@@ -15,3 +15,5 @@ sudo apt install conky-all
 cp /etc/conky/conky.conf ~/.conkyrc
 gedit ~/.conkyrc
 ```
+
+*find widgets from web and integrate to conky. you can change display settings from configuration file*
