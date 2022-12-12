@@ -8,6 +8,28 @@ categories = ["network"]
 type = "post"
 
 +++
+#### What does it mean to be cloud native?
+
+ Ever to the point, Wikipedia defines a native cloud app as, “a type of computer software that natively utilizes services and infrastructure from cloud computing providers such as Amazon EC2, Force.com, or Microsoft Azure.”
+
+This is true. However, being cloud native actually encompasses a whole lot more than that. It’s not just a practical approach, but a mindset model. Being cloud native is more conceptual – it’s about embracing the immense potential in terms of scalability and flexibility that a cloud-based approach brings with it.
+
+There are plenty of misconceptions around what it means to be cloud native. Perhaps you’ve heard that you need to use containers to be cloud native or to use AWS? Neither is necessary, though there are plenty of use cases where they make sense.
+
+What are the benefits of being cloud native?
+
+In essence, being cloud native means enjoying unlimited computing power, on both private and public clouds. Your app can be highly available to users on demand, while the enhanced resilience that cloud nativity brings with it means that you have the potential to deliver 24/7/365 uptime. 
+
+Being cloud native means you can work on your app fast. Seriously fast. You can release updates and push out new features quickly and easily as part of a continuous delivery approach. This fits with the devops mindset, where developers and operational IT teams work together to be more agile, responsive and consistent.
+
+The speed with which you can scale up (and down) a cloud native app is also a key benefit. If your user demand skyrockets, you can keep up without negatively impacting the user experience. If it plummets, you can be sure that you’re using your resources wisely. 
+
+Being built on modern cloud platforms also means that your app can be ultra-portable, as well as enjoying outstanding automation and deployment capabilities. 
+
+You can also enjoy exceptional freedom. Well-designed cloud native apps don’t need to be tied to a specific platform or structure. 
+
+#### What is 12-factor app design?
+
 Apps that follow the 12-factor app design process benefit from inherent cloud nativity. Sounds interesting? Let’s take a look at the process.
 
 12-factor app design is a methodology for designing cloud native apps – almost like a pattern that you can follow. You can use this super-flexible process with any programming language and any combination of backing services. 
