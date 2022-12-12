@@ -8,30 +8,30 @@ categories = ["network"]
 type = "post"
 
 +++
--Login to Cloudflare
+- Login to Cloudflare
 
--Use the drop-down menu in the upper left of your screen and click your domain that you want the redirect to take place on.
+- Use the drop-down menu in the upper left of your screen and click your domain that you want the redirect to take place on.
 
--Click the DNS icon at the top of the screen.
+- Click the DNS icon at the top of the screen.
 
--Select CNAME using the drop-down options
+- Select CNAME using the drop-down options
 
--Add the sub domain in NAME
+- Add the sub domain in NAME
 
--Add your domain name in Domain name
+- Add your domain name in Domain name
 
--Leave TTL as automatic and Cloudclare enabled, click Add Record button.
+- Leave TTL as automatic and Cloudclare enabled, click Add Record button.
 
--Click Page Rules icon
+- Click Page Rules icon
 
--Click Create Page Rule button
+- Click Create Page Rule button
 
--Add alexa.example.com/* in the URL match field
+- Add alexa.example.com/* in the URL match field
 
--Click + Add a Setting, find Forwarding URL and click it
+- Click + Add a Setting, find Forwarding URL and click it
 
--Select the status code 301 - Permanent Redirect
+- Select the status code 301 - Permanent Redirect
+ 
+- Add the Enter destination URL as http://example.com/alexaSkillDemo
 
--Add the Enter destination URL as http://example.com/alexaSkillDemo
-
--Click Save and Deploy button.
+- Click Save and Deploy button.
