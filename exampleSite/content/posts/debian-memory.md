@@ -12,7 +12,9 @@ type = "post"
 
 `ps -o pid,user,%mem,command ax | sort -b -k3 -r`
 
-top
+or
+
+`top`
 
 use k key and write pid to kill
 
