@@ -8,7 +8,7 @@ categories = ["docker", "network"]
 type = "post"
 
 +++
-*copy api key from cloudflare dashboard and write your hostname*
+*copy api key from cloudflare dashboard for API_KEY section and write your hostname to ZONE section*
 
 ```
 version: '2'
