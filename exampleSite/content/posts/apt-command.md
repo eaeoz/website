@@ -8,7 +8,6 @@ categories = ["linux"]
 type = "post"
 
 +++
-```
 Apt is a command line package management utility for Ubuntu and Debian Linux. Apt is used to install, remove, update and upgrade Debian packages from command line in Ubuntu and Debian systems. Apt (Advanced package tool) overcomes the issues and bugs that were noticed in apt-get command. To use apt command user must have sudo privileges.
 
 In this post, we will cover 15 apt command examples in Ubuntu / Debian Linux. Let’s dive into the examples.
@@ -172,4 +171,3 @@ Or
 
 $ tail -n 30 /var/log/apt/history.log   // This will list only last 30 lines
 That’s all from this post. I assume you have found it informative. Please do not hesitate to share your queries and feedback in below comments section.
-```
