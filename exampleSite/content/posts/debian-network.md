@@ -40,7 +40,7 @@ for dhcp assign
  `iface enp0s5 inet dhcp`
 
 
-for dns configuration
+#### For DNS Configuration
 
  `sudo nano /etc/resolv.conf`
 
