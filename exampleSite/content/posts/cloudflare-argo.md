@@ -78,3 +78,7 @@ services:
 ```
 
 *note: replace all 'tunnelid' section in the form with your tunnel id which is generated in permission step*
+
+Note: *in nginx container change listening ports if you changed on reverse proxy docker port.*. example:
+
+`/etc/nginx/conf.d# nano default.conf`
