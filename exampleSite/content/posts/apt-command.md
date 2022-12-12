@@ -161,7 +161,7 @@ Apt-Edit-Sources-Ubuntu-Linux
 
 It will open sources.list file in vi editor, so edit the file and then save & exit the fille.
 
-15) History of apt command
+#### 15) History of apt command
 
 Apt command history is stored under ‘/var/log/apt/history.log’ file. So, to view the history of apt command, use below cat command
 
