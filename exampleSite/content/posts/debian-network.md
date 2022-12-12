@@ -36,6 +36,7 @@ for domain set
  `dns-domain sweet.home`
 
 for dhcp assign
+
  `iface enp0s5 inet dhcp`
 
 
