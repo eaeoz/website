@@ -22,7 +22,7 @@ select domain which you want to use for tunnel
 docker run -it --rm -v /mnt/user/appdata/cloudflared:/home/nonroot/.cloudflared/ cloudflare/cloudflared:2022.4.0-amd64 tunnel login
 ```
 
-Created tunnel TUNNEL1 with id tunnelid, copy tunnel id and keep somewhere.
+after giving permission copy tunnel id from cli and keep somewhere, now let's create tunnel.
 
 ```
 docker run -it --rm -v /mnt/user/appdata/cloudflared:/home/nonroot/.cloudflared/ cloudflare/cloudflared:2022.4.0-amd64 tunnel create TUNNEL1
