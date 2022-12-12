@@ -10,7 +10,7 @@ type = "post"
 +++
 #### Check Memory Usage
 
-ps -o pid,user,%mem,command ax | sort -b -k3 -r
+`ps -o pid,user,%mem,command ax | sort -b -k3 -r`
 
 top
 
