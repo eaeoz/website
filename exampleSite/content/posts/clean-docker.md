@@ -2,7 +2,7 @@
 title = "Clean Docker Unused Images, Containers and Networks"
 #image = "/images/post/meeting.png"
 author = "Sedat"
-date = 2022-12-12T05:00:00Z
+date = 2022-11-11T05:00:00Z
 description = "docker clean"
 categories = ["docker"]
 type = "post"
