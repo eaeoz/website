@@ -66,7 +66,7 @@ I understand. Please give me a minute while I pull up that information. Would yo
 
 * Incorrect shipping address:
 
-* It looks like your order was shipped to the wrong address. I'm very sorry about that. I'll correct that and organise a new  order right now. It will leave our warehouse today and should arrive within (time period)
+It looks like your order was shipped to the wrong address. I'm very sorry about that. I'll correct that and organise a new  order right now. It will leave our warehouse today and should arrive within (time period)
 
 * Delivery never arrives:
 
