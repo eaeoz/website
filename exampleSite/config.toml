@@ -49,7 +49,7 @@ name = "Meeting Room"
 weight = 1
 
 [[menu.main]]
-URL = "https://louislam-uptim-prod-sedat-f8x3ue.mo6.mogenius.io/status/services"
+URL = "https://u.sedat.cf/status/services"
 name = "Home Server Status"
 weight = 1
 
