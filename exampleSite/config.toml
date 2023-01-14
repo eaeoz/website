@@ -1,7 +1,7 @@
 ############################ Default configuration #########################
 baseURL = "https://lime.ml"
 languageCode = "en-us"
-# site title 
+# site title
 title = "lime.ml | Sedat's Articles"
 # theme
 theme = "northendlab-light"
@@ -51,6 +51,11 @@ weight = 1
 [[menu.main]]
 URL = "https://u.sedat.cf/status/services"
 name = "Home Server Status"
+weight = 1
+
+[[menu.main]]
+URL = "https://m.sedat.cf/goto/2qDwX_24z?orgId=1"
+name = "Server Statistics"
 weight = 1
 
 
