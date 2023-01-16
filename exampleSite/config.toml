@@ -54,7 +54,7 @@ name = "Home Server Status"
 weight = 1
 
 [[menu.main]]
-URL = "https://m.sedat.cf/d/CeZHYrV4k/laptop?orgId=1&refresh=1m"
+URL = "https://m.sedat.cf/d/CeZHYrV4k/laptop"
 name = "Server Statistics"
 weight = 1
 
