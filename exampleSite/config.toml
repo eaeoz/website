@@ -44,11 +44,6 @@ name = "Shared Files"
 weight = 1
 
 [[menu.main]]
-URL = "https://sedat.3cx.com.tr:5001/meet/sedat"
-name = "Meeting Room"
-weight = 1
-
-[[menu.main]]
 URL = "https://u.sedat.cf/status/services"
 name = "Home Server Status"
 weight = 1
