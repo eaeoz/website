@@ -48,10 +48,10 @@ URL = "https://u.sedat.cf/status/services"
 name = "Service Status"
 weight = 1
 
-[[menu.main]]
-URL = "https://m.sedat.cf/d/CeZHYrV4k/laptop"
-name = "Server Statistics"
-weight = 1
+# [[menu.main]]
+# URL = "https://m.sedat.cf/d/CeZHYrV4k/laptop"
+# name = "Server Statistics"
+# weight = 1
 
 
 # footer menu
