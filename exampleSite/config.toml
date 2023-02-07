@@ -44,7 +44,7 @@ name = "Shared Files"
 weight = 1
 
 [[menu.main]]
-URL = "https://uptime.labs.ml/status/services"
+URL = "https://services.sedat.cf/status/services"
 name = "Service Status"
 weight = 1
 
