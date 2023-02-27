@@ -34,7 +34,7 @@ Improving search quality google and other search engines regularly bringing new 
 
 - But SEO related blogs and journals give the news what the changes made. So Keep update regular visit this industry-related community is important.
 
-![Sample Image](/images/post/post2.jpg "Test Image")
+![Sample Image](/images/post/post-2.jpg "Test Image")
 
 <!-- {{< youtube jAu0jYn9VEs >}} -->
 
