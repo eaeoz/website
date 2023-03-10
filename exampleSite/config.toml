@@ -44,7 +44,7 @@ link = "plugins/search/search.js"
 # weight = 1
 
 [[menu.main]]
-URL = "https://services.sedat.cf/status/services"
+URL = "https://service.sedat.cf/status/services"
 name = "Service Status"
 weight = 1
 
