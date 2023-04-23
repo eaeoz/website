@@ -40,7 +40,7 @@ Improving search quality google and other search engines regularly bringing new 
 
 -----
 
-##### Test Table
+##### Testt Table
 
 | test | test2 |
 |-----|-----|
