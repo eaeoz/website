@@ -76,7 +76,7 @@ google_tag_manager = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2022 [Sedat](/author/sedat/) All Rights Reserved"
+copyright = "&copy; 2023 [Sedat](/author/sedat/) All Rights Reserved"
 
 # preloader
 [params.preloader]
