@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://lime.ml"
+baseURL = "https://contact.sedat.cf"
 languageCode = "en-us"
 # site title
-title = "lime.ml | Sedat's Articles"
+title = "Sedat's Articles"
 # theme
 theme = "northendlab-light"
 # post pagination
