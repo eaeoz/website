@@ -1,6 +1,6 @@
 +++
 title = "Sedat"
-image = "/images/author/sedat.JPG"
+image = "/images/author/picture.png"
 description = "web developer"
 +++
 
