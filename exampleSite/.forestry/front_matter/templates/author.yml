@@ -12,5 +12,4 @@ fields:
   name: image
   label: image
 pages:
-- content/author/hasan-muhammad-mehedi.md
 - content/author/Sedat.md
