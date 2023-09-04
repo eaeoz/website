@@ -43,10 +43,10 @@ link = "plugins/search/search.js"
 # name = "Shared Files"
 # weight = 1
 
-[[menu.main]]
-URL = "https://service.sedat.cf/status/services"
-name = "Service Status"
-weight = 1
+# [[menu.main]]
+# URL = "https://service.sedat.cf/status/services"
+# name = "Service Status"
+# weight = 1
 
 # [[menu.main]]
 # URL = "https://m.sedat.cf/d/CeZHYrV4k/laptop"
