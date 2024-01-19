@@ -108,7 +108,7 @@ description = "keep in touch"
 [params.cta.button]
 enable = true
 label = "Send Email"
-link = "mailto:mail@sedat.cf"
+link = "mailto:sedatergoz@gmail.com"
 
 
 ############################## Social Site ##########################
