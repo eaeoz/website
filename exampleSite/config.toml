@@ -103,7 +103,7 @@ image = "images/banner/illustration.svg"
 [params.cta]
 enable = true
 image = "images/qr.svg"
-title = "_"
+title = "   _"
 description = " Scan Code for Android App"
 # [params.cta.button]
 # enable = true
