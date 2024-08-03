@@ -104,11 +104,11 @@ image = "images/banner/illustration.svg"
 enable = true
 image = "images/qr.svg"
 title = "Scan Code"
-description = "Android App"
+description = "Download Android App"
 [params.cta.button]
 enable = true
-label = "Download"
-link = "https://expo.dev/accounts/sedatergoz/projects/test/builds/7039ca4f-0f59-48e7-80ac-5cdaa0ac44c7"
+label = "Send Email"
+link = "mailto:sedatergoz@gmail.com"
 
 
 ############################## Social Site ##########################
