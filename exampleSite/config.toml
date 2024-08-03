@@ -107,7 +107,7 @@ title = "Scan Code"
 description = "Android App"
 [params.cta.button]
 enable = true
-label = "Send Email"
+label = "Download"
 link = "https://expo.dev/accounts/sedatergoz/projects/test/builds/7039ca4f-0f59-48e7-80ac-5cdaa0ac44c7"
 
 
