@@ -105,9 +105,9 @@ enable = true
 image = "images/qr.svg"
 # title = " _    _"
 # description = " _    Scan Code for Android App"
-[params.cta.button]
-enable = true
-label = "Scan QR for App"
+# [params.cta.button]
+# enable = true
+# label = "Send"
 # link = "mailto:sedatergoz@gmail.com"
 
 
