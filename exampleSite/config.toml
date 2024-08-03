@@ -103,11 +103,11 @@ image = "images/banner/illustration.svg"
 [params.cta]
 enable = true
 image = "images/qr.svg"
-title = "Scan Code"
-description = "Download Android App"
+title = "Scan Code for Android App"
+description = "or Send Email"
 [params.cta.button]
 enable = true
-label = "Send Email"
+label = "Send"
 link = "mailto:sedatergoz@gmail.com"
 
 
