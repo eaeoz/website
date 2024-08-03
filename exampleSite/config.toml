@@ -102,13 +102,13 @@ image = "images/banner/illustration.svg"
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/hugo-muscot.svg"
-title = "Have question?"
-description = "keep in touch"
+image = "https://qr.expo.dev/eas-update?projectId=7039ca4f-0f59-48e7-80ac-5cdaa0ac44c7&runtimeVersion=1.0.1&channel=preview"
+title = "Scan Code"
+description = "Android App"
 [params.cta.button]
 enable = true
 label = "Send Email"
-link = "mailto:sedatergoz@gmail.com"
+link = "https://expo.dev/accounts/sedatergoz/projects/test/builds/7039ca4f-0f59-48e7-80ac-5cdaa0ac44c7"
 
 
 ############################## Social Site ##########################
