@@ -118,9 +118,9 @@ image = "images/qr.svg"
 #[[params.social]]
 #icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
 #link = "#"
-#[[params.social]]
-#icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-#link = "https://github.com/eaeoz"
+[[params.social]]
+icon = "ti-github" # themify icon pack https://themify.me/themify-icons
+link = "https://github.com/eaeoz"
 #[[params.social]]
 #icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
 #link = "#"
