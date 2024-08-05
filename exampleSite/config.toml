@@ -100,9 +100,9 @@ image = "images/banner/illustration.svg"
 
 
 ######################## call to action ###############################
-[params.cta]
-enable = true
-image = "images/qr.svg"
+#[params.cta]
+#enable = true
+#image = "images/qr.svg"
 # title = " _    _"
 # description = " _    Scan Code for Android App"
 # [params.cta.button]
