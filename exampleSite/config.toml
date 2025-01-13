@@ -61,7 +61,6 @@ link = "plugins/search/search.js"
 #weight = 1
 
 
-
 ######################### Default Parameters ###########################
 [params]
 # home
