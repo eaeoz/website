@@ -19,10 +19,10 @@ Git provides a variety of useful commands that streamline version control and co
 git --version
 
 (configure git user mail)
-git config --global user.email "sedatergoz@gmail.com"
+git config --global user.email "mail@example.com"
 
 (configure git user)
-git config --global user.name "eaeoz"
+git config --global user.name "github-username"
 
 (list configuration made
 git config --list
@@ -50,7 +50,7 @@ git push --force
 
 ***
 
-##### Create repo:
+##### Create repository:
 
 ```
 gh repo create link --private
@@ -60,7 +60,7 @@ git init
 git add .
 git commit -m "first-commit"
 
-git remote add origin https://github.com/eaeoz/test-project.git   (you can find here: git remote -v)
+git remote add origin https://github.com/github-username/test-project.git   (you can find here: git remote -v)
 
 git branch -M main
 git push -u origin main
@@ -68,7 +68,7 @@ git push -u origin main
 
 ***
 
-##### Delete repo:
+##### Delete repository:
 
 ```
 gh repo delete test-project
@@ -77,9 +77,74 @@ rm -rf .git
 
 ***
 
-##### List repo:
+##### List repository:
 
 `gh repo list github-username --visibility=private`
+
+***
+
+##### Clone repository:
+
+```
+gh repo clone test-repo
+or
+gh repo clone github-user/test-repo
+```
+
+***
+
+##### Add all file and folders in current directory, commit and apply changes:
+
+```
+git add .
+git commit -m "first-commit"
+git fetch (or git push for local changes)
+```
+
+***
+
+##### After commit see changes before push:
+
+`git diff`
+
+***
+
+##### List commit history:
+
+```
+git log
+or
+git log --graph --oneline --all
+```
+
+***
+
+##### Create new branch:
+
+`git checkout -b my-feature-branch`
+
+***
+
+##### Return to main branch:
+
+`git checkout main`
+
+***
+
+##### List all branches:
+
+`git branch -a`
+
+***
+
+##### Push changes to new branch:
+
+```
+git push origin my-feature-branch
+
+if not set upstream branch use this:
+git push --set-upstream origin my-feature-branch
+```
 
 ***
 
@@ -92,6 +157,38 @@ rm -rf .git
 ##### If you’ve pushed your feature branch to a remote repository (like GitHub), you can also delete it there:
 
 `git push origin --delete my-feature-branch`
+
+***
+
+##### Merging Changes (Optional, when you want to apply a branch to main branch), When your feature is complete, merge it back into the main branch::
+
+```
+git checkout main
+git merge my-feature-branch
+git push
+```
+
+***
+
+##### Create new branch from commit:
+
+```
+git checkout -b my-new-branch 797bd45
+
+(or you can switch to commit using hash only)
+git checkout <commit-hash>
+```
+
+***
+
+##### To discard all local changes and get the current branch from the remote repository using Git, you can follow these steps:
+
+```
+git checkout main
+git fetch
+git reset --hard origin/main
+git clean -fd
+```
 
 ***
 
