@@ -244,3 +244,45 @@ Checkout the Files: Finally, checkout the files in that directory:
 * This process allows you to clone only the specific directory you need without downloading the entire repository history.
 
 ***
+
+### If you have issue pushing unwanted file and folders reason of .gitignore missing configuration (like node_modules not listed), you can clean these from remote and local:
+
+```
+(if you are already in mian branch and you can push this)
+echo "node_modules/" >> .gitignore
+git add .gitignore
+git commit -m "Add node_modules to .gitignore"
+
+
+Verify the largest files/objects in the repository Sometimes large files might still exist in the history. You can check the largest objects in your Git repository using:
+
+git rev-list --objects --all | sort -k 2 > allfiles.txt
+
+(we need this tool, install using python3 pip)
+pip install git-filter-repo
+
+
+echo "node_modules/" >> .gitignore
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+git filter-repo --path node_modules --invert-paths --force
+
+git remote add origin https://github.com/github-username/test-project.git
+
+git push origin main --force
+
+git checkout main
+
+git push --set-upstream origin main
+
+com test
+
+git push
+
+(optional)
+git pull origin main --rebase
+```
+
+***
