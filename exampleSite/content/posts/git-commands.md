@@ -12,7 +12,7 @@ Git provides a variety of useful commands that streamline version control and co
 
 ***
 
-##### Github Ubuntu CLI Configuration
+##### Github Ubuntu CLI Configuration:
 
 ```
 (check version)
@@ -50,10 +50,81 @@ git push --force
 
 ***
 
+### Create repo:
+
+```
+gh repo create link --private
+nano README.md
+
+git init
+git add .
+git commit -m "first-commit"
+
+git remote add origin https://github.com/eaeoz/test-project.git   (you can find here: git remote -v)
+
+git branch -M main
+git push -u origin main
+```
+
+***
+
+### Delete repo:
+
+```
+gh repo delete test-project
+rm -rf .git
+```
+
+***
+
+### List repo:
+
+`gh repo list github-username --visibility=private`
+
+***
+
+### To keep things tidy, you can delete the feature branch locally:
+
+`git branch -D my-feature-branch`
+
+***
+
+### If you’ve pushed your feature branch to a remote repository (like GitHub), you can also delete it there:
+
+`git push origin --delete my-feature-branch`
+
+***
+
+### Git periodically performs garbage collection to clean up unreachable objects. You can manually trigger it with:
+
+`git gc`
+
+***
+
+### Pull Requests using CLI (we (collobrators) use pull requests to merge our code to the specific(main usually) branch):
+
+```
+(collobrator)
+gh pr create --base main --head test1 --title "mypull request"
+
+(admin)
+gh pr list
+gh pr merge --admin 4
+
+
+To see closed PRs:
+gh pr list --state all
+
+To search for specific PRs using a query (similar to GitHub’s search syntax):
+gh pr list --search "status:success review:required"
+```
+
+***
+
 ### Clone specific directory of the repository example:
 
 
-Clone the Repository: First, clone the entire repository but with a filter to minimize the data downloaded:
+First, clone the entire repository but with a filter to minimize the data downloaded:
 
 `git clone --filter=blob:none --no-checkout https://github.com/test/test-project.git`
 
