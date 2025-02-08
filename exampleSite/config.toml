@@ -53,6 +53,15 @@ link = "plugins/search/search.js"
 # name = "Server Statistics"
 # weight = 1
 
+[[menu.main]]
+URL = "https://github.com/eaeoz"
+name = "Github"
+weight = 1
+
+[[menu.main]]
+URL = "https://www.linkedin.com/in/sedat-ergoz-604527346/"
+name = "Linkedin"
+weight = 1
 
 # footer menu
 #[[menu.footer]]
