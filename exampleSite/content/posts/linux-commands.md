@@ -24,6 +24,59 @@ cat /etc/hostname
 ##### Set timezone:
 `sudo timedatectl set-timezone Turkey`
 ***
+##### Set keyboard layout
+```
+dpkg-reconfigure keyboard-configuration
+service keyboard-setup restart
+
+
+if you cant find command dpkg-reconfigure:
+
+apt-get install console-data
+apt-get install console-setup
+apt-get install console-locales
+apt-get install keyboard-configuration
+
+Do the dpkg-reconfigure for each of the packets above. REBOOT.
+```
+***
+##### Find current user and directory
+```
+whoami
+pwd
+```
+***
+##### Find information about linux commands
+```
+man
+(example)
+man trash-cli
+
+tldr
+(example)
+tldr trash-cli
+(update)
+tldr --update
+
+Examples:
+
+man (Manual Pages)
+
+man ls – Show manual for the ls command.
+man -k keyword – Search for a command by keyword.
+man 5 passwd – View section 5 of the passwd manual.
+man -f ls (or whatis ls) – Brief description of ls.
+man -P cat ls – Show ls manual without pagination.
+
+tldr (Simplified Man Pages)
+
+tldr ls – Get a short summary of ls usage.
+tldr --list – List all available tldr pages.
+tldr -u – Update the local tldr cache.
+tldr --random – Show a random tldr page.
+tldr tar – Quickly check tar command examples.
+```
+***
 ##### Find which application using the port
 ```
 netstat -lpn | grep :80
@@ -52,6 +105,9 @@ ps aux | fzf | awk '{print $2}' | xargs kill
 ***
 ##### To remove three 0 end of string (13000 to 13)
 `echo "13000" | rev | cut -c 4- | rev`
+***
+##### Run command at diffrent directory
+`(cd /var/log && cp -- *.log ~/Desktop)`
 ***
 ##### Speedtest using iperf3 tool
 ```
@@ -130,6 +186,18 @@ find . -type f -exec sh -c '> $1' sh {} \;
 ##### List all users in a group
 `getent group docker`
 ***
+##### You can list currently logged-in users using these commands
+```
+(list all users)
+id
+
+w
+w -h | wc -l
+who
+who | wc -l
+last -a | head -n 10
+```
+***
 ##### Generate password example
 ```
 openssl rand -base64 24
@@ -156,6 +224,9 @@ sudo mount -a
 (if you receive error reload daemon)
 sudo systemctl daemon-reload
 ```
+***
+##### Install GRUB on all RAID BOOT partitions after first boot
+`sudo dpkg-reconfigure grub-pc  -> check all drives you're after.`
 ***
 ##### Wget commands for different format and source
 ```
@@ -198,7 +269,7 @@ uptime --since
 ##### Cpu detailed info
 `cat /proc/cpuinfo`
 ***
-##### Find if your cpu support virtualisation
+##### Find if your cpu support virtualization
 ```
 egrep -c '(vmx|svm)' /proc/cpuinfo
 
