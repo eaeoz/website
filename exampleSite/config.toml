@@ -64,10 +64,10 @@ name = "Linkedin"
 weight = 1
 
 # footer menu
-#[[menu.footer]]
-#URL = "contact/"
-#name = "Contact"
-#weight = 1
+[[menu.footer]]
+URL = "mailto:sedatergoz@gmail.com"
+name = "Contact"
+weight = 1
 
 
 ######################### Default Parameters ###########################
