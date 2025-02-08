@@ -257,67 +257,6 @@ gh pr list --search "status:success review:required"
 
 ***
 
-##### When it comes to reviewing and confirming changes using the command line interface (CLI), you have a few options depending on the Git platform you’re using. Let’s explore how you can achieve this
-
-```
-GitHub
-
-If you’re working with GitHub, you can use the following steps to review and merge changes via the CLI:
-First, ensure you have the latest changes from the main branch:
-git checkout main
-git pull origin main
-
-Next, create a new branch for your changes (if you haven’t already):
-git checkout -b my-feature-branch
-
-Make your changes, commit them, and push to your branch:
-git add .
-git commit -m "My changes"
-git push origin my-feature-branch
-
-Now, create a pull request (PR) using the GitHub CLI:
-gh pr create --base main --head my-feature-branch --title "My Pull Request"
-
-Review the PR on GitHub, discuss any necessary changes, and approve it.
-Finally, merge the PR:
-gh pr merge <PR_NUMBER>
-
-
-GitLab
-
-For GitLab, you can follow similar steps:
-Create a new branch, make changes, and commit them.
-Push your branch to GitLab:
-git push origin my-feature-branch
-
-Create a merge request (MR) using the GitLab CLI:
-gitlab mr create --source=my-feature-branch --target=main --title="My Merge Request"
-
-Review the MR on GitLab, discuss changes, and approve it.
-Merge the MR:
-gitlab mr merge <MR_ID>
-
-
-Bitbucket
-
-Bitbucket also supports similar workflows:
-Create a branch, make changes, and commit them.
-Push your branch to Bitbucket:
-git push origin my-feature-branch
-
-Create a pull request using the Bitbucket CLI:
-bitbucket pr create --source=my-feature-branch --destination=main --title="My Pull Request"
-
-Review the PR on Bitbucket, discuss changes, and approve it.
-Merge the PR:
-bitbucket pr merge <PR_ID>
-```
-
-* Remember to replace placeholders like <PR_NUMBER>, <MR_ID>, and branch names with actual values from your repository. And hey, reviewing code via CLI is like being a code detective—examining every line for clues! 🕵️‍♂️🔍
-
-
-***
-
 ##### If you have issue pushing unwanted file and folders reason of .gitignore missing configuration (like node_modules not listed), you can clean these from remote and local
 
 ```
