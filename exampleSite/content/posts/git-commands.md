@@ -12,7 +12,7 @@ Git provides a variety of useful commands that streamline version control and co
 
 ***
 
-##### Github Ubuntu CLI Configuration:
+##### Github Ubuntu CLI Configuration
 
 ```
 (check version)
@@ -39,7 +39,7 @@ gh auth refresh -h github.com -s delete_repo
 
 ***
 
-##### Return to specific commit:
+##### Return to specific commit
 
 ```
 git log --pretty=format:"%h - %an, %ar : %s"
@@ -50,7 +50,7 @@ git push --force
 
 ***
 
-##### Create repository:
+##### Create repository
 
 ```
 gh repo create link --private
@@ -68,7 +68,7 @@ git push -u origin main
 
 ***
 
-##### Delete repository:
+##### Delete repository
 
 ```
 gh repo delete test-project
@@ -77,13 +77,13 @@ rm -rf .git
 
 ***
 
-##### List repository:
+##### List repository
 
 `gh repo list github-username --visibility=private`
 
 ***
 
-##### Clone repository:
+##### Clone repository
 
 ```
 gh repo clone test-repo
@@ -93,7 +93,7 @@ gh repo clone github-user/test-repo
 
 ***
 
-##### Add all file and folders in current directory, commit and apply changes:
+##### Add all file and folders in current directory, commit and apply changes
 
 ```
 git add .
@@ -103,13 +103,13 @@ git fetch (or git push for local changes)
 
 ***
 
-##### After commit see changes before push:
+##### After commit see changes before push
 
 `git diff`
 
 ***
 
-##### List commit history:
+##### List commit history
 
 ```
 git log
@@ -119,25 +119,25 @@ git log --graph --oneline --all
 
 ***
 
-##### Create new branch:
+##### Create new branch
 
 `git checkout -b my-feature-branch`
 
 ***
 
-##### Return to main branch:
+##### Return to main branch
 
 `git checkout main`
 
 ***
 
-##### List all branches:
+##### List all branches
 
 `git branch -a`
 
 ***
 
-##### Push changes to new branch:
+##### Push changes to new branch
 
 ```
 git push origin my-feature-branch
@@ -148,19 +148,19 @@ git push --set-upstream origin my-feature-branch
 
 ***
 
-##### To keep things tidy, you can delete the feature branch locally:
+##### To keep things tidy, you can delete the feature branch locally
 
 `git branch -D my-feature-branch`
 
 ***
 
-##### If you’ve pushed your feature branch to a remote repository (like GitHub), you can also delete it there:
+##### If you’ve pushed your feature branch to a remote repository (like GitHub), you can also delete it there
 
 `git push origin --delete my-feature-branch`
 
 ***
 
-##### Merging Changes (Optional, when you want to apply a branch to main branch), When your feature is complete, merge it back into the main branch::
+##### Merging Changes (Optional, when you want to apply a branch to main branch), When your feature is complete, merge it back into the main branch
 
 ```
 git checkout main
@@ -170,7 +170,7 @@ git push
 
 ***
 
-##### Create new branch from commit:
+##### Create new branch from commit
 
 ```
 git checkout -b my-new-branch 797bd45
@@ -181,7 +181,7 @@ git checkout <commit-hash>
 
 ***
 
-##### To discard all local changes and get the current branch from the remote repository using Git, you can follow these steps:
+##### To discard all local changes and get the current branch from the remote repository using Git, you can follow these steps
 
 ```
 git checkout main
@@ -192,31 +192,31 @@ git clean -fd
 
 ***
 
-##### Change last commit message:
+##### Change last commit message
 
 `git commit --amend`
 
 ***
 
-##### Undo most recent commit and keep changes:
+##### Undo most recent commit and keep changes
 
 `git reset HEAD~1`
 
 ***
 
-##### Undo the N most recent commit and keep changes:
+##### Undo the N most recent commit and keep changes
 
 `git reset HEAD~N`
 
 ***
 
-##### Undo most recent commit and get rid of changes:
+##### Undo most recent commit and get rid of changes
 
 `git reset HEAD~1 --hard`
 
 ***
 
-##### Reset branch to remote state:
+##### Reset branch to remote state
 
 ```
 git fetch origin
@@ -231,13 +231,13 @@ git reset --hard origin/[branch-name]
 
 ***
 
-##### Git periodically performs garbage collection to clean up unreachable objects. You can manually trigger it with:
+##### Git periodically performs garbage collection to clean up unreachable objects. You can manually trigger it with
 
 `git gc`
 
 ***
 
-##### Pull Requests using CLI (we (collobrators) use pull requests to merge our code to the specific(main usually) branch):
+##### Pull Requests using CLI (we (collobrators) use pull requests to merge our code to the specific(main usually) branch)
 
 ```
 (collobrator)
@@ -257,7 +257,71 @@ gh pr list --search "status:success review:required"
 
 ***
 
-##### If you have issue pushing unwanted file and folders reason of .gitignore missing configuration (like node_modules not listed), you can clean these from remote and local:
+##### When it comes to reviewing and confirming changes using the command line interface (CLI), you have a few options depending on the Git platform you’re using. Let’s explore how you can achieve this
+
+
+##### GitHub
+
+```
+If you’re working with GitHub, you can use the following steps to review and merge changes via the CLI:
+First, ensure you have the latest changes from the main branch:
+git checkout main
+git pull origin main
+
+Next, create a new branch for your changes (if you haven’t already):
+git checkout -b my-feature-branch
+
+Make your changes, commit them, and push to your branch:
+git add .
+git commit -m "My changes"
+git push origin my-feature-branch
+
+Now, create a pull request (PR) using the GitHub CLI:
+gh pr create --base main --head my-feature-branch --title "My Pull Request"
+
+Review the PR on GitHub, discuss any necessary changes, and approve it.
+Finally, merge the PR:
+gh pr merge <PR_NUMBER>
+```
+
+##### GitLab
+
+```
+For GitLab, you can follow similar steps:
+Create a new branch, make changes, and commit them.
+Push your branch to GitLab:
+git push origin my-feature-branch
+
+Create a merge request (MR) using the GitLab CLI:
+gitlab mr create --source=my-feature-branch --target=main --title="My Merge Request"
+
+Review the MR on GitLab, discuss changes, and approve it.
+Merge the MR:
+gitlab mr merge <MR_ID>
+```
+
+##### Bitbucket
+
+```
+Bitbucket also supports similar workflows:
+Create a branch, make changes, and commit them.
+Push your branch to Bitbucket:
+git push origin my-feature-branch
+
+Create a pull request using the Bitbucket CLI:
+bitbucket pr create --source=my-feature-branch --destination=main --title="My Pull Request"
+
+Review the PR on Bitbucket, discuss changes, and approve it.
+Merge the PR:
+bitbucket pr merge <PR_ID>
+```
+
+* Remember to replace placeholders like <PR_NUMBER>, <MR_ID>, and branch names with actual values from your repository. And hey, reviewing code via CLI is like being a code detective—examining every line for clues! 🕵️‍♂️🔍
+
+
+***
+
+##### If you have issue pushing unwanted file and folders reason of .gitignore missing configuration (like node_modules not listed), you can clean these from remote and local
 
 ```
 (if you are already in mian branch and you can push this)
@@ -299,7 +363,7 @@ git pull origin main --rebase
 
 ***
 
-### Clone specific directory of the repository example:
+### Clone specific directory of the repository example
 
 
 First, clone the entire repository but with a filter to minimize the data downloaded:
@@ -330,50 +394,127 @@ Checkout the Files: Finally, checkout the files in that directory:
 
 Ah, the delightful world of Git branching strategies! Choosing the right one can feel like picking the perfect ice cream flavor—so many options, and they all have their unique appeal. Let’s explore some popular Git branching strategies, shall we? 🍦🌿
 
-#### GitHub Flow:
+#### GitHub Flow
 
 For Continuous Deployment and Simplicity
 
-##### How It Works:
+##### How It Works
 
 Main branch (often main or master) is always deployable.
 Feature branches are short-lived and created for specific tasks.
 Pull Requests (PRs) are used for code review and merging.
 
-##### When to Use It:
+##### When to Use It
 
 Ideal for small teams and continuous deployment.
 Keeps things simple and straightforward.
 
-#### GitFlow:
+#### GitFlow
 
 For Complex Release Workflows
 
-##### How It Works:
+##### How It Works
 
 Main branches: main (production-ready) and develop (ongoing development).
 Feature branches for new features.
 Release branches for preparing releases.
 Hotfix branches for emergency fixes.
 
-##### When to Use It:
+##### When to Use It
 
 Larger teams with complex release schedules.
 Ensures a structured workflow.
 
-#### Trunk Based Development:
+#### Trunk Based Development
 
 For High Development Velocity
 
-##### How It Works:
+##### How It Works
 
 Main branch (trunk) is always deployable.
 Feature branches are short-lived.
 Frequent integrations into the main branch.
 
-##### When to Use It:
+##### When to Use It
 
 Fast-paced development environments.
 Minimizes long-lived branches.
 
 * Remember, there’s no one-size-fits-all answer. Choose the strategy that aligns best with your team’s needs, workflow preferences, and deployment schedules.
+
+***
+
+### Essential Git Flow commands - how to do using git
+
+#### Creating a Feature Branch:
+
+##### Git Flow
+
+`git flow feature start <name>`
+
+##### Git
+
+`git checkout -b feature/my-awesome-feature`
+
+#### Finishing a Feature Branch
+
+##### Git Flow
+
+`git flow feature finish <name>`
+
+##### Git
+
+```
+git checkout develop
+git merge feature/my-awesome-feature
+```
+
+#### Starting a Release
+
+##### Git Flow
+
+`git flow release start <version>`
+
+##### Git (assuming you're on develop)
+
+`git checkout -b release/1.0.0`
+
+#### Finishing a Release
+
+##### Git Flow
+
+`git flow release finish <version>`
+
+##### Git
+
+```
+git checkout main
+git merge release/1.0.0
+git checkout develop
+git merge release/1.0.0
+```
+
+#### Creating a Hotfix Branch
+
+##### Git Flow
+
+`git flow hotfix start <name>`
+
+##### Git
+
+`git checkout -b hotfix/fix-that-bug`
+
+#### Finishing a Hotfix
+
+##### Git Flow
+
+`git flow hotfix finish <name>`
+
+##### Git
+
+```
+git checkout main
+git merge hotfix/fix-that-bug
+git checkout develop
+git merge hotfix/fix-that-bug
+```
