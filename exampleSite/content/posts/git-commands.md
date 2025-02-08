@@ -53,7 +53,7 @@ git push --force
 ##### Create repository
 
 ```
-gh repo create link --private
+gh repo create test-project --private
 nano README.md
 
 git init
