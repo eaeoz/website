@@ -77,8 +77,8 @@ home = "Home"
 # logo
 logo = "images/logo5.svg"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "Sedat ERGOZ"
+description = "Sedat's Personal Blog"
 # google tag manager
 google_tag_manager = "" # your id
 # contact form action
