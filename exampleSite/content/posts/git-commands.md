@@ -299,33 +299,6 @@ git pull origin main --rebase
 
 ***
 
-### Clone specific directory of the repository example
-
-
-First, clone the entire repository but with a filter to minimize the data downloaded:
-
-`git clone --filter=blob:none --no-checkout https://github.com/test/test-project.git`
-
-Navigate into the Repository: Change into the cloned repository directory:
-
-`cd test-project`
-
-Enable Sparse Checkout: Enable sparse checkout to specify which directories you want:
-
-`git sparse-checkout init --cone`
-
-Specify the Directory: Add the specific directory you want to check out:
-
-`git sparse-checkout set plugins/logo`
-
-Checkout the Files: Finally, checkout the files in that directory:
-
-`git checkout master`
-
-* This process allows you to clone only the specific directory you need without downloading the entire repository history.
-
-***
-
 ##### When it comes to reviewing and confirming changes using the command line interface (CLI), you have a few options depending on the Git platform you’re using. Let’s explore how you can achieve this
 
 ```
@@ -515,3 +488,31 @@ git merge hotfix/fix-that-bug
 git checkout develop
 git merge hotfix/fix-that-bug
 ```
+
+
+***
+
+### Clone specific directory of the repository example
+
+
+First, clone the entire repository but with a filter to minimize the data downloaded:
+
+`git clone --filter=blob:none --no-checkout https://github.com/test/test-project.git`
+
+Navigate into the Repository: Change into the cloned repository directory:
+
+`cd test-project`
+
+Enable Sparse Checkout: Enable sparse checkout to specify which directories you want:
+
+`git sparse-checkout init --cone`
+
+Specify the Directory: Add the specific directory you want to check out:
+
+`git sparse-checkout set plugins/logo`
+
+Checkout the Files: Finally, checkout the files in that directory:
+
+`git checkout master`
+
+* This process allows you to clone only the specific directory you need without downloading the entire repository history.
