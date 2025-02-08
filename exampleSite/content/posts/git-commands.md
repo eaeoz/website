@@ -192,6 +192,45 @@ git clean -fd
 
 ***
 
+##### Change last commit message:
+
+`git commit --amend`
+
+***
+
+##### Undo most recent commit and keep changes:
+
+`git reset HEAD~1`
+
+***
+
+##### Undo the N most recent commit and keep changes:
+
+`git reset HEAD~N`
+
+***
+
+##### Undo most recent commit and get rid of changes:
+
+`git reset HEAD~1 --hard`
+
+***
+
+##### Reset branch to remote state:
+
+```
+git fetch origin
+git reset --hard origin/[branch-name]
+```
+
+***
+
+##### Renaming the local master branch to main
+
+`git branch -m master main`
+
+***
+
 ##### Git periodically performs garbage collection to clean up unreachable objects. You can manually trigger it with:
 
 `git gc`
@@ -218,34 +257,7 @@ gh pr list --search "status:success review:required"
 
 ***
 
-### Clone specific directory of the repository example:
-
-
-First, clone the entire repository but with a filter to minimize the data downloaded:
-
-`git clone --filter=blob:none --no-checkout https://github.com/test/test-project.git`
-
-Navigate into the Repository: Change into the cloned repository directory:
-
-`cd test-project`
-
-Enable Sparse Checkout: Enable sparse checkout to specify which directories you want:
-
-`git sparse-checkout init --cone`
-
-Specify the Directory: Add the specific directory you want to check out:
-
-`git sparse-checkout set plugins/logo`
-
-Checkout the Files: Finally, checkout the files in that directory:
-
-`git checkout master`
-
-* This process allows you to clone only the specific directory you need without downloading the entire repository history.
-
-***
-
-### If you have issue pushing unwanted file and folders reason of .gitignore missing configuration (like node_modules not listed), you can clean these from remote and local:
+##### If you have issue pushing unwanted file and folders reason of .gitignore missing configuration (like node_modules not listed), you can clean these from remote and local:
 
 ```
 (if you are already in mian branch and you can push this)
@@ -286,3 +298,82 @@ git pull origin main --rebase
 ```
 
 ***
+
+### Clone specific directory of the repository example:
+
+
+First, clone the entire repository but with a filter to minimize the data downloaded:
+
+`git clone --filter=blob:none --no-checkout https://github.com/test/test-project.git`
+
+Navigate into the Repository: Change into the cloned repository directory:
+
+`cd test-project`
+
+Enable Sparse Checkout: Enable sparse checkout to specify which directories you want:
+
+`git sparse-checkout init --cone`
+
+Specify the Directory: Add the specific directory you want to check out:
+
+`git sparse-checkout set plugins/logo`
+
+Checkout the Files: Finally, checkout the files in that directory:
+
+`git checkout master`
+
+* This process allows you to clone only the specific directory you need without downloading the entire repository history.
+
+***
+
+### Git Branch Strategies
+
+Ah, the delightful world of Git branching strategies! Choosing the right one can feel like picking the perfect ice cream flavor—so many options, and they all have their unique appeal. Let’s explore some popular Git branching strategies, shall we? 🍦🌿
+
+#### GitHub Flow:
+
+For Continuous Deployment and Simplicity
+
+##### How It Works:
+
+Main branch (often main or master) is always deployable.
+Feature branches are short-lived and created for specific tasks.
+Pull Requests (PRs) are used for code review and merging.
+
+##### When to Use It:
+
+Ideal for small teams and continuous deployment.
+Keeps things simple and straightforward.
+
+#### GitFlow:
+
+For Complex Release Workflows
+
+##### How It Works:
+
+Main branches: main (production-ready) and develop (ongoing development).
+Feature branches for new features.
+Release branches for preparing releases.
+Hotfix branches for emergency fixes.
+
+##### When to Use It:
+
+Larger teams with complex release schedules.
+Ensures a structured workflow.
+
+#### Trunk Based Development:
+
+For High Development Velocity
+
+##### How It Works:
+
+Main branch (trunk) is always deployable.
+Feature branches are short-lived.
+Frequent integrations into the main branch.
+
+##### When to Use It:
+
+Fast-paced development environments.
+Minimizes long-lived branches.
+
+* Remember, there’s no one-size-fits-all answer. Choose the strategy that aligns best with your team’s needs, workflow preferences, and deployment schedules.
