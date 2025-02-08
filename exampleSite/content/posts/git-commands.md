@@ -39,17 +39,6 @@ gh auth refresh -h github.com -s delete_repo
 
 ***
 
-##### Return to specific commit
-
-```
-git log --pretty=format:"%h - %an, %ar : %s"
-git reset --hard 9f08cd6
-git add -A && git commit -am "test"
-git push --force
-```
-
-***
-
 ##### Create repository
 
 ```
@@ -115,6 +104,17 @@ git fetch (or git push for local changes)
 git log
 or
 git log --graph --oneline --all
+```
+
+***
+
+##### Return to specific commit
+
+```
+git log --pretty=format:"%h - %an, %ar : %s"
+git reset --hard 9f08cd6
+git add -A && git commit -am "test"
+git push --force
 ```
 
 ***
