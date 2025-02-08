@@ -1,6 +1,6 @@
 +++
 title = "Shell Scripts for Git"
-<!-- image = "/images/post/github.jpg" -->
+image = "/images/post/github.jpg"
 author = "Sedat"
 date = "2025-02-08T00:01:00Z"
 description = "shell scripts for git"
