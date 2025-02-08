@@ -39,7 +39,7 @@ gh auth refresh -h github.com -s delete_repo
 
 ***
 
-### Return to specific commit:
+##### Return to specific commit:
 
 ```
 git log --pretty=format:"%h - %an, %ar : %s"
@@ -50,7 +50,7 @@ git push --force
 
 ***
 
-### Create repo:
+##### Create repo:
 
 ```
 gh repo create link --private
@@ -68,7 +68,7 @@ git push -u origin main
 
 ***
 
-### Delete repo:
+##### Delete repo:
 
 ```
 gh repo delete test-project
@@ -77,31 +77,31 @@ rm -rf .git
 
 ***
 
-### List repo:
+##### List repo:
 
 `gh repo list github-username --visibility=private`
 
 ***
 
-### To keep things tidy, you can delete the feature branch locally:
+##### To keep things tidy, you can delete the feature branch locally:
 
 `git branch -D my-feature-branch`
 
 ***
 
-### If you’ve pushed your feature branch to a remote repository (like GitHub), you can also delete it there:
+##### If you’ve pushed your feature branch to a remote repository (like GitHub), you can also delete it there:
 
 `git push origin --delete my-feature-branch`
 
 ***
 
-### Git periodically performs garbage collection to clean up unreachable objects. You can manually trigger it with:
+##### Git periodically performs garbage collection to clean up unreachable objects. You can manually trigger it with:
 
 `git gc`
 
 ***
 
-### Pull Requests using CLI (we (collobrators) use pull requests to merge our code to the specific(main usually) branch):
+##### Pull Requests using CLI (we (collobrators) use pull requests to merge our code to the specific(main usually) branch):
 
 ```
 (collobrator)
