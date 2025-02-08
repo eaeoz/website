@@ -260,9 +260,11 @@ gh pr list --search "status:success review:required"
 ##### When it comes to reviewing and confirming changes using the command line interface (CLI), you have a few options depending on the Git platform you’re using. Let’s explore how you can achieve this
 
 
-##### GitHub
+
 
 ```
+GitHub
+
 If you’re working with GitHub, you can use the following steps to review and merge changes via the CLI:
 First, ensure you have the latest changes from the main branch:
 git checkout main
@@ -282,11 +284,10 @@ gh pr create --base main --head my-feature-branch --title "My Pull Request"
 Review the PR on GitHub, discuss any necessary changes, and approve it.
 Finally, merge the PR:
 gh pr merge <PR_NUMBER>
-```
 
-##### GitLab
 
-```
+GitLab
+
 For GitLab, you can follow similar steps:
 Create a new branch, make changes, and commit them.
 Push your branch to GitLab:
@@ -298,11 +299,10 @@ gitlab mr create --source=my-feature-branch --target=main --title="My Merge Requ
 Review the MR on GitLab, discuss changes, and approve it.
 Merge the MR:
 gitlab mr merge <MR_ID>
-```
 
-##### Bitbucket
 
-```
+Bitbucket
+
 Bitbucket also supports similar workflows:
 Create a branch, make changes, and commit them.
 Push your branch to Bitbucket:
