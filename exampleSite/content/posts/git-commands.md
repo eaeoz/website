@@ -53,26 +53,26 @@ git push --force
 ### Clone specific directory of the repository example:
 
 
-##### Clone the Repository: First, clone the entire repository but with a filter to minimize the data downloaded:
+Clone the Repository: First, clone the entire repository but with a filter to minimize the data downloaded:
 
 `git clone --filter=blob:none --no-checkout https://github.com/test/test-project.git`
 
-##### Navigate into the Repository: Change into the cloned repository directory:
+Navigate into the Repository: Change into the cloned repository directory:
 
 `cd test-project`
 
-##### Enable Sparse Checkout: Enable sparse checkout to specify which directories you want:
+Enable Sparse Checkout: Enable sparse checkout to specify which directories you want:
 
 `git sparse-checkout init --cone`
 
-##### Specify the Directory: Add the specific directory you want to check out:
+Specify the Directory: Add the specific directory you want to check out:
 
 `git sparse-checkout set plugins/logo`
 
-##### Checkout the Files: Finally, checkout the files in that directory:
+Checkout the Files: Finally, checkout the files in that directory:
 
 `git checkout master`
 
-##### This process allows you to clone only the specific directory you need without downloading the entire repository history.
+* This process allows you to clone only the specific directory you need without downloading the entire repository history.
 
 ***
