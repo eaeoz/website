@@ -10,6 +10,8 @@ type = "post"
 +++
 ## Shell Scripts for Git
 
+***
+
 #### Commit Changes
 
 ##### Usage:
