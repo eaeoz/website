@@ -10,8 +10,6 @@ type = "post"
 +++
 Using a GitHub shell script to add configurations to .bashrc offers several benefits. It automates the process, ensuring consistency across different environments without manual editing. This is particularly useful for setting up aliases, environment variables, and custom functions quickly. By storing the script in a repository, you can track changes, roll back modifications if needed, and easily share configurations with others. Additionally, the script can be executed on multiple machines, streamlining setup for developers who work across different systems.
 
-## Shell Scripts for Git
-
 ***
 
 #### Commit Changes
@@ -29,6 +27,8 @@ com() {
     git add -A && git commit -am "$1"
 }
 ```
+
+***
 
 #### Commit with message and Push at the same time
 
@@ -51,6 +51,8 @@ push() {
     fi
 }
 ```
+
+***
 
 #### Create New Project
 
@@ -81,6 +83,8 @@ new() {
 }
 ```
 
+***
+
 #### List Commit History
 
 #### Usage:
@@ -96,6 +100,8 @@ log() {
     git log --pretty=format:"%h - %an, %ar : %s"
 }
 ```
+
+***
 
 #### Pull Request
 
@@ -121,6 +127,8 @@ req() {
     eval "$command"
 }
 ```
+
+***
 
 #### Return to Last Changes For Current Branch
 
