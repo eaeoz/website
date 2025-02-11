@@ -306,3 +306,6 @@ find /var/lib/asterisk/sounds/en -type d -exec chmod 0775 {} \;
 ##### Add your public key to remote machine to access without password from windows
 `type $env:USERPROFILE\.ssh\id_rsa.pub | ssh root@192.168.1.254 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"`
 ***
+##### Download file from url using curl
+`curl http://192.168.10.2:1111/not.txt -O not.txt`
+***
