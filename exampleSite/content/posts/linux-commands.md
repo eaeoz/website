@@ -300,3 +300,9 @@ find /var/lib/asterisk/sounds/en -type d -exec chmod 0775 {} \;
 ##### Add application (example:asterisk) to startup
 `update-rc.d asterisk defaults`
 ***
+##### Generate key in your windows machine if you don't have one
+`ssh-keygen -t rsa -b 4096 -f $env:USERPROFILE\.ssh\id_rsa -N ""`
+***
+##### Add your public key to remote machine to access without password from windows
+`type $env:USERPROFILE\.ssh\id_rsa.pub | ssh root@192.168.1.254 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"`
+***
