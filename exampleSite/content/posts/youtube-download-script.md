@@ -238,4 +238,8 @@ yt-dlp -x --audio-format mp3 <video-url>
 
 (download course from auth. source using browser)
 yt-dlp.exe --cookies "firefox" https://www.udemy.com/course-url
+
+
+(list formats - with cookie path specified)
+yt-dlp.exe --cookies "E:\Downloads\cookies.txt" --list-formats "https://www.youtube.com/watch?v=wxyzasdfghjk"
 ```
