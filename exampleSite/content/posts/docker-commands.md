@@ -130,10 +130,8 @@ recreate container
 docker-compose up -d --force-recreate
 ```
 ***
-#####
+##### Bridge network create and container deployment
 ```
-bridge network create and container deployment
-
 docker network create asgard
 
 docker run -itd --rm --network asgard --name loki busybox
