@@ -74,7 +74,7 @@ docker run --rm -it --network=my_custom_network alpine sh
 This will connect the container to the my_custom_network with the specified subnet.
 ```
 ***
-##### Docker networking
+##### Most used commands during deployment process
 ```
 list docker networks
 docker network ls
