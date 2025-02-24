@@ -109,6 +109,7 @@ sudo ps -U vivek
 ps -U tom
 ps -aux | more
 sudo ps -aux | less
+ps -ef | grep vnc
 
 
 
@@ -287,6 +288,9 @@ du | sort -g
 List Folder Size (Descending)
 du | sort -rg
 
+sort folder by size
+du --max-depth=1 | sort -g
+
 inside logs all files sorted by size with all info -lrth if you dont use -S listed latest file at the bottom , within -S listet highest size bottom
 ls -lrth -S
 
@@ -295,6 +299,10 @@ ls -ltr
 
 sort by date down to up
 ls -lt
+
+sort by date
+ls -lat
+ls -latr
 
 total size of sda drives.
 df -Th | grep "/dev/sda"
@@ -845,6 +853,7 @@ dirs -c
 ##### Application from source installation and uninstallation examples (debian based)
 ```
 sudo apt-get update
+sudo apt update --fix-missing
 $sudo apt-get install filezilla
 
 sudo apt --fix-broken install
@@ -946,5 +955,204 @@ sudo filelight /
 ```
 > filename
 rm -rf filename
+```
+***
+##### OS version and information commands
+```
+cat /proc/version
+uname -a
+lsb_release
+cat /etc/os-release
+(external tool to get system information - neofetch)
+sudo apt install neofetch
+```
+***
+##### Service information
+```
+systemctl list-units --all
+systemctl list-units --type=service
+systemctl --type=service
+sudo service --status-all
+sudo systemctl list-unit-files
+```
+***
+##### Debian desktop environment installation
+```
+sudo apt install tasksel
+sudo tasksel
+```
+***
+##### Find how many packages installed
+```
+apt list | wc -l
+apk list | wc -l
+```
+***
+##### Progress command
+```
+sudo apt install progress
+sudo dd if=/media/images/Win10_2H1_English_x64.iso of=/dev/sdf bs=1M status=progress
+sudo progress --wait --command dd
+
+
+progress --wait --command dd
+
+if not work then:
+
+sudo !!
+( mean 'sudo progress --wait --command dd' )
+```
+***
+##### Some of the commands mixed
+```
+sedat@desktop-sedat:~$ echo $SHELL
+/bin/bash
+sedat@desktop-sedat:~$ echo $USER
+sedat
+sedat@desktop-sedat:~$ echo $PWD
+/home/sedat
+sedat@desktop-sedat:~$ echo $HOSTNAME
+desktop-sedat
+sedat@desktop-sedat:~$ echo $RANDOM
+32022
+sedat@desktop-sedat:~$ echo $twitter
+Elon Musk
+
+lp (view lp commands)
+lpq (view printers and jobs)
+echo "This is a test" | lpr
+lpr my_document.txt (print file)
+lpq ( view printers and jobs)
+lprm 10 (view print job status with id)
+
+apt list
+apt search gimp
+
+show 5 most mem usage apps:
+ps -eo pid,%mem,cmd --sort=-%mem | head -n 6
+
+
+touch linode{1..10}
+touch -d tomorrow CreateAVMforONly0075centsanhour.txt
+echo "stuff stuff stuff" > newfile.awesome
+useradd nick
+sudo useradd nick
+man cat
+sudo apt install finger
+man finger
+finger nick
+whatis finger
+which finger
+whereis finger
+curl https://raw.githubusercontent.com/theNetw..../random/main/theb_anotherone.txt > thebible.coffee
+
+less
+head
+tail
+
+find . -size +10G
+
+cmp bible_kjv thebible.coffee
+diff bible_kjv thebible.coffee
+
+cat thebible.coffee | sort
+sudo find / -name "thebible*"
+sudo find . -type f -name ".*"
+sudo find . -type f -empty
+find . -perm /a=x
+ip address | grep eth0 | grep inet | awk '{print $2}'
+cat /etc/resolv.conf
+resolvectl status
+ping -c 5 -s 500 google.com
+traceroute google.com
+netstat -tulpn
+ss -tulpn
+sudo iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+ufw allow 80
+sudo ufw status
+sudo ufw enable
+uname
+uname -a
+sudo apt install neofetch
+neofetch
+cal
+echo "4+5+6+7" | bc
+top
+htop
+ps -aux
+ps -aux | grep thisisbash
+kill -9 6659
+pkill -f thisisbash
+killall -9 thisisbash
+
+delete all files in the folder
+find . -type f -delete
+
+nano /etc/default/console-setup
+dpkg-reconfigure console-setup
+
+select-editor
+or
+env VISUAL=nano crontab -e
+or
+EDITOR="/usr/bin/vim"
+export EDITOR
+Add this to ~/.bash_profile or ~/.bashrc to enable this for current user.
+or
+export EDITOR=vim
+or
+export EDITOR=/usr/bin/vim
+
+or
+export VISUAL=vim; crontab -e
+
+
+renew ip address
+dhclient -v wlan0
+
+
+journalctl -xe
+
+sysctl -n net.wlan.devices
+
+And if there is no device, a "pciconf" dump of the bus...
+
+pciconf -vl
+
+sysctl -n net.wlan.devices
+run0
+
+dmesg | grep run0
+run0: <1.0> on usbus0
+
+ifconfig run0 scan
+
+```
+***
+##### Basic shell script examples
+```
+echo "what is your name"
+read name
+echo "goodmorning $name!!"
+sleep 1
+echo "you are looking good today $name"
+
+
+
+
+name=$1
+compliment=$2
+
+user=$(whoami)
+date=$(date)
+whereami=$(pwd)
+
+echo "good morning $name"
+sleep 1
+echo "youre looking good today $name"
+sleep 1
+echo "you have the best $compliment ive ever seen $name"
+sleep 2
+echo "you are currently logged in as $user and you are in the directory $whereami. also today is: $date"
 ```
 ***
