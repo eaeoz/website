@@ -14,7 +14,7 @@ NextPVR is a whole-home digital video recorder. The NextPVR server can be instal
 
 - [Click here for more information.](https://hub.docker.com/r/nextpvr/nextpvr_amd64)
 
-##### Docker compose:
+**Docker compose:**
 ```
 version: "3"
 services:
@@ -37,7 +37,7 @@ networks:
 ```
 ***
 
-- To access to ui:
+- *To access to ui:*
 `http://<hostip>:8866/`
 
 admin/password
