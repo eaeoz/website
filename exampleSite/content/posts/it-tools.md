@@ -1,5 +1,5 @@
 +++
-title = "It tools docker compose"
+title = "it-tools docker compose"
 image = "/images/post/it-tools.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:02Z"
@@ -14,7 +14,10 @@ The focus of this Docker application is its portability and scalability, as it a
 ***
 
 
-##### corentinth/it-tools
-[Dockerhub](https://hub.docker.com/r/corentinth/it-tools)
-##### To run
+- corentinth/it-tools
+
+Click [here](https://hub.docker.com/r/corentinth/it-tools) for more information.
+
+##### To run:
+
 `docker run -itd -p 3666:80 --name it-tools corentinth/it-tools`
