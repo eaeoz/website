@@ -136,7 +136,7 @@ services:
     volumes:
       - /docker/sonarr/config:/config
       - /docker/sonarr/tv:/tv
-      - /downloads/shows:/downloads
+      - /downloads/tv:/downloads
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -148,9 +148,9 @@ services:
       - PGID=1000
       - TZ=Europe/Istanbul
     volumes:
-      - /docker/lazylibrarian:/config
-      - /mymedia/Downloads:/downloads
-      - /mymedia/books:/books
+      - /docker/lazylibrarian/config:/config
+      - /docker/lazyLibrarian/books:/books
+      - /downloads/books:/downloads
     ports:
       - 5299:5299
     restart: unless-stopped
@@ -164,7 +164,7 @@ services:
     volumes:
       - /docker/lidarr/config:/config
       - /docker/lidarr/music:/music
-      - /downloads/porn:/downloads
+      - /downloads/music:/downloads
     ports:
       - 8686:8686
     restart: unless-stopped
@@ -177,7 +177,8 @@ services:
       - TZ=Europe/Istanbul
     volumes:
       - /docker/readarr/config:/config
-      - /downloads/comics:/comics
+      - /docker/readarr/comics:/comics
+      - /downloads/comics:/downloads
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 8787:8787
