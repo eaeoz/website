@@ -13,7 +13,7 @@ Running qBittorrent, Radarr, and Prowlarr in a Docker stack is an efficient way 
 
 ***
 
-- [Click here for more information.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/qbittorrent/qBittorrent)
+- [Click here for more information.](https://github.com/qbittorrent/qBittorrent)
 
 ##### Docker compose:
 ```
@@ -90,7 +90,7 @@ admin/admin
 `http://<hostip>:7878/`
 
 
-
+***
 
 ##### Other containers can be used with this stack:
 
