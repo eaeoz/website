@@ -2,8 +2,8 @@
 title = "Docker Commands"
 image = "/images/post/dockercommands.jpg"
 author = "Sedat"
-date = "2025-02-24T13:22:00Z"
-description = "docker commands"
+date = "2025-02-24T00:02:01Z"
+description = "docker commands compose"
 categories = ["Docker"]
 type = "post"
 
