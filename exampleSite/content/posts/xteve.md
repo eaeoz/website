@@ -2,7 +2,7 @@
 title = "xteve docker compose"
 image = "/images/post/xteve.jpg"
 author = "Sedat"
-date = "2025-02-24T00:02:02Z"
+date = "2025-02-24T00:02:03Z"
 description = "xteve docker compose"
 categories = ["Docker"]
 type = "post"
