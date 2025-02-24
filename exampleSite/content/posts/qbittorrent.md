@@ -90,7 +90,7 @@ admin/admin
 `http://<hostip>:7878/`
 
 
-***
+---
 
 **Other containers can be used with this stack:**
 
