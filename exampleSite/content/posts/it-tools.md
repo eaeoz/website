@@ -13,7 +13,7 @@ The focus of this Docker application is its portability and scalability, as it a
 
 ***
 
-[Click here for more information.](https://hub.docker.com/r/corentinth/it-tools) 
+- [Click here for more information.](https://hub.docker.com/r/corentinth/it-tools) 
 
 ##### To run:
 
