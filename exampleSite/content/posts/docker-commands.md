@@ -282,13 +282,13 @@ docker context use srv-demo-1
 ```
 docker swarm init
 
-docker swarm join --token SWMTKN-1-0f7vbc1it3p8ofowfh1exbbt9uxjf9c2cdh1vyx4kfbi4ky1jz-28haocvmk8pow6c0te1lh4dk5 192.168.1.243:2377
+docker swarm join --token your-token-need-to-be-replaced-here 192.168.1.243:2377
 copy this line and paste on other node
 
 
 
 
-docker swarm join --token SWMTKN-1-0f7vbc1it3p8ofowfh1exbbt9uxjf9c2cdh1vyx4kfbi4ky1jz-28haocvmk8pow6c0te1lh4dk5 192.168.1.243:2377
+docker swarm join --token your-token-need-to-be-replaced-here 192.168.1.243:2377
 This node joined a swarm as a worker.
 
 
