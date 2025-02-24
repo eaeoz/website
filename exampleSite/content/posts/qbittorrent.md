@@ -92,21 +92,23 @@ admin/admin
 
 ---
 
-** Other containers can be used with this stack: **
+**Other containers can be used with this stack:**
 
 - jackett instead prowlarr (indexer)
 - sonarr (for tv shows)
 - lazyLibrarian (ebook)
 - lidarr (music)
 - readarr (books and comic)
+
 ***
+
 (not listed)
 - mylar (comicbook)
 - whisparr (audiobook)
 
 
 
-** Examples for the containers specified above: **
+**Examples for the containers specified above:**
 
 ```
 version: '3.7'
