@@ -15,7 +15,7 @@ Running qBittorrent, Radarr, and Prowlarr in a Docker stack is an efficient way 
 
 - [Click here for more information.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/qbittorrent/qBittorrent)
 
-## Docker compose
+##### Docker compose:
 ```
 version: '3.7'
 services:
