@@ -106,7 +106,7 @@ admin/admin
 
 
 
-Examples for the containers specified above:
+**Examples for the containers specified above:**
 ```
 version: '3.7'
 services:
