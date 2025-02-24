@@ -39,3 +39,5 @@ networks:
 
 - To access to ui:
 `http://<hostip>:8866/`
+
+admin/password
