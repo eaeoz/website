@@ -92,7 +92,7 @@ admin/admin
 
 ---
 
-**Other containers can be used with this stack:**
+** Other containers can be used with this stack: **
 
 - jackett instead prowlarr (indexer)
 - sonarr (for tv shows)
@@ -106,7 +106,8 @@ admin/admin
 
 
 
-**Examples for the containers specified above:**
+** Examples for the containers specified above: **
+
 ```
 version: '3.7'
 services:
