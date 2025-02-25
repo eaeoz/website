@@ -1,5 +1,5 @@
 +++
-title = "onlyoffice nextcloud integraton docker run command"
+title = "onlyoffice nextcloud integration docker run command"
 image = "/images/post/onlyoffice.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:07Z"
