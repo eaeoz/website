@@ -24,7 +24,7 @@ services:
     image: plexinc/pms-docker:latest             # Official Plex Media Server image
     container_name: plex
     environment:
-      - PLEX_CLAIM=claim-PKvnnwAVqwPasdasdddP    # Optional for linking to your Plex account
+      - PLEX_CLAIM=claim-code-mustplaced-here    # Optional for linking to your Plex account
       - TZ=Europe/Istanbul      # Example: America/New_York
     volumes:
       - /docker/plex/config:/config    # Configuration files
