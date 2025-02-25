@@ -1,5 +1,5 @@
 +++
-title = "Git Commands"
+title = "git commands"
 image = "/images/post/gitcommands.jpg"
 author = "Sedat"
 date = "2025-02-08T00:05:00Z"

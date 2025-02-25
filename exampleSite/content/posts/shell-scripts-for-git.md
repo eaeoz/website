@@ -1,5 +1,5 @@
 +++
-title = "Shell Scripts for Git"
+title = "shell scripts for git"
 image = "/images/post/github.jpg"
 author = "Sedat"
 date = "2025-02-08T00:01:00Z"

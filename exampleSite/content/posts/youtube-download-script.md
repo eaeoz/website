@@ -1,5 +1,5 @@
 +++
-title = "Youtube Downloader Windows Script"
+title = "youtube downloader windows script"
 image = "/images/post/ytdlp.jpg"
 author = "Sedat"
 date = "2025-02-08T00:03:00Z"

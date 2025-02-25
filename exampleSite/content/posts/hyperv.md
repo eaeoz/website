@@ -1,5 +1,5 @@
 +++
-title = "Hyper-V Scripts and Commands"
+title = "hyper-v scripts and commands"
 image = "/images/post/hyperv.jpg"
 author = "Sedat"
 date = "2025-02-08T00:04:00Z"
