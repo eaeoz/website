@@ -1,5 +1,5 @@
 +++
-title = "onlyoffice nextcloud integraton docker compose"
+title = "onlyoffice nextcloud integraton docker run command"
 image = "/images/post/onlyoffice.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:07Z"
@@ -15,7 +15,7 @@ Integrating ONLYOFFICE with Nextcloud provides a powerful, self-hosted document 
 
 - [Click here for more information.](https://helpcenter.onlyoffice.com/installation/docs-community-install-docker.aspx)
 
-**Docker commmand:**
+**To run:**
 
 ```
 sudo docker run -i -t -d -p 80:80 --restart=always \
