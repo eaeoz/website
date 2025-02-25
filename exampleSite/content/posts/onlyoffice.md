@@ -27,7 +27,7 @@ sudo docker run -i -t -d -p 80:80 --restart=always \
 
 ***
 
-ONLYOFFICE Docs address is *https adress of public nextcloud address"
+ONLYOFFICE Docs address is *https address of public nextcloud address*
 
 Secret key *you can leave blank to disable it*
 
@@ -37,7 +37,7 @@ ONLYOFFICE Docs address for internal requests from the server is *onlyoffice htt
 
 Server address for internal requests from ONLYOFFICE Docs is *http port of nextcloud server*
 
-**you can make these changes if you have problem accessing ui:
+**you can make these changes if you have problem accessing ui:**
 
 ```
 in Nextcloud config file (/nextcloud/config/config.php):
@@ -57,6 +57,6 @@ array (
 ),
 ```
 
-Logs stored in:
+__Logs stored in:__
 
 `/app/onlyoffice/DocumentServer/logs/documentserver`
