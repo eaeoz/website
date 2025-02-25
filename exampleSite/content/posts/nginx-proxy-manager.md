@@ -41,7 +41,7 @@ password: changeme
 
 ***
 
-**To manage subdomains using a Cloudflared tunnel with the Nginx Proxy Manager UI (locally instead of the Cloudflare web page), only specific versions of the tunnel container work with this configuration. For example, the tested and verified version is cloudflared:2022.4.0-amd64.**
+**Or use this configuration to manage subdomains using a Cloudflared tunnel with the Nginx Proxy Manager UI (locally instead of the Cloudflare web page), only specific versions of the tunnel container work with this configuration. For example, the tested and verified version is cloudflared:2022.4.0-amd64.**
 
 ```
 - set nginx docker cloudflred listening port to 8001
