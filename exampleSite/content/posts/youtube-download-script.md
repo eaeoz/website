@@ -8,11 +8,12 @@ categories = ["Windows"]
 type = "post"
 
 +++
+
 A YouTube downloader Windows batch script automates the process of downloading videos using command-line tools like yt-dlp or youtube-dl. By writing a simple .bat file, users can quickly download videos by running the script without manually entering commands. The script can include options to specify quality, format, and output directory, making it convenient for batch downloads. Additionally, integrating the script with a graphical interface or a scheduled task allows for automated video downloads, enhancing efficiency for users who frequently save YouTube content.
 
 ***
 
-### Download 720p
+**Download 720p**
 
 ```
 @echo off
@@ -38,7 +39,7 @@ rem Execute the command
 ```
 ***
 
-### Download 1080p
+**Download 1080p**
 
 ```
 @echo off
@@ -65,7 +66,7 @@ rem Execute the command
 
 ***
 
-### Download Specific Format (selection)
+**Download Specific Format (selection)**
 
 ```
 @echo off
@@ -125,7 +126,7 @@ rem Execute the command
 
 ***
 
-### Download Specific Format (without selection, example usage: ./script 136)
+**Download Specific Format (without selection, example usage: ./script 136)**
 
 ```
 @echo off
@@ -188,7 +189,7 @@ rem Execute the command
 !command!
 ```
 
-### Download Mp3 Format
+**Download Mp3 Format**
 
 ```
 @echo off
@@ -215,7 +216,7 @@ rem Execute the command
 
 ***
 
-##### Additional Notes
+**Additional Notes**
 
 ```
 (download video with specific resolution)

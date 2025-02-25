@@ -8,6 +8,7 @@ categories = ["FreeCAD"]
 type = "post"
 
 +++
+
 In FreeCAD, a Python script can be used to rotate two interlocking gears by changing their angles over time using a timer. This approach enables dynamic simulation, where each gear rotates at a calculated speed based on its size and tooth ratio. By utilizing FreeCAD’s App.Timer or an external loop, the script updates the rotation incrementally, creating a smooth motion effect. This technique is valuable for visualizing mechanical movements, testing gear interactions, and automating animations within FreeCAD’s 3D workspace, making it a useful tool for engineers and designers.
 
 ***

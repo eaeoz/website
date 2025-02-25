@@ -8,6 +8,7 @@ categories = ["Docker"]
 type = "post"
 
 +++
+
 Running qBittorrent, Radarr, and Prowlarr in a Docker stack is an efficient way to automate media management. qBittorrent is an open-source torrent client known for its speed and extensive feature set, while Radarr is a PVR (Personal Video Recorder) designed to manage movie collections. Prowlarr acts as an indexer manager, integrating with Radarr to provide torrent and Usenet indexer sources. By configuring these applications within a docker-compose.yml file, they can seamlessly communicate within the same network. Radarr fetches indexer information from Prowlarr, identifies missing movies, and sends download requests to qBittorrent, creating a fully automated media acquisition and management workflow. Running them in a Docker environment simplifies updates, maintenance, and resource management, ensuring a streamlined and efficient setup.
 
 
@@ -75,18 +76,22 @@ networks:
   default:
     driver: bridge
 ```
+
 ***
 
 
 - To access to qBittorrent ui:
+
 `http://<hostip>:8866/`
 
 admin/admin
 
 - To access to Prowlarr ui:
+
 `http://<hostip>:9696/`
 
 - To access to Radarr ui:
+
 `http://<hostip>:7878/`
 
 
@@ -95,18 +100,22 @@ admin/admin
 **Other containers can be used with this stack:**
 
 - jackett instead prowlarr (indexer)
+
 - sonarr (for tv shows)
+
 - lazyLibrarian (ebook)
+
 - lidarr (music)
+
 - readarr (books and comic)
 
 ***
 
 (not listed)
+
 - mylar (comicbook)
+
 - whisparr (audiobook)
-
-
 
 **Examples for the containers specified above:**
 

@@ -8,6 +8,7 @@ categories = ["Windows"]
 type = "post"
 
 +++
+
 A Hyper-V batch script allows users to automate virtual machine management on Windows, streamlining tasks such as starting, stopping, creating, or configuring VMs without manually using the Hyper-V Manager. Useful commands like PowerShell.exe -Command "Start-VM -Name <VMName>" can start a VM, while Stop-VM and Checkpoint-VM help manage its state efficiently. Batch scripts can also automate network configurations, snapshots, and resource allocations, making them ideal for IT professionals and developers managing multiple virtual machines. By integrating these scripts into a scheduled task, users can ensure automatic VM management without manual intervention.
 
 ***

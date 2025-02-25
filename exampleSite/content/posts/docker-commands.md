@@ -8,9 +8,11 @@ categories = ["Docker"]
 type = "post"
 
 +++
+
 Docker commands are essential for managing and interacting with Docker containers and images. Key commands include docker run, which creates and starts a container from an image, and docker ps, which lists all running containers. To stop and remove containers, docker stop and docker rm are used, respectively. The docker build command is crucial for creating custom images from a Dockerfile, while docker pull downloads images from Docker Hub. For inspecting containers or images, docker inspect provides detailed information, and docker logs allows you to view logs of a running or stopped container. Additionally, docker-compose commands, such as docker-compose up and docker-compose down, are used for managing multi-container applications defined in a docker-compose.yml file. These commands are foundational for efficient Docker container management and application deployment.
 
 ##### Getting started
+
 ```
 Install and Getting Started
 Official Docker: https://docs.docker.com/get-docker/
@@ -50,8 +52,11 @@ Show modified files - docker diff CONTAINER
 Show mapped ports - docker port CONTAINER
 Show stoppped containers - docker ps -f "status=exited"
 ```
+
 ***
+
 #####  To create the Docker network:
+
 ```
 docker network create \
   --driver bridge \
@@ -73,8 +78,11 @@ When you run a container, use the --network flag to assign it to the new network
 docker run --rm -it --network=my_custom_network alpine sh
 This will connect the container to the my_custom_network with the specified subnet.
 ```
+
 ***
+
 ##### Most used commands during deployment process
+
 ```
 list docker networks
 docker network ls
@@ -129,15 +137,21 @@ docker ps --format '{{ .ID }}\t{{.Names}}\t{{ .Ports }}'
 recreate container
 docker-compose up -d --force-recreate
 ```
+
 ***
+
 ##### Bridge network create and container deployment
+
 ```
 docker network create asgard
 
 docker run -itd --rm --network asgard --name loki busybox
 ```
+
 ***
+
 ##### Macvlan network create and container deployment (with 802.1q)
+
 ```
 docker network create -d macvlan \
 --subnet 192.168.1.0/24 \
@@ -193,8 +207,11 @@ sudo docker run -itd --rm --network newasgard --ip 192.168.95.7 --name thor4 bus
 
 sudo docker run -itd --rm --network newasgard --ip 192.168.94.7 --name thor busybox
 ```
+
 ***
+
 ##### Ipvlan network create and container deployment
+
 ```
 sudo docker network create -d ipvlan \
 --subnet 192.168.1.0/24 \
@@ -206,8 +223,11 @@ sudo docker run -itd --rm --network newasgard \
 --ip 192.168.1.171 \
 --name thor busybox
 ```
+
 ***
+
 ##### How to link multiple docker-compose services via network
+
 ```
 Creating the network
 docker network create external-example
@@ -225,8 +245,11 @@ networks:
       name: external-example
 
 ```
+
 ***
+
 ##### Configure the default bridge network
+
 ```
 To configure the default bridge network, you specify options in daemon.json. Here is an example daemon.json with several options specified. Only specify the settings you need to customize.
 
@@ -241,8 +264,11 @@ To configure the default bridge network, you specify options in daemon.json. Her
 }
 Restart Docker for the changes to take effect.
 ```
+
 ***
+
 ##### Disable ipv6 for docker networking
+
 ```
 If you are looking to disable IPv6 from within a Linux Docker image, this seems to work even when the file system is read-only.
 
@@ -255,8 +281,11 @@ echo net.ipv6.conf.all.disable_ipv6=1 | tee -a /etc/sysctl.conf && sysctl -p
 echo net.ipv6.conf.default.disable_ipv6=1 | tee -a /etc/sysctl.conf && sysctl -p
 ifconfig | grep inet
 ```
+
 ***
+
 ##### Cleanup script
+
 ```
 Check your portainer status page and look for “unused” images and containers. If you are seeing a lot of these, then you are wasting space and I’d recommend running this script to clean them up!
 
@@ -268,8 +297,11 @@ Run this bash script every week to ensure the cleanup gets performed.
 docker volume rm $(docker volume ls -f dangling=true -q)
 docker rmi $(docker images --quiet --filter "dangling=true")
 ```
+
 ***
+
 ##### Connecting to remote docker socket or switch between them
+
 ```
 docker context list
 
@@ -277,8 +309,11 @@ docker context create srv-demo-1 --description "Docker on srv-demo-1" --docker "
 
 docker context use srv-demo-1
 ```
+
 ***
+
 ##### Docker swarm init, depoyment and loadbalance
+
 ```
 docker swarm init
 
@@ -592,4 +627,5 @@ all container docker host has name of container.dns resolve eachother container 
 cuz each restart node can assign diffrent ip address. thats why they use dns address as container name.
 
 ```
+
 ***

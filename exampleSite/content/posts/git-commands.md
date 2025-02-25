@@ -8,6 +8,7 @@ categories = ["Git"]
 type = "post"
 
 +++
+
 Git provides a variety of useful commands that streamline version control and collaboration. The git init command initializes a new repository, while git clone <repo_url> copies an existing repository to your local machine. To track changes, you can use git add <file> to stage files and git commit -m "message" to save changes with a message. The git status command helps check the repository's state, and git log displays commit history. To synchronize with a remote repository, git push uploads local changes, while git pull fetches and merges updates from the remote. If you need to switch branches, git checkout <branch> or git switch <branch> is useful, and git merge <branch> combines changes from another branch. For undoing changes, git reset and git revert allow rolling back commits safely. These commands form the foundation for efficient Git workflows.
 
 ***
