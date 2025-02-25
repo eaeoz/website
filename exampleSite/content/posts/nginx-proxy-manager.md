@@ -93,7 +93,8 @@ ingress:
 
 type:
 
-/mnt/user/appdata/cloudflared# ls
+cd /mnt/user/appdata/cloudflared
+ls
 
 output message: tunnelid.json  cert.pem  config.yml
 
