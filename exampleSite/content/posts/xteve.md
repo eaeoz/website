@@ -43,5 +43,5 @@ networks:
 
 ***
 
-- To access to ui:
+- *Access to the ui:*
 `http://<hostip>:34400/web/`

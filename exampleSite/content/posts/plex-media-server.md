@@ -44,7 +44,7 @@ networks:
 
 ***
 
-- *To access to ui:*
+- *Access to the ui:*
 
 `http://<host-ip>:32400/web`
 

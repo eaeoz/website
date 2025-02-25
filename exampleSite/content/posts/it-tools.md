@@ -16,6 +16,10 @@ The focus of this Docker application is its portability and scalability, as it a
 
 - [Click here for more information.](https://hub.docker.com/r/corentinth/it-tools)
 
-##### To run:
+**To run:**
 
 `docker run -itd -p 3666:80 --name it-tools corentinth/it-tools`
+
+- *Access to the ui:*
+
+`http://<hostip>:3666`

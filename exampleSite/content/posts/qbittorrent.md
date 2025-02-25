@@ -80,17 +80,17 @@ networks:
 ***
 
 
-- To access to qBittorrent ui:
+- Access to qBittorrent ui:
 
 `http://<hostip>:8866/`
 
 admin/admin
 
-- To access to Prowlarr ui:
+- Access to Prowlarr ui:
 
 `http://<hostip>:9696/`
 
-- To access to Radarr ui:
+- Access to Radarr ui:
 
 `http://<hostip>:7878/`
 

@@ -54,5 +54,5 @@ services:
 
 ***
 
-- *To access to ui:*
+- *Access to the ui:*
 `http://<hostip>:8080/`
