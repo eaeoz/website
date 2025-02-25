@@ -132,6 +132,6 @@ sudo docker run -d \
 -p 81:8181 \
 -p 8001:8080 \
 -p 4443:4443 \
--v /docker/appdata/nginx-proxy-manager:/config:rw \
+-v /docker/nginx-proxy-manager:/config:rw \
 jlesage/nginx-proxy-manager
 ```
