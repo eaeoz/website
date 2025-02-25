@@ -12,7 +12,7 @@ Plex is a powerful media server that allows users to organize, stream, and acces
 
 ***
 
-- [Click here for more information.](https://hub.docker.com/r/nextpvr/nextpvr_amd64)
+- [Click here for more information.](https://hub.docker.com/r/plexinc/pms-docker/)
 
 **Docker compose:**
 ```
