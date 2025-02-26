@@ -106,7 +106,6 @@ bgImage = "images/banner/banner-bg.svg"
 title = ""
 image = "images/banner/illustration.svg"
 
-
 ######################## call to action ###############################
 #[params.cta]
 #enable = true
@@ -117,7 +116,6 @@ image = "images/banner/illustration.svg"
 # enable = true
 # label = "Send"
 # link = "mailto:sedatergoz@gmail.com"
-
 
 ############################## Social Site ##########################
 #[[params.social]]
