@@ -80,7 +80,7 @@ logo = "images/logo5.svg"
 author = "Sedat ERGOZ"
 description = "Sedat's Personal Blog"
 # google tag manager
-google_tag_manager = "" # your id
+google_tag_manager = "G-1X79JXJNE9" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
