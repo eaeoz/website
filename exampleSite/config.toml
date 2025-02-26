@@ -1,6 +1,3 @@
-[sitemap]
-  exclude = ["/categories/","/search/","/author/","/tags/"]
-
 ############################ Default configuration #########################
 baseURL = "https://sedat.netlify.app"
 languageCode = "en-us"
