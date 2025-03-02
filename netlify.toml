@@ -7,14 +7,3 @@
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
 
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-
-[plugins.inputs]
-  enabled = false # Set this to false to disable the sitemap
-
-[settings]
-  disable_sitemap = true
-
-[settings]
-  sitemap = false

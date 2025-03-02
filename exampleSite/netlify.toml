@@ -15,14 +15,3 @@
   Referrer-Policy = "same-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-
-[plugins.inputs]
-  enabled = false # Set this to false to disable the sitemap
-
-[settings]
-  disable_sitemap = true
-
-[settings]
-  sitemap = false
