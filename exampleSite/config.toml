@@ -1,6 +1,10 @@
 ############################ Default configuration #########################
 baseURL = "https://sedat.netlify.app"
 languageCode = "en-us"
+
+# Disable sitemap generation
+disableKinds = ["sitemap"]
+
 # site title
 title = "Sedat ERGOZ"
 # theme
@@ -14,9 +18,6 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON", "XML"]
-
-[sitemap]
-disableSitemap = true
 
 ########################## Plugings ######################################
 
