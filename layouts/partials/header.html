@@ -1,15 +1,5 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="fixed-top navigation">
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E92NPH93CB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E92NPH93CB');
-  </script>
 
   <div class="container">
     <!-- navbar -->
@@ -43,9 +33,11 @@
             </li>
             {{ end }}
           {{ end }}
+          <li class="nav-item">&nbsp;</li>
         </ul>
                         <!-- Dark Mode Addition-->
                         {{- partial "toggle" -}}
+                        <span>&nbsp;</span>
         {{ if .Site.Params.search.enable }}
         {{ "<!-- search -->" | safeHTML }}
         <div class="search">

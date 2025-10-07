@@ -2,7 +2,7 @@
 baseURL = "https://sedat.netlify.app"
 languageCode = "en-us"
 # site title
-title = "Sedat's Articles"
+title = "Sedat ERGOZ"
 # theme
 theme = "northendlab-light"
 # post pagination
@@ -53,12 +53,21 @@ link = "plugins/search/search.js"
 # name = "Server Statistics"
 # weight = 1
 
+[[menu.main]]
+URL = "https://github.com/eaeoz"
+name = "Github"
+weight = 1
+
+# [[menu.main]]
+# URL = "https://www.linkedin.com/in/sedat-ergoz-604527346/"
+# name = "Linkedin"
+# weight = 1
 
 # footer menu
-#[[menu.footer]]
-#URL = "contact/"
-#name = "Contact"
-#weight = 1
+[[menu.footer]]
+URL = "mailto:sedatergoz@gmail.com"
+name = "Contact"
+weight = 1
 
 
 ######################### Default Parameters ###########################
@@ -68,14 +77,14 @@ home = "Home"
 # logo
 logo = "images/logo5.svg"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "Sedat ERGOZ"
+description = "Sedat's Personal Blog"
 # google tag manager
-google_tag_manager = "" # your id
+google_tag_manager = "G-1X79JXJNE9" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2025 [Sedat](/author/sedat/) All Rights Reserved"
+copyright = "&copy; 2025 [Sedat ERGÖZ](/author/sedat/) All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -97,7 +106,6 @@ bgImage = "images/banner/banner-bg.svg"
 title = ""
 image = "images/banner/illustration.svg"
 
-
 ######################## call to action ###############################
 #[params.cta]
 #enable = true
@@ -108,7 +116,6 @@ image = "images/banner/illustration.svg"
 # enable = true
 # label = "Send"
 # link = "mailto:sedatergoz@gmail.com"
-
 
 ############################## Social Site ##########################
 #[[params.social]]
@@ -122,4 +129,4 @@ image = "images/banner/illustration.svg"
 #link = "https://github.com/eaeoz"
 #[[params.social]]
 #icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-#link = "#"
+#link = "https://www.linkedin.com/in/sedat-ergoz-604527346/"
