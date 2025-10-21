@@ -9,13 +9,12 @@ type = "post"
 
 +++
 
-# ⚙️ CommandManager
-
-**CommandManager** is a smart and lightweight desktop tool for managing and executing commands via **SSH connections**.  
-It lets you easily **create, edit, delete, and organize SSH profiles** — then link your commands to those profiles for quick remote execution.  
-With **drag & drop** sorting, **profile-based execution**, and a smooth interface, it’s perfect for developers and sysadmins alike.
+⚙️ CommandManager is a smart and lightweight desktop tool for managing and executing commands via SSH connections.
 
 ***
+
+This Windows or Docker application lets you easily **create, edit, delete, and organize SSH profiles** — then link your commands to those profiles for quick remote execution.  
+With **drag & drop** sorting, **profile-based execution**, and a smooth interface, it’s perfect for developers and sysadmins alike.
 
 ## ✨ Features
 
