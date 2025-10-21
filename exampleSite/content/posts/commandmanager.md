@@ -9,7 +9,7 @@ type = "post"
 
 +++
 
-⚙️ CommandManager is a smart and lightweight desktop tool for managing and executing commands via SSH connections.
+CommandManager is a smart and lightweight desktop tool for managing and executing commands via SSH connections.
 
 ***
 
@@ -24,14 +24,6 @@ With **drag & drop** sorting, **profile-based execution**, and a smooth interfac
 - 🧩 **Profile Switching** – change the profile linked to each command at any time.  
 - 🧠 **Local Data Storage** – commands and profiles stored in local JSON files.  
 - 🪶 **Simple, Fast, and Secure** – all SSH operations handled locally; no external services or cloud required.
-
----
-
-## 🖼️ Preview
-
-<p align="center">
-  <img src="https://github.com/eaeoz/command-manager-windows/blob/main/sample.gif" alt="CommandManager Demo" width="700">
-</p>
 
 ---
 
@@ -59,7 +51,7 @@ With **drag & drop** sorting, **profile-based execution**, and a smooth interfac
 
 ---
 
-Backup your configuration files for installation to the another system:
+⚙️ Backup your configuration files for installation to the another system:
 
 `C:\Users\%UserProfile%\AppData\Local\CommandManager\resources\app\config`
 
