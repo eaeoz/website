@@ -2,10 +2,8 @@
 title = "Privacy"
 image = "/images/about/privacy.jpg"
 description = "Privacy"
+date = "2025-10-23T00:02:06Z"  
 +++
-
-
-# Privacy Policy
 
 Sedat ERGÖZ operates the [https://sedat.netlify.app](https://sedat.netlify.app) website, which provides the SERVICE.
 

@@ -4,11 +4,6 @@ image = "/images/about/termsandconditions.jpg"
 description = "Terms and Conditions"
 +++
 
-
-# Terms & Conditions
-
-**Last updated:** September 19, 2018
-
 Please read these Terms of Service (“Terms”, “Terms of Service”) carefully before using the [https://sedat.netlify.app](https://sedat.netlify.app) website (the “Service”) operated by Sedat Personal Blog (“us”, “we”, or “our”).
 
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
