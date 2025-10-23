@@ -8,10 +8,10 @@
   <!-- SEO Meta -->
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.keywords }}
-  <meta name="keywords" content="{{ . }}">
+  <meta name="keywords" content="sedat, ergöz, blog, netlify, teknoloji blog, yazılım, lifestyle">
   {{ end }}
   {{ with .Site.Params.author }}
-  <meta name="author" content="{{ . }}">
+  <meta name="author" content="Sedat ERGÖZ">
   {{ end }}
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -31,7 +31,7 @@
   {{ with .Params.images }}
   <meta property="og:image" content="{{ index . 0 | absURL }}">
   {{ else }}
-  <meta property="og:image" content="{{ "images/preview.jpg" | absURL }}">
+  <meta property="og:image" content="{{ "images/author/picture.png" | absURL }}">
   {{ end }}
 
   <!-- Twitter Card -->
@@ -41,7 +41,7 @@
   {{ with .Params.images }}
   <meta name="twitter:image" content="{{ index . 0 | absURL }}">
   {{ else }}
-  <meta name="twitter:image" content="{{ "images/preview.jpg" | absURL }}">
+  <meta name="twitter:image" content="{{ "images/author/picture.png" | absURL }}">
   {{ end }}
 
   <!-- Canonical URL -->
