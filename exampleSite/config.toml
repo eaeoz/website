@@ -2,7 +2,7 @@
 baseURL = "https://sedat.netlify.app"
 languageCode = "en-us"
 # site title
-title = "Personal Blog"
+title = "Sedat ERGÖZ | Personal Blog"
 # theme
 theme = "northendlab-light"
 # post pagination
