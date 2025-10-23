@@ -36,7 +36,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+  <meta name="twitter:title" content="{{ .Site.Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.description  }}">
   {{ with .Params.images }}
   <meta name="twitter:image" content="{{ index . 0 | absURL }}">
