@@ -1,6 +1,6 @@
 +++
 title = "Terms and Conditions"
-image = "/images/about/termsandconditions.jpg"
+image = "/images/about/termsandconditions.png"
 description = "Terms and Conditions"
 date = "2025-10-23T00:03:06Z"  
 +++

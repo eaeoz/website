@@ -1,6 +1,6 @@
 +++
 title = "Privacy"
-image = "/images/about/privacy.jpg"
+image = "/images/about/privacy.png"
 description = "Privacy"
 date = "2025-10-23T00:02:06Z"  
 +++
