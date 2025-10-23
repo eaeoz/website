@@ -88,7 +88,7 @@ home = "Home"
 logo = "images/logo5.svg"
 # meta data
 author = "Sedat ERGOZ"
-description = "Sedat's Personal Blog"
+description = "Teknoloji, yazılım, sağlık ve yaşam üzerine yazılar. Dark tema, modern tasarım ve kişisel blog yazıları."
 # google tag manager
 google_tag_manager = "G-1X79JXJNE9" # your id
 # contact form action
