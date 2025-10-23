@@ -69,6 +69,16 @@ URL = "mailto:sedatergoz@gmail.com"
 name = "Contact"
 weight = 1
 
+[[menu.footer]]
+URL = "about/privacy"
+name = "Privacy"
+weight = 1
+
+[[menu.footer]]
+URL = "about/termsandconditions"
+name = "Terms and Conditions"
+weight = 1
+
 
 ######################### Default Parameters ###########################
 [params]
