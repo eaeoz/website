@@ -2,6 +2,7 @@
 title = "Terms and Conditions"
 image = "/images/about/termsandconditions.jpg"
 description = "Terms and Conditions"
+date = "2025-10-23T00:03:06Z"  
 +++
 
 Please read these Terms of Service (“Terms”, “Terms of Service”) carefully before using the [https://sedat.netlify.app](https://sedat.netlify.app) website (the “Service”) operated by Sedat Personal Blog (“us”, “we”, or “our”).
