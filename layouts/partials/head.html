@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- SEO Meta -->
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
   {{ with .Site.Params.keywords }}
   <meta name="keywords" content="sedat, ergöz, blog, netlify, teknoloji blog, yazılım, lifestyle">
   {{ end }}
@@ -25,7 +25,7 @@
 
   <!-- Open Graph (Facebook, LinkedIn, etc.) -->
   <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta property="og:description" content="{{ .Site.Params.description  }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   {{ with .Params.images }}
@@ -37,7 +37,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="twitter:description" content="{{ .Site.Params.description  }}">
   {{ with .Params.images }}
   <meta name="twitter:image" content="{{ index . 0 | absURL }}">
   {{ else }}
@@ -88,7 +88,7 @@
     "@type": "WebSite",
     "url": "{{ .Site.BaseURL }}",
     "name": "{{ .Site.Title }}",
-    "description": "{{ with .Site.Params.description }}{{ . }}{{ end }}",
+    "description": "{{ .Site.Params.description }}",
     "inLanguage": "tr",
     "author": {
       "@type": "Person",
