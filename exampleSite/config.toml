@@ -1,6 +1,7 @@
 ############################ Default configuration #########################
 baseURL = "https://sedat.netlify.app"
-languageCode = "en-us"
+languageCode = "tr-TR"
+# languageCode = "en-us"
 # site title
 title = "Sedat ERGÖZ | Personal Blog"
 # theme
