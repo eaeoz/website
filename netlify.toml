@@ -16,6 +16,9 @@
     './404*',
     './amp*',
     './google*',
+    './about',
+    './',
+    './about/termsandconditions/'
     './author/sedat',
     './search',
     './tags'
