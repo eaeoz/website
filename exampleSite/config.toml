@@ -15,14 +15,6 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON", "SITEMAP"]
-page = ["HTML"]
-
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.8
-  filename = "sitemap.xml"
-
-enableRobotsTXT = true
 
 ########################## Plugings ######################################
 
