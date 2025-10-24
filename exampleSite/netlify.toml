@@ -6,6 +6,10 @@
   HUGO_VERSION = "0.87.0"
   HUGO_BASEURL = "/"
 
+[functions]
+  node_bundler = "esbuild"        # optional if using esbuild
+  external_node_version = "20"    # forces Functions runtime Node
+
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
 
