@@ -6,3 +6,14 @@
   HUGO_VERSION = "0.73.0"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+[plugins.inputs]
+  buildDir = "public"
+  exclude = [
+    './404*',
+    './amp*',
+    './google*'
+  ]
