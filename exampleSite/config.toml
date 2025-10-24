@@ -16,11 +16,6 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON", "SITEMAP"]
 
-[taxonomies]
-tag = ""
-author = ""
-
-
 ########################## Plugings ######################################
 
 # css plugins
