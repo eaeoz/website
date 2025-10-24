@@ -18,9 +18,3 @@
   X-XSS-Protection = "1; mode=block"
   Referrer-Policy = "same-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-
-[[plugins]]
-package = "@netlify/plugin-sitemap@0.8.1"
-
-  [plugins.inputs]
-  exclude = ["/404.html", "/google*", "/amp*"]
