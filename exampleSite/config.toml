@@ -57,10 +57,10 @@ link = "plugins/search/search.js"
 # name = "Service Status"
 # weight = 1
 
-# [[menu.main]]
-# URL = "https://m.sedat.cf/d/CeZHYrV4k/laptop"
-# name = "Server Statistics"
-# weight = 1
+[[menu.main]]
+URL = "https://sedat.netlify.app"
+name = "Home"
+weight = 1
 
 [[menu.main]]
 URL = "https://github.com/eaeoz"
