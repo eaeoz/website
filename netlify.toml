@@ -15,6 +15,5 @@
   exclude = [
     './404*',
     './amp*',
-    './google*',
-    './posts/post-1.md'
+    './google*'
   ]
