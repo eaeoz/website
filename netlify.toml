@@ -12,3 +12,8 @@
 
 [plugins.inputs]
   buildDir = "public"
+  exclude = [
+  # By file Path
+  './public/posts/post-1.html',
+  './public/tags'
+]
