@@ -15,5 +15,8 @@
   exclude = [
     './404*',
     './amp*',
-    './google*'
+    './google*',
+    './author',
+    './search',
+    './tags'
   ]
