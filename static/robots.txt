@@ -1,0 +1,17 @@
+# robots.txt for sedat.netlify.app
+# Controls how search engine bots crawl and index your site
+
+User-agent: *
+Allow: /
+
+# Optional: limit crawl rate for non-Google bots (Google ignores this)
+Crawl-delay: 10
+
+# Disallow internal or irrelevant paths (if you use Hugo sections like these)
+Disallow: /admin/
+Disallow: /drafts/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap helps search engines find all pages efficiently
+Sitemap: https://sedat.netlify.app/sitemap.xml
