@@ -12,6 +12,7 @@ Disallow: /admin/
 Disallow: /drafts/
 Disallow: /private/
 Disallow: /tmp/
+Disallow: /google90720e92e418c944
 
 # Sitemap helps search engines find all pages efficiently
 Sitemap: https://sedat.netlify.app/sitemap.xml
