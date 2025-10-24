@@ -16,7 +16,7 @@
     './404*',
     './amp*',
     './google*',
-    './author',
-    './search',
-    './tags'
+    './author*',
+    './search/',
+    './tags/'
   ]
