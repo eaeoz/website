@@ -215,7 +215,7 @@
     display: block;
     color: $primary-color;
     &:hover{
-      background: none;
+      background: $primary-color;
       color: $white;
       text-decoration: none;
     }
