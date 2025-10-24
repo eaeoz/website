@@ -71,12 +71,12 @@ name = "Contact"
 weight = 1
 
 [[menu.footer]]
-URL = "about/privacy"
+URL = "privacy"
 name = "Privacy"
 weight = 1
 
 [[menu.footer]]
-URL = "about/termsandconditions"
+URL = "termsandconditions"
 name = "Terms"
 weight = 1
 
