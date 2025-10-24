@@ -13,9 +13,13 @@ type = "post"
 
 ***
 
+---
+
 ### 👇 Download Windows Desktop Executable Setup
 
 [➡️ Latest Release](https://github.com/eaeoz/command-manager-windows/releases/download/1.0.0/CommandManager_1.0.0.exe)
+
+---
 
 This Windows or Docker application lets you easily **create, edit, delete, and organize SSH profiles** — then link your commands to those profiles for quick remote execution.  
 With **drag & drop** sorting, **profile-based execution**, and a smooth interface, it’s perfect for developers and sysadmins alike.
