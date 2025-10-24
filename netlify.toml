@@ -12,7 +12,3 @@
 
 [plugins.inputs]
   buildDir = "public"
-  exclude = [
-  '**/**/post-1.md',
-  '**/**/tags/'
-  ]
