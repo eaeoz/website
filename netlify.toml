@@ -13,6 +13,6 @@
 [plugins.inputs]
   buildDir = "public"
   exclude = [
-  './public/posts/post-1.html',
-  './public/tags'
+  './public/posts/post-1.md',
+  './public/tags/'
   ]
