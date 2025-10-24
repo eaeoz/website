@@ -16,10 +16,10 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON", "SITEMAP"]
 
-# Disable sitemap for taxonomies or sections you don't want
-[outputs.taxonomies]
-tag = ["HTML"]
-author = ["HTML"]
+[taxonomies]
+tag = ""
+author = ""
+
 
 ########################## Plugings ######################################
 
