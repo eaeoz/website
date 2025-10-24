@@ -11,11 +11,12 @@
   package = "@netlify/plugin-sitemap"
 
 [plugins.inputs]
+  buildDir = "public"
   exclude = [
     './404*',
     './amp*',
     './google*',
-    './author*',
-    './search/',
-    './tags/'
+    './author/sedat*',
+    './searc*',
+    './tag*'
   ]
