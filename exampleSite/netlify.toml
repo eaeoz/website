@@ -7,11 +7,11 @@
   HUGO_BASEURL = "/"
 
 [functions]
-  node_bundler = "esbuild"        # optional if using esbuild
-  external_node_version = "20"    # forces Functions runtime Node
+  node_bundler = "esbuild"
+  external_node_version = "20"
 
 [[headers]]
-  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+  for = "/*"
 
 [headers.values]
   X-Frame-Options = "DENY"
@@ -20,7 +20,7 @@
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
 [[plugins]]
-  package = "@netlify/plugin-sitemap"
+package = "@netlify/plugin-sitemap"
 
-[plugins.inputs]
+  [plugins.inputs]
   exclude = ["/404.html", "/google*", "/amp*"]
