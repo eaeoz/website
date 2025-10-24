@@ -18,7 +18,7 @@
     './google*',
     './about',
     './',
-    './about/termsandconditions/'
+    './about/termsandconditions/',
     './author/sedat',
     './search',
     './tags'
