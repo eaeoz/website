@@ -21,4 +21,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
-  enabled = false
+
+[plugins.inputs]
+  exclude = ["/404.html", "/google*", "/amp*"]
