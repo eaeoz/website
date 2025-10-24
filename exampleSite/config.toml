@@ -54,10 +54,10 @@ URL = "https://sedat.netlify.app"
 name = "Home"
 weight = 1
 
-[[menu.main]]
-URL = "https://github.com/eaeoz"
-name = "Github"
-weight = 2
+# [[menu.main]]
+# URL = "https://github.com/eaeoz"
+# name = "Github"
+# weight = 2
 
 # [[menu.main]]
 # URL = "https://www.linkedin.com/in/sedat-ergoz-604527346/"
