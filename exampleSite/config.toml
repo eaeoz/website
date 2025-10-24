@@ -58,13 +58,13 @@ link = "plugins/search/search.js"
 # weight = 1
 
 [[menu.main]]
-URL = "https://sedat.netlify.app"
-name = "Home"
+URL = "https://github.com/eaeoz"
+name = "Github"
 weight = 1
 
 [[menu.main]]
-URL = "https://github.com/eaeoz"
-name = "Github"
+URL = "https://sedat.netlify.app"
+name = "Home"
 weight = 1
 
 # [[menu.main]]
