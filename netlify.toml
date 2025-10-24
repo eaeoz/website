@@ -12,10 +12,3 @@
 
 [plugins.inputs]
   buildDir = "public"
-  exclude = [
-    "404.html",
-    "search/index.html",
-    "author/index.html",
-    "author/sedat/index.html",
-    "tags/index.html"
-  ]
