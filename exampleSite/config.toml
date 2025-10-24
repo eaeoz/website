@@ -1,12 +1,13 @@
 ############################ Default configuration #########################
 baseURL = "https://sedat.netlify.app"
-languageCode = "en-us"
+# languageCode = "en-us"
+languageCode = "tr-TR"
 # site title
 title = "Sedat ERGÖZ | Personal Blog"
 # theme
 theme = "northendlab-light"
 # post pagination
-paginate = "5"
+paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
