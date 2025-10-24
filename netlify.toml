@@ -12,8 +12,3 @@
 
 [plugins.inputs]
   buildDir = "public"
-  exclude = [
-    './404*',
-    './amp*',
-    './google*'
-  ]
