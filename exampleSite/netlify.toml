@@ -21,13 +21,13 @@
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
-
-    [plugins.inputs]
-      buildDir = "public"
-      exclude = [
-        # By file Path
-        './404.html',
-        # By Glob pattern
-        './amp*',
-        './google*'
-      ]
+  
+[plugins.inputs]
+  buildDir = "public"
+  exclude = [
+    # By file Path
+    './404.html',
+    # By Glob pattern
+    './amp*',
+    './google*'
+  ]
