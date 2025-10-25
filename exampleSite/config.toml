@@ -14,20 +14,7 @@ summaryLength = "10"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
-  page = [ "HTML" ]
-  taxonomy = [ "HTML", "RSS", "JSON" ]
-  section = [ "HTML" ]
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.8
-  exclude = [
-    "/categories/**",
-    "/tags/**",
-    "/author/**",
-    "/search/**"
-  ]
+home = ["HTML", "AMP", "RSS", "JSON", "SITEMAP"]
 
 ########################## Plugings ######################################
 
