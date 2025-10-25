@@ -12,3 +12,9 @@
 
 [plugins.inputs]
   buildDir = "public"
+  exclude = [
+    "categories/*",
+    "tags/*",
+    "author/*",
+    "search/index.html"
+  ]
