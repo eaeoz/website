@@ -6,6 +6,4 @@ draft: false
 
 # Categories
 
-# Categories
-
 {{< category-list >}}
