@@ -1,0 +1,43 @@
+<div id="localWeatherWidget" style="padding:10px; text-align:center; font-family:Arial, sans-serif; color:#fff;">
+  <div id="localTime" style="font-weight:bold; font-size:1.2em;"></div>
+  <div id="localWeather" style="margin-top:5px;"></div>
+</div>
+
+<script>
+(function() {
+  // Update time every second
+  function updateTime() {
+    const now = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+                      hour: '2-digit', minute: '2-digit', second: '2-digit' };
+    document.getElementById('localTime').innerText = now.toLocaleString(undefined, options);
+  }
+  setInterval(updateTime, 1000);
+  updateTime();
+
+  // Fetch weather using OpenWeatherMap
+  const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY'; // replace with your API key
+
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(pos) {
+      const lat = pos.coords.latitude;
+      const lon = pos.coords.longitude;
+
+      fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`)
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('localWeather').innerHTML =
+            `${data.name}: ${data.weather[0].description}, Temp: ${data.main.temp}°C`;
+        })
+        .catch(err => console.error(err));
+    }, function(err) {
+      console.warn('Geolocation denied, fallback to IP');
+      fetch('https://ipapi.co/json/')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('localWeather').innerText = `${data.city}, ${data.country}`;
+        });
+    });
+  }
+})();
+</script>
