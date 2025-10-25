@@ -2,11 +2,12 @@
 title = "nextpvr docker compose"
 image = "/images/post/nextpvr.jpg"
 author = "Sedat"
+pinned = 1
 date = "2025-02-24T00:02:04Z"
 description = "nextpvr docker compose"
 categories = ["Docker"]
 type = "post"
-pinned = "true"
+
 
 +++
 
