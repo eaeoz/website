@@ -6,6 +6,6 @@ draft: false
 
 # Categories
 
-{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-- [{{ $name }}](/categories/{{ $name | urlize }})
-{{ end }}
+# Categories
+
+{{< category-list >}}
