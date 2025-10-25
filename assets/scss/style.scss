@@ -110,17 +110,17 @@ body.dark-mode h1,body.dark-mode h2,body.dark-mode h3,body.dark-mode h4,body.dar
 
 /* Categories menü başlığı rengini sabit tut */
 .navbar .nav-item.dropdown > .nav-link {
-  color: #588E46 !important;       /* Ana renk */
+  color: #31BE3B !important;       /* Ana renk */
   transition: none !important;  /* Hover değişimini iptal */
 }
 
 /* Hover veya açık dropdown durumunda da renk değişmesin */
 .navbar .nav-item.dropdown.show > .nav-link,
 .navbar .nav-item.dropdown:hover > .nav-link {
-  color: #588E46 !important;       /* Sabit renk */
+  color: #31BE3B !important;       /* Sabit renk */
 }
 
 /* Dropdown içeriği arka planı */
 .navbar .nav-item.dropdown .dropdown-menu {
-  background-color: #31BE3B;       /* İstediğin dropdown rengi */
+  background-color: #969696;       /* İstediğin dropdown rengi */
 }
