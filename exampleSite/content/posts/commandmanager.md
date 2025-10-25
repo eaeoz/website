@@ -3,6 +3,7 @@ title = "Command Manager"
 image = "/images/post/commandmanager.gif"
 author = "Sedat"
 date = "2025-10-24T00:03:06Z"
+weight: 1 
 description = "Command Manager"
 categories = ["Docker", "Windows"]
 type = "post"
