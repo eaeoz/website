@@ -12,9 +12,4 @@
 
 [plugins.inputs]
   buildDir = "public"
-  exclude = [
-    "./public/categories/*",
-    "./public/tags/*",
-    "./public/author/*",
-    "./public/search/index.html"
-  ]
+  prettyURLs = false
