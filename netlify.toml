@@ -13,8 +13,8 @@
 [plugins.inputs]
   buildDir = "public"
   exclude = [
-    "categories/*",
-    "tags/*",
-    "author/*",
-    "search/index.html"
+    "https://sedat.netlify.app/posts/categories/*",
+    "https://sedat.netlify.app/posts/tags/*",
+    "https://sedat.netlify.app/posts/author/*",
+    "https://sedat.netlify.app/posts/search/index.html"
   ]
