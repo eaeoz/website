@@ -13,6 +13,8 @@
 [plugins.inputs]
   buildDir = "public"
   prettyURLs = false
+
+[plugins.inputs.sitemap]
   exclude = [
     "/categories/**",
     "/tags/**",
