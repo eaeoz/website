@@ -7,10 +7,20 @@
       <div class="col-lg-8 mx-auto px-0">
         <h2 class="block">Posts related to <span class="text-primary">{{ .Title }}</span></h2>
         <div class="bg-white shadow block">
-          {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
-          {{ range $paginator.Pages }}
-          {{ .Render "article" }}
+
+          {{/* Pinned posts first */}}
+          {{ $pinned := where .Pages "Params.pinned" true }}
+          {{ range $pinned.ByPublishDate.Reverse }}
+            {{ .Render "article" }}
           {{ end }}
+
+          {{/* Then the rest */}}
+          {{ $others := where .Pages "Params.pinned" "!=" true }}
+          {{ $paginator := .Paginate ($others.ByPublishDate.Reverse) }}
+          {{ range $paginator.Pages }}
+            {{ .Render "article" }}
+          {{ end }}
+
           <!-- pagination -->
           <div class="mt-5">
             {{ template "_internal/pagination.html" . }}
@@ -18,6 +28,7 @@
         </div>
       </div>
     </div>
+  </div>
 </section>
 <!-- /blog -->
 
