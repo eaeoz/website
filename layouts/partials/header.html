@@ -70,6 +70,49 @@
       style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
       Sedat ERGÖZ Personal Blog</h1>
   </div>
+  <div id="infoFooter" style="
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:transparent;
+    font-size:0.9rem;
+    border-top:1px solid #30363d;
+    color:#e6edf3;
+    font-family:'Segoe UI',sans-serif;
+  ">
+    <span style="color:#8b949e;">Time:</span>&nbsp;<span id="time">--:--:--</span>
+    &nbsp;|&nbsp;
+    <span style="color:#8b949e;">Date:</span>&nbsp;<span id="date">--/--/----</span>
+    &nbsp;|&nbsp;
+    <span style="color:#8b949e;">Location:</span>&nbsp;<span id="location">Loading...</span>
+    &nbsp;|&nbsp;
+    <span style="color:#8b949e;">IP:</span>&nbsp;<span id="ip">Loading...</span>
+  </div>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      document.getElementById('time').textContent = now.toLocaleTimeString();
+      document.getElementById('date').textContent = now.toLocaleDateString();
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+
+    async function fetchIPAndLocation() {
+      try {
+        const res = await fetch('https://ipapi.co/json/');
+        const data = await res.json();
+        document.getElementById('ip').textContent = data.ip || 'Unavailable';
+        document.getElementById('location').textContent =
+          data.city && data.country_name ? `${data.city}, ${data.country_name}` : 'Unavailable';
+      } catch {
+        document.getElementById('ip').textContent = 'Error';
+        document.getElementById('location').textContent = 'Error';
+      }
+    }
+    fetchIPAndLocation();
+  </script>
 
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
