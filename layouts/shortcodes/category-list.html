@@ -5,6 +5,7 @@
          display:flex;
          align-items:center;
          justify-content:center;
+         text-align:center;
          width:120px;
          height:120px;
          background-color:#1e1e1e;
@@ -17,7 +18,7 @@
        onmouseover="this.style.transform='translateY(-5px)'; this.style.backgroundColor='#4caf50';"
        onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='#1e1e1e';"
     >
-      {{ $name }}
+      • {{ $name | upper }}
     </a>
   {{ end }}
 </div>
