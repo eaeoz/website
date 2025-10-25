@@ -3,6 +3,7 @@ title = "linux commands"
 image = "/images/post/linuxcommands.jpg"
 author = "Sedat"
 date = "2025-02-08T00:06:00Z"
+weight: 2
 description = "linux commands"
 categories = ["Linux"]
 type = "post"
