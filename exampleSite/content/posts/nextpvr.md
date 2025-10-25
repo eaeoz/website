@@ -5,7 +5,6 @@ author = "Sedat"
 date = "2025-02-24T00:02:04Z"
 description = "nextpvr docker compose"
 categories = ["Docker"]
-pinned = true
 type = "post"
 +++
 
