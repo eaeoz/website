@@ -14,7 +14,10 @@ summaryLength = "10"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
 [outputs]
-home = ["HTML", "AMP", "RSS", "JSON", "SITEMAP"]
+home = ["HTML", "AMP", "RSS", "JSON"]
+page = ["HTML"]
+taxonomy = ["HTML", "RSS", "JSON"]
+section = ["HTML"]
 
 ########################## Plugings ######################################
 
