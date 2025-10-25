@@ -32,6 +32,17 @@
               <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
+            <!-- Categories dropdown -->
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Categories
+  </a>
+  <div class="dropdown-menu" aria-labelledby="categoriesDropdown">
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+      <a class="dropdown-item" href="/categories/{{ $name | urlize }}">{{ $name }}</a>
+    {{ end }}
+  </div>
+</li>
           {{ end }}
           <li class="nav-item">&nbsp;</li>
         </ul>
