@@ -13,9 +13,6 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
-[permalinks]
-  sitemap = "https://sedat.netlify.app/sitemap.xml"
-
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
   page = [ "HTML" ]
