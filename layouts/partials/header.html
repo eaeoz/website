@@ -70,41 +70,6 @@
       style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
       Sedat ERGÖZ Personal Blog</h1>
   </div>
-  <div id="infoBox"
-    style="display:block; background:transparent; border:1px solid #58a6ff; padding:8px 16px; border-radius:10px; text-align:center;color:#e6edf3; font-family:'Segoe UI',sans-serif;">
-    <h1 style="margin:6px 0; font-size:1.4rem; color:#58a6ff;">System Info</h1>
-    <p style="margin:2px 0; font-size:1rem;"><span style="color:#8b949e; font-weight:500;">Time:</span> <span
-        id="time">--:--:--</span></p>
-    <p style="margin:2px 0; font-size:1rem;"><span style="color:#8b949e; font-weight:500;">Date:</span> <span
-        id="date">--/--/----</span></p>
-    <p style="margin:2px 0; font-size:1rem;"><span style="color:#8b949e; font-weight:500;">Location:</span> <span
-        id="location">Loading...</span></p>
-    <p style="margin:2px 0; font-size:1rem;"><span style="color:#8b949e; font-weight:500;">IP:</span> <span
-        id="ip">Loading...</span></p>
-  </div>
 
-  <script>
-    function updateTime() {
-      const now = new Date();
-      document.getElementById('time').textContent = now.toLocaleTimeString();
-      document.getElementById('date').textContent = now.toLocaleDateString();
-    }
-    setInterval(updateTime, 1000);
-    updateTime();
-
-    async function fetchIPAndLocation() {
-      try {
-        const res = await fetch('https://ipapi.co/json/');
-        const data = await res.json();
-        document.getElementById('ip').textContent = data.ip || 'Unavailable';
-        document.getElementById('location').textContent =
-          data.city && data.country_name ? `${data.city}, ${data.country_name}` : 'Unavailable';
-      } catch {
-        document.getElementById('ip').textContent = 'Error';
-        document.getElementById('location').textContent = 'Error';
-      }
-    }
-    fetchIPAndLocation();
-  </script>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
