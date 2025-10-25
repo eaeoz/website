@@ -10,11 +10,9 @@
 [[plugins]]
   package = "@netlify/plugin-sitemap"
 
-[plugins.inputs]
+[plugins.inputs.sitemap]
   buildDir = "public"
   prettyURLs = false
-
-[plugins.inputs.sitemap]
   exclude = [
     "/categories/**",
     "/tags/**",
