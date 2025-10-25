@@ -89,7 +89,7 @@ body.dark-mode a.text-dark {
 }
 
 body.dark-mode a.dropdown-item,body.dark-mode a.nav-link {
-    color: $primary-color;
+    color: $text_color_dark;
     &:hover{
       text-decoration: underline;
       color: $primary-color;
@@ -106,4 +106,21 @@ body.dark-mode h1,body.dark-mode h2,body.dark-mode h3,body.dark-mode h4,body.dar
         text-decoration: none;
         }
     }
+}
+
+/* Categories menü başlığı rengini sabit tut */
+.navbar .nav-item.dropdown > .nav-link {
+  color: #fff !important;       /* Ana renk */
+  transition: none !important;  /* Hover değişimini iptal */
+}
+
+/* Hover veya açık dropdown durumunda da renk değişmesin */
+.navbar .nav-item.dropdown.show > .nav-link,
+.navbar .nav-item.dropdown:hover > .nav-link {
+  color: #fff !important;       /* Sabit renk */
+}
+
+/* Dropdown içeriği arka planı */
+.navbar .nav-item.dropdown .dropdown-menu {
+  background-color: #333;       /* İstediğin dropdown rengi */
 }
