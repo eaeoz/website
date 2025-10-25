@@ -7,8 +7,6 @@ description = "nextpvr docker compose"
 categories = ["Docker"]
 pinned = true
 type = "post"
-
-
 +++
 
 NextPVR is a whole-home digital video recorder. The NextPVR server can be installed on Windows, Linux, Mac or Docker. Clients are available for a wide range of devices, allowing you access recordings and live TV throughout your home. Supports most devices. DVB, ATSC, QAM, DMB-T, Analog, SAT>IP, HDPVR, and Copy-Freely CableCard. Provides an easy to use, easy to understand, TV friendly user interface for the whole family. Includes all the TV functions you'd expect... Live TV, TV Guide, Recordings, Search, Web Scheduler. We care for our users, and will do everything we can to ensure things continue to run smoothly.
