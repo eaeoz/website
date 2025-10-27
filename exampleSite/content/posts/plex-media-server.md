@@ -11,9 +11,11 @@ type = "post"
 
 Plex is a powerful media server that allows users to organize, stream, and access their personal media library from any device. It supports movies, TV shows, music, and photos, offering an intuitive interface with metadata, cover art, and detailed information for a seamless viewing experience. Plex can transcode media on the fly, ensuring compatibility across different devices, from smartphones and smart TVs to gaming consoles and web browsers. It also supports remote access, allowing users to stream their content from anywhere. Additionally, with integrations like Plex Pass, users can enjoy premium features such as offline downloads, hardware-accelerated transcoding, and live TV with DVR functionality. Whether running on a local machine, a Docker container, or a dedicated NAS, Plex is an excellent solution for centralized media management.
 
-***
+---
 
 - [Click here for more information.](https://hub.docker.com/r/plexinc/pms-docker/)
+
+- _To get claim token:_ [Click here](https://www.plex.tv/claim/)
 
 **Docker compose:**
 
@@ -42,10 +44,8 @@ networks:
     external: true
 ```
 
-***
+---
 
-- *Access to the ui:*
+- _Access to the ui:_
 
 `http://<host-ip>:32400/web`
-
-- *To get claim token:* [Click here](https://www.plex.tv/claim/)
