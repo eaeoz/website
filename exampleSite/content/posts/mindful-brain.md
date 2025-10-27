@@ -3,7 +3,7 @@ title = "Mindfulness Meditation: Neural Pathways for Stress Reduction"
 image = "/images/post/mindful-brain.jpg"  
 author = "Sedat"  
 date = "2023-11-03T14:15:00Z"  
-description = "Neuroplasticity enhancement"  
+description = "Neuroplasticity Enhancement"  
 categories = ["Health"]  
 type = "post"  
 +++  

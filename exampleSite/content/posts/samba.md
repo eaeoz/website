@@ -1,9 +1,9 @@
 +++
-title = "Samba Docker Compose"
+title = "Samba on Docker"
 image = "/images/post/samba.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:10Z"
-description = "samba docker compose"
+description = "Samba on Docker"
 categories = ["Docker"]
 type = "post"
 

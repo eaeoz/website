@@ -3,7 +3,7 @@ title = "IT-Tools"
 image = "/images/post/it-tools.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:02Z"
-description = "it-tools docker compose"
+description = "It-Tools"
 categories = ["Docker"]
 type = "post"
 

@@ -1,9 +1,9 @@
 +++
-title = "Freecad Rotate Macro"
+title = "Rotate Macro for FreeCAD"
 image = "/images/post/freecadrotate.jpg"
 author = "Sedat"
 date = "2025-02-08T00:02:00Z"
-description = "freecad macro angle"
+description = "Rotate Macro for FreeCAD"
 categories = ["FreeCAD"]
 type = "post"
 

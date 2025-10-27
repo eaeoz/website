@@ -3,7 +3,7 @@ title = "Circadian Hydration: When You Drink Matters"
 image = "/images/post/water-cells.jpg"  
 author = "Sedat"  
 date = "2023-10-31T15:15:30Z"
-description = "Water intake rhythm"  
+description = "Water Intake Rhythm"  
 categories = ["Health"]  
 type = "post"  
 +++  

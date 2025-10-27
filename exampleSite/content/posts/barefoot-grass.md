@@ -3,7 +3,7 @@ title = "Grounding: Earth's Natural Anti-Inflammatory"
 image = "/images/post/barefoot-grass.jpg"  
 author = "Sedat"  
 date = "2025-02-24T00:02:06Z"  
-description = "Earth connection healing"  
+description = "Earth Connection Healing"  
 categories = ["Health"]  
 type = "post"  
 +++  

@@ -1,9 +1,9 @@
 +++
-title = "Stirling-pdf"
+title = "Stirling-PDF"
 image = "/images/post/stirlingpdf.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:08Z"
-description = "stirling-pdf stirling pdf"
+description = "Stirling-PDF"
 categories = ["Docker"]
 type = "post"
 

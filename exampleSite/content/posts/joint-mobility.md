@@ -3,7 +3,7 @@ title = "Dynamic Stretching: Synovial Fluid Activation"
 image = "/images/post/joint-mobility.jpg"  
 author = "Sedat"  
 date = "2023-11-01T13:55:20Z"  
-description = "Joint lubrication science"  
+description = "Joint Lubrication Science"  
 categories = ["Health"]  
 type = "post"  
 +++  

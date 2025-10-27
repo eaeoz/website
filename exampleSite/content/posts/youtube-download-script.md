@@ -3,7 +3,7 @@ title = "Youtube Downloader Script for Windows CLI"
 image = "/images/post/ytdlp.jpg"
 author = "Sedat"
 date = "2025-10-24T00:02:59Z"
-description = "youtube downloader windows"
+description = "Youtube Downloader"
 categories = ["Windows"]
 type = "post"
 

@@ -3,7 +3,7 @@ title = "Nginx Proxy Manager"
 image = "/images/post/nginx-proxy-manager.jpg"
 author = "Sedat"
 date = "2025-10-24T00:02:58Z"
-description = "nginx proxy manager"
+description = "Nginx Proxy Manager"
 categories = ["Docker"]
 type = "post"
 

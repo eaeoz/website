@@ -3,7 +3,7 @@ title = "Qbittorrent Radarr Prowlarr Stack"
 image = "/images/post/radarr.jpg"
 author = "Sedat"
 date = "2025-10-24T00:02:56Z"
-description = "qbittorrent radarr prowlarr"
+description = "Qbittorrent Radarr Prowlarr"
 categories = ["Docker"]
 type = "post"
 

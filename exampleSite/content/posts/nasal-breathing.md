@@ -3,7 +3,7 @@ title = "Nasal Breathing: Nitric Oxide Optimization"
 image = "/images/post/nasal-breathing.jpg"  
 author = "Sedat"  
 date = "2023-11-01T15:10:35Z"  
-description = "Airway biochemistry boost"  
+description = "Airway Biochemistry Boost"  
 categories = ["Health"]  
 type = "post"  
 +++  

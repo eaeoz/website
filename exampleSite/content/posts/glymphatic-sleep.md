@@ -3,7 +3,7 @@ title = "Sleep Architecture: Glymphatic Cleansing Cycles"
 image = "/images/post/glymphatic-sleep.jpg"  
 author = "Sedat"  
 date = "2023-11-02T10:00:00Z"  
-description = "Brain detox during sleep"  
+description = "Brain Detox During Sleep"  
 categories = ["Health"]  
 type = "post"  
 +++  

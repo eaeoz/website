@@ -3,7 +3,7 @@ title = "Magnesium: The Multifunctional Mineral Deficiency"
 image = "/images/post/magnesium-cells.jpg"  
 author = "Sedat"  
 date = "2023-11-03T10:30:45Z"  
-description = "Cellular energy catalyst"  
+description = "Cellular Energy Catalyst"  
 categories = ["Health"]  
 type = "post"  
 +++  

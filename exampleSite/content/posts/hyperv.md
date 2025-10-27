@@ -3,7 +3,7 @@ title = "Hyper-v SSH Host Connection Script and Start VM Commands"
 image = "/images/post/hyperv.jpg"
 author = "Sedat"
 date = "2025-02-08T00:04:00Z"
-description = "hyperv scripts commands"
+description = "Hyperv Scripts Commands"
 categories = ["Windows"]
 type = "post"
 

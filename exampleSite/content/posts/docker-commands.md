@@ -1,9 +1,9 @@
 +++
-title = "Docker Commands"
+title = "Useful Docker Commands"
 image = "/images/post/dockercommands.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:01Z"
-description = "docker commands compose"
+description = "Useful Docker Commands"
 categories = ["Docker"]
 type = "post"
 

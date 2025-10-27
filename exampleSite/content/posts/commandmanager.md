@@ -1,5 +1,5 @@
 +++
-title = "Command Manager"
+title = "Command Manager — Designed & Developed by Sedat E."
 image = "/images/post/commandmanager.gif"
 author = "Sedat"
 date = "2025-10-24T00:03:06Z"

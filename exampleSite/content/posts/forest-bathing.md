@@ -3,7 +3,7 @@ title = "Forest Bathing: Phytoncide Therapy for Cellular Renewal"
 image = "/images/post/forest-bathing.jpg"  
 author = "Sedat"  
 date = "2023-11-01T08:45:12Z"  
-description = "Nature's immune boost"  
+description = "Nature's Immune Boost"  
 categories = ["Health"]  
 type = "post"  
 +++  

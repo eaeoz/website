@@ -3,7 +3,7 @@ title = "Cold Exposure: Controlled Stress for Immunity"
 image = "/images/post/cold-therapy.jpg"  
 author = "Sedat"  
 date = "2023-10-31T16:30:45Z"  
-description = "Boost immune resilience"  
+description = "Boost Immune Resilience"  
 categories = ["Health"]  
 type = "post"  
 +++  

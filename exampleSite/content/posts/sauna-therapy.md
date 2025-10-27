@@ -3,7 +3,7 @@ title = "Thermotherapy: Heat Shock Protein Activation"
 image = "/images/post/sauna-therapy.jpg"  
 author = "Sedat"  
 date = "2023-11-02T14:30:45Z"  
-description = "Cellular stress response"  
+description = "Cellular Stress Response"  
 categories = ["Health"]  
 type = "post"  
 +++  

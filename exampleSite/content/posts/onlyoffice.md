@@ -3,7 +3,7 @@ title = "Onlyoffice Nextcloud Integration"
 image = "/images/post/onlyoffice.jpg"
 author = "Sedat"
 date = "2025-10-24T00:03:03Z"
-description = "onlyoffice nextcloud docker"
+description = "Onlyoffice Nextcloud Integration"
 categories = ["Docker"]
 type = "post"
 

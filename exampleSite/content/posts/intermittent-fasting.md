@@ -3,7 +3,7 @@ title = "Intermittent Fasting: Circadian Metabolic Reset"
 image = "/images/post/intermittent-fasting.jpg"  
 author = "Sedat"  
 date = "2023-11-01T11:20:03Z"  
-description = "Metabolic reset strategy"  
+description = "Metabolic Reset Strategy"  
 categories = ["Health"]  
 type = "post"  
 +++  

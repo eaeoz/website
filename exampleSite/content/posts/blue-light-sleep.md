@@ -3,7 +3,7 @@ title = "Blue Light Exposure: Circadian Rhythm Disruption"
 image = "/images/post/blue-light-sleep.jpg"  
 author = "Sedat"  
 date = "2023-11-03T13:00:00Z"  
-description = "Circadian rhythm protection"  
+description = "Circadian Rhythm Protection"  
 categories = ["Health"]  
 type = "post"  
 +++  

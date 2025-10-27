@@ -1,9 +1,9 @@
 +++
-title = "Git Commands"
+title = "Useful Git Commands"
 image = "/images/post/gitcommands.jpg"
 author = "Sedat"
 date = "2025-10-24T00:03:05Z"
-description = "git commands"
+description = "Useful Git Commands"
 categories = ["Git"]
 type = "post"
 

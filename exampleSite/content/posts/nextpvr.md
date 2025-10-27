@@ -1,9 +1,9 @@
 +++
-title = "Nextpvr Docker Compose"
+title = "Nextpvr"
 image = "/images/post/nextpvr.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:04Z"
-description = "nextpvr docker compose"
+description = "Nextpvr"
 categories = ["Docker"]
 type = "post"
 +++

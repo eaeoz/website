@@ -3,7 +3,7 @@ title = "4-7-8 Breathing: Neuroscience-Backed Calm"
 image = "/images/post/lion-breath.jpg"  
 author = "Sedat"  
 date = "2025-02-24T00:02:07Z"  
-description = "Reset nervous system"  
+description = "Reset Nervous System"  
 categories = ["Health"]  
 type = "post"  
 +++  

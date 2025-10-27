@@ -3,7 +3,7 @@ title = "Sunlight Optimization: Vitamin D Beyond Supplements"
 image = "/images/post/sunlight-vitaminD.jpg"  
 author = "Sedat"  
 date = "2023-11-01T09:30:15Z"  
-description = "Natural D synthesis"  
+description = "Natural D Synthesis"  
 categories = ["Health"]  
 type = "post"  
 +++  

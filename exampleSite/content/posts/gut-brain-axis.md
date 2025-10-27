@@ -3,7 +3,7 @@ title = "Gut Microbiota: Psychobiotic Influence on Mental Health"
 image = "/images/post/gut-brain-axis.jpg"  
 author = "Sedat"  
 date = "2023-11-02T16:45:30Z"  
-description = "Gut-brain connection boost"  
+description = "Gut-brain Connection Boost"  
 categories = ["Health"]  
 type = "post"  
 +++  

@@ -3,7 +3,7 @@ title = "Posture Correction: Spinal Alignment and Nerve Function"
 image = "/images/post/spinal-alignment.jpg"  
 author = "Sedat"  
 date = "2023-11-03T11:45:30Z"  
-description = "Spinal nerve optimization"  
+description = "Spinal Nerve Optimization"  
 categories = ["Health"]  
 type = "post"  
 +++  

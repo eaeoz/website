@@ -3,7 +3,7 @@ title = "Omega-3 Fatty Acids: Neuroprotective Anti-Inflammatories"
 image = "/images/post/omega3-brain.jpg"  
 author = "Sedat"  
 date = "2023-11-03T09:15:22Z"  
-description = "Brain and heart shield"  
+description = "Brain and Heart Shield"  
 categories = ["Health"]  
 type = "post"  
 +++  
