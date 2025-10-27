@@ -7,9 +7,9 @@
   HUGO_THEME = "repo"
   HUGO_BASEURL = "https://sedat.netlify.app/"
 
-#[[plugins]]
-#  package = "@netlify/plugin-sitemap"
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
 
-#[plugins.inputs]
-#  buildDir = "public"
-#  prettyURLs = false
+[plugins.inputs]
+  buildDir = "public"
+  prettyURLs = false
