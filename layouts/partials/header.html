@@ -41,7 +41,9 @@
             </a>
             <div class="dropdown-menu">
               {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-              <a class="dropdown-item" href="/categories/{{ $name | urlize }}">{{ $name | title ", " }}</a>
+              {{ range $word := split $name "," }}
+              <a class="dropdown-item" href="/categories/{{ $word | urlize }}">{{ $word | title }}</a>
+              {{ end }}
               {{ end }}
             </div>
           </li>
