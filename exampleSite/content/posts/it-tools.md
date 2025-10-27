@@ -1,5 +1,5 @@
 +++
-title = "it-tools docker run command"
+title = "IT-Tools"
 image = "/images/post/it-tools.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:02Z"

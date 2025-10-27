@@ -1,5 +1,5 @@
 +++
-title = "nextpvr docker compose"
+title = "Nextpvr Docker Compose"
 image = "/images/post/nextpvr.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:04Z"

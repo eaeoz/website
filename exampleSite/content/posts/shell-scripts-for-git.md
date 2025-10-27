@@ -1,8 +1,8 @@
 +++
-title = "shell scripts for git"
+title = "Shell Scripts For Git"
 image = "/images/post/github.jpg"
 author = "Sedat"
-date = "2025-02-08T00:01:00Z"
+date = "2025-10-24T00:03:01Z"
 description = "shell scripts for git"
 categories = ["Git"]
 type = "post"

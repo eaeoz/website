@@ -1,8 +1,8 @@
 +++
-title = "linux commands"
+title = "Linux Commands"
 image = "/images/post/linuxcommands.jpg"
 author = "Sedat"
-date = "2025-02-08T00:06:00Z"
+date = "2025-10-24T00:03:04Z"
 description = "linux commands"
 categories = ["Linux"]
 type = "post"

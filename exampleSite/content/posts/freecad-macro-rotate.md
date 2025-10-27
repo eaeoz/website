@@ -1,5 +1,5 @@
 +++
-title = "freecad rotate macro"
+title = "Freecad Rotate Macro"
 image = "/images/post/freecadrotate.jpg"
 author = "Sedat"
 date = "2025-02-08T00:02:00Z"

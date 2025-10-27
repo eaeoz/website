@@ -1,5 +1,5 @@
 +++
-title = "docker commands"
+title = "Docker Commands"
 image = "/images/post/dockercommands.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:01Z"

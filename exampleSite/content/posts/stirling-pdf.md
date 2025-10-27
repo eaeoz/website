@@ -1,5 +1,5 @@
 +++
-title = "stirling-pdf docker compose"
+title = "Stirling-pdf"
 image = "/images/post/stirlingpdf.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:08Z"

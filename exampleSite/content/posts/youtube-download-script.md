@@ -1,8 +1,8 @@
 +++
-title = "youtube downloader windows script"
+title = "Youtube Downloader Script for Windows CLI"
 image = "/images/post/ytdlp.jpg"
 author = "Sedat"
-date = "2025-02-08T00:03:00Z"
+date = "2025-10-24T00:02:59Z"
 description = "youtube downloader windows"
 categories = ["Windows"]
 type = "post"

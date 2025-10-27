@@ -1,8 +1,8 @@
 +++
-title = "nginx proxy manager docker run command"
+title = "Nginx Proxy Manager"
 image = "/images/post/nginx-proxy-manager.jpg"
 author = "Sedat"
-date = "2025-02-24T00:02:09Z"
+date = "2025-10-24T00:02:58Z"
 description = "nginx proxy manager"
 categories = ["Docker"]
 type = "post"

@@ -1,5 +1,5 @@
 +++
-title = "xteve docker compose"
+title = "Xteve"
 image = "/images/post/xteve.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:03Z"

@@ -1,8 +1,8 @@
 +++
-title = "plex media server docker compose"
+title = "Plex Media Server"
 image = "/images/post/plex.jpg"
 author = "Sedat"
-date = "2025-02-24T00:02:06Z"
+date = "2025-10-24T00:02:57Z"
 description = "plex docker compose"
 categories = ["Docker"]
 type = "post"

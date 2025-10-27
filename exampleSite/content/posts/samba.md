@@ -1,5 +1,5 @@
 +++
-title = "samba docker compose"
+title = "Samba Docker Compose"
 image = "/images/post/samba.jpg"
 author = "Sedat"
 date = "2025-02-24T00:02:10Z"
