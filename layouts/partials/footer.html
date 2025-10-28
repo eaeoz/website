@@ -2,52 +2,53 @@
 <footer class="py-4 bg-info border-top">
   <div class="container">
     <div class="row justify-content-between align-items-center">
-      <div id="infoFooter" style="
-        height:40px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        background:transparent;
-        font-size:0.5rem;
-        border-top:1px solid #30363d;
-        color:#B69676;
-        font-family:'Segoe UI',sans-serif;
-      ">
-        <span style="color:#8b949e;">Time:</span>&nbsp;<span id="time">--:--:--</span>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        <span style="color:#8b949e;">Date:</span>&nbsp;<span id="date">--/--/----</span>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        <span style="color:#8b949e;">Location:</span>&nbsp;<span id="location">Loading...</span>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        <span style="color:#8b949e;">IP:</span>&nbsp;<span id="ip">Loading...</span>
-      </div>
 
-      <script>
-        function updateTime() {
-          const now = new Date();
-          document.getElementById('time').textContent = now.toLocaleTimeString([], { hour12: false })
-          document.getElementById('date').textContent = now.toLocaleDateString();
-        }
-        setInterval(updateTime, 1000);
-        updateTime();
-
-        async function fetchIPAndLocation() {
-          try {
-            const res = await fetch('https://ipapi.co/json/');
-            const data = await res.json();
-            document.getElementById('ip').textContent = data.ip || 'Unavailable';
-            document.getElementById('location').textContent = data.city || 'Unavailable';
-          } catch {
-            document.getElementById('ip').textContent = 'Error';
-            document.getElementById('location').textContent = 'Error';
-          }
-        }
-        fetchIPAndLocation();
-      </script>
       <!-- <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
         <a href="{{ .Site.BaseURL }}" class="d-block pb-3"><img src="{{ .Site.Params.logo | relURL }}" class="img-fluid" alt="{{ .Site.Title }}"></a>
       </div> -->
       <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <div id="infoFooter" style="
+          height:40px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          background:transparent;
+          font-size:0.5rem;
+          border-top:1px solid #30363d;
+          color:#B69676;
+          font-family:'Segoe UI',sans-serif;
+        ">
+          <span style="color:#8b949e;">Time:</span>&nbsp;<span id="time">--:--:--</span>
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <span style="color:#8b949e;">Date:</span>&nbsp;<span id="date">--/--/----</span>
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <span style="color:#8b949e;">Location:</span>&nbsp;<span id="location">Loading...</span>
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <span style="color:#8b949e;">IP:</span>&nbsp;<span id="ip">Loading...</span>
+        </div>
+
+        <script>
+          function updateTime() {
+            const now = new Date();
+            document.getElementById('time').textContent = now.toLocaleTimeString([], { hour12: false })
+            document.getElementById('date').textContent = now.toLocaleDateString();
+          }
+          setInterval(updateTime, 1000);
+          updateTime();
+
+          async function fetchIPAndLocation() {
+            try {
+              const res = await fetch('https://ipapi.co/json/');
+              const data = await res.json();
+              document.getElementById('ip').textContent = data.ip || 'Unavailable';
+              document.getElementById('location').textContent = data.city || 'Unavailable';
+            } catch {
+              document.getElementById('ip').textContent = 'Error';
+              document.getElementById('location').textContent = 'Error';
+            }
+          }
+          fetchIPAndLocation();
+        </script>
         <ul class="list-inline mb-0">
           {{ range .Site.Menus.footer }}
           <li class="list-inline-item"><a class="text-dark d-block p-2" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
