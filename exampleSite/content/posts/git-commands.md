@@ -126,6 +126,34 @@ git push --force
 
 ***
 
+##### Delete a branch both locally and remotely
+
+```
+
+# 1. Delete the remote branch first
+git push origin --delete branch-name
+
+# 2. Then delete your local branch
+git branch -D branch-name
+
+# Clean up remote-tracking references
+git fetch --prune
+
+```
+
+***
+
+##### Fix if branch behind another
+
+```
+git push origin master --force-with-lease
+git add -A
+git commit -am "tested"
+git push origin master
+```
+
+***
+
 ##### Return to main branch
 
 `git checkout main`
