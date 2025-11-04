@@ -1,5 +1,5 @@
 +++
-title = "Command Manager (opensource gui management of ssh clients) — Designed & Developed by Sedat E."
+title = "Command Manager (opensource gui management for ssh clients) — Designed & Developed by Sedat E."
 image = "/images/post/commandmanager.gif"
 author = "Sedat"
 date = "2025-10-24T00:03:06Z"
