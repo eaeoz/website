@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700&display=swap');
 
 body {
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 16px;
   color: $text-color;
 }
 
@@ -13,7 +13,7 @@ p, .paragraph {
   font-weight: 400;
   color: $text-color;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.8;
   font-family: $primary-font;
 }
 
@@ -38,25 +38,43 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1, .h1{
-  font-size: 50px;
+  font-size: 40px;
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
 }
 
 h2, .h2{
-  font-size: 40px;
+  font-size: 32px;
+  @media (min-width: 768px) {
+    font-size: 40px;
+  }
 }
 
 h3, .h3{
-  font-size: 30px;
+  font-size: 24px;
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
 }
 
 h4, .h4{
-  font-size: 26px;
+  font-size: 20px;
+  @media (min-width: 768px) {
+    font-size: 26px;
+  }
 }
 
 h5, .h5{
-  font-size: 20px;
+  font-size: 18px;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 h6, .h6{
   font-size: 16px;
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
 }
