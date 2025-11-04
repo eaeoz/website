@@ -6,7 +6,7 @@ title = "Sedat ERGÖZ | Personal Blog"
 # theme
 theme = "northendlab-light"
 # post pagination
-paginate = "10"
+paginate = "5"
 # post excerpt
 summaryLength = "10"
 # disqus short name
