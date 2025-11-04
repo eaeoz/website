@@ -68,7 +68,7 @@ weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "mailto:sedatergoz@gmail.com"
+URL = "https://sedatchat.netlify.app/contact"
 name = "Contact"
 weight = 1
 
