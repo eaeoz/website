@@ -1,190 +1,150 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sedat.netlify.app/</loc>
-    <lastmod>2025-10-24T00:03:06+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/commandmanager/</loc>
-    <lastmod>2025-10-24T00:03:06+00:00</lastmod>
   </url>
-  
+  <url>
+    <loc>https://sedat.netlify.app/author/sedat/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/categories/docker/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/categories/windows/</loc>
+  </url>
   <url>
     <loc>https://sedat.netlify.app/posts/git-commands/</loc>
-    <lastmod>2025-10-24T00:03:05+00:00</lastmod>
   </url>
-
+  <url>
+    <loc>https://sedat.netlify.app/categories/git/</loc>
+  </url>
   <url>
     <loc>https://sedat.netlify.app/posts/linux-commands/</loc>
-    <lastmod>2025-10-24T00:03:04+00:00</lastmod>
   </url>
-  
   <url>
-    <loc>https://sedat.netlify.app/posts/shell-scripts-for-git/</loc>
-    <lastmod>2025-10-24T00:03:01+00:00</lastmod>
+    <loc>https://sedat.netlify.app/categories/linux/</loc>
   </url>
-  
-  <url>
-    <loc>https://sedat.netlify.app/posts/youtube-download-script/</loc>
-    <lastmod>2025-10-24T00:02:59+00:00</lastmod>
-  </url>
-
   <url>
     <loc>https://sedat.netlify.app/posts/onlyoffice/</loc>
-    <lastmod>2025-10-24T00:03:03+00:00</lastmod>
   </url>
-  
+  <url>
+    <loc>https://sedat.netlify.app/posts/shell-scripts-for-git/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/posts/youtube-download-script/</loc>
+  </url>
   <url>
     <loc>https://sedat.netlify.app/posts/nginx-proxy-manager/</loc>
-    <lastmod>2025-10-24T00:02:58+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/plex-media-server/</loc>
-    <lastmod>2025-10-24T00:02:57+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/qbittorrent/</loc>
-    <lastmod>2025-10-24T00:02:56+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/samba/</loc>
-    <lastmod>2025-02-24T00:02:10+00:00</lastmod>
   </url>
-  
+  <url>
+    <loc>https://sedat.netlify.app/page/2/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/page/3/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/page/4/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/categories/freecad/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/categories/health/</loc>
+  </url>
   <url>
     <loc>https://sedat.netlify.app/posts/stirling-pdf/</loc>
-    <lastmod>2025-02-24T00:02:08+00:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://sedat.netlify.app/posts/lion-breathe/</loc>
-    <lastmod>2025-02-24T00:02:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sedat.netlify.app/posts/barefoot-grass/</loc>
-    <lastmod>2025-02-24T00:02:06+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/nextpvr/</loc>
-    <lastmod>2025-02-24T00:02:04+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/xteve/</loc>
-    <lastmod>2025-02-24T00:02:03+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/it-tools/</loc>
-    <lastmod>2025-02-24T00:02:02+00:00</lastmod>
   </url>
-  
   <url>
-    <loc>https://sedat.netlify.app/posts/docker-commands/</loc>
-    <lastmod>2025-02-24T00:02:01+00:00</lastmod>
+    <loc>https://sedat.netlify.app/categories/docker/page/2/</loc>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/hyperv/</loc>
-    <lastmod>2025-02-08T00:04:00+00:00</lastmod>
   </url>
-  
+  <url>
+    <loc>https://sedat.netlify.app/posts/lion-breathe/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/posts/barefoot-grass/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/posts/docker-commands/</loc>
+  </url>
   <url>
     <loc>https://sedat.netlify.app/posts/freecad-macro-rotate/</loc>
-    <lastmod>2025-02-08T00:02:00+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/mindful-brain/</loc>
-    <lastmod>2023-11-03T14:15:00+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/blue-light-sleep/</loc>
-    <lastmod>2023-11-03T13:00:00+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/spinal-alignment/</loc>
-    <lastmod>2023-11-03T11:45:30+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/magnesium-cells/</loc>
-    <lastmod>2023-11-03T10:30:45+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/omega3-brain/</loc>
-    <lastmod>2023-11-03T09:15:22+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/gut-brain-axis/</loc>
-    <lastmod>2023-11-02T16:45:30+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/sauna-therapy/</loc>
-    <lastmod>2023-11-02T14:30:45+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/glymphatic-sleep/</loc>
-    <lastmod>2023-11-02T10:00:00+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/nasal-breathing/</loc>
-    <lastmod>2023-11-01T15:10:35+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/joint-mobility/</loc>
-    <lastmod>2023-11-01T13:55:20+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/intermittent-fasting/</loc>
-    <lastmod>2023-11-01T11:20:03+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/sunlight-vitamind/</loc>
-    <lastmod>2023-11-01T09:30:15+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/forest-bathing/</loc>
-    <lastmod>2023-11-01T08:45:12+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/cold-therapy/</loc>
-    <lastmod>2023-10-31T16:30:45+00:00</lastmod>
   </url>
-  
   <url>
     <loc>https://sedat.netlify.app/posts/water-cells/</loc>
-    <lastmod>2023-10-31T15:15:30+00:00</lastmod>
   </url>
-
-  <url>
-    <loc>https://sedat.netlify.app/termsandconditions/</loc>
-    <lastmod>2025-10-23T00:03:06+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://sedat.netlify.app/privacy/</loc>
-    <lastmod>2025-10-23T00:02:06+00:00</lastmod>
   </url>
-  
+  <url>
+    <loc>https://sedat.netlify.app/termsandconditions/</loc>
+  </url>
+  <url>
+    <loc>https://sedat.netlify.app/categories/health/page/2/</loc>
+  </url>
 </urlset>
