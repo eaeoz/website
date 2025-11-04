@@ -1,255 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
   <url>
     <loc>https://sedat.netlify.app</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/commandmanager</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://sedat.netlify.app/author/sedat</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://sedat.netlify.app/privacy</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <loc>https://sedat.netlify.app/posts/commandmanager</loc>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://sedat.netlify.app/author/</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/termsandconditions</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://sedat.netlify.app/posts/git-commands</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://sedat.netlify.app/posts/linux-commands</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/onlyoffice</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://sedat.netlify.app/posts/shell-scripts-for-git</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://sedat.netlify.app/posts/youtube-download-script</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/nginx-proxy-manager</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/plex-media-server</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/qbittorrent</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/samba</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/page/2</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/stirling-pdf</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/lion-breathe</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/barefoot-grass</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/nextpvr</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/xteve</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/it-tools</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://sedat.netlify.app/posts/docker-commands</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://sedat.netlify.app/posts/hyperv</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://sedat.netlify.app/posts/freecad-macro-rotate</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <loc>https://sedat.netlify.app/privacy</loc>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://sedat.netlify.app/posts/mindful-brain</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
+    <loc>https://sedat.netlify.app/termsandconditions</loc>
+    <lastmod>2025-11-04T04:01:15.437Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://sedat.netlify.app/page/3</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/blue-light-sleep</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/spinal-alignment</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/magnesium-cells</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/omega3-brain</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/gut-brain-axis</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/sauna-therapy</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/glymphatic-sleep</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/nasal-breathing</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/joint-mobility</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/intermittent-fasting</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/page/4</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/sunlight-vitamind</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/forest-bathing</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/cold-therapy</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sedat.netlify.app/posts/water-cells</loc>
-    <lastmod>2025-11-04T03:34:09.042Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
 </urlset>
