@@ -13,7 +13,7 @@ Integrating ONLYOFFICE with Nextcloud provides a powerful, self-hosted document 
 
 ***
 
-- [Click here for more information.](https://helpcenter.onlyoffice.com/installation/docs-community-install-docker.aspx)
+- [Click here for more information.](https://helpcenter.onlyoffice.com/installation/docs-community-install-docker.aspx "OnlyOffice Docker Installation Guide")
 
 **To run:**
 

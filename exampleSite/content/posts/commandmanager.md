@@ -17,7 +17,7 @@ type = "post"
 
 ### 👇 Download Windows Desktop Executable Setup
 
-[➡️ Latest Release](https://github.com/eaeoz/command-manager-windows/releases/download/1.0.0/CommandManager_1.0.0.exe)
+[➡️ Latest Release](https://github.com/eaeoz/command-manager-windows/releases/download/1.0.0/CommandManager_1.0.0.exe "Download Command Manager Latest Release")
 
 ---
 
@@ -67,6 +67,6 @@ With **drag & drop** sorting, **profile-based execution**, and a smooth interfac
 
 ### Docker Instruction
 
-[Instruction](https://hub.docker.com/r/eaeoz/command-manager-docker)
+[Instruction](https://hub.docker.com/r/eaeoz/command-manager-docker "Command Manager Docker Instructions")
 
-[Github Repo for Docker](https://github.com/eaeoz/command-manager-docker)
+[Github Repo for Docker](https://github.com/eaeoz/command-manager-docker "Command Manager Docker Repository on GitHub")

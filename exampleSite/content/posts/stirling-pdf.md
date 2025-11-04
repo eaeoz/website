@@ -13,7 +13,7 @@ Deploying Stirling-PDF using Docker Compose provides an efficient and scalable w
 
 ***
 
-- [Click here for more information.](https://hub.docker.com/r/frooodle/s-pdf)
+- [Click here for more information.](https://hub.docker.com/r/frooodle/s-pdf "Stirling PDF Docker Hub Repository")
 
 **Docker compose:**
 

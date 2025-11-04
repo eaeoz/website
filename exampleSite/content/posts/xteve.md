@@ -13,7 +13,7 @@ xTeVe, IPTV kullanıcıları için geliştirilmiş, EPG (Elektronik Program Rehb
 
 ***
 
-- [Click here for more information.](https://github.com/xteve-project/xTeVe)
+- [Click here for more information.](https://github.com/xteve-project/xTeVe "xTeVe GitHub Repository")
 
 **Docker compose:**
 

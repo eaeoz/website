@@ -13,9 +13,9 @@ Plex is a powerful media server that allows users to organize, stream, and acces
 
 ---
 
-- [Click here for more information.](https://hub.docker.com/r/plexinc/pms-docker/)
+- [Click here for more information.](https://hub.docker.com/r/plexinc/pms-docker/ "Plex Media Server Docker Hub Repository")
 
-- _To get claim token:_ [Click here](https://www.plex.tv/claim/)
+- _To get claim token:_ [Click here](https://www.plex.tv/claim/ "Get Plex Claim Token")
 
 **Docker compose:**
 

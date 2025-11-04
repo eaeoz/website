@@ -13,7 +13,7 @@ Running Samba in a Docker environment provides a flexible and efficient way to s
 
 ***
 
-- [Click here for more information.](https://github.com/crazy-max/docker-samba)
+- [Click here for more information.](https://github.com/crazy-max/docker-samba "Samba Docker GitHub Repository")
 
 ### Instructions
 

@@ -13,7 +13,7 @@ Deploying Nginx Proxy Manager using a docker run command provides a simple and q
 
 ***
 
-- [Click here for more information.](https://github.com/jlesage/docker-nginx-proxy-manager)
+- [Click here for more information.](https://github.com/jlesage/docker-nginx-proxy-manager "Nginx Proxy Manager GitHub Repository")
 
 **Docker compose:**
 
