@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This site has moved. Personal and tech posts are now available on my new blog platform.">
+    <title>Site Moved - Redirecting...</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 50px 40px;
+            text-align: center;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #667eea;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: left;
+            border-radius: 8px;
+        }
+
+        .info-box h2 {
+            font-size: 20px;
+            color: #667eea;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-box li {
+            padding: 8px 0;
+            color: #555;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .info-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .redirect-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #1976d2;
+        }
+
+        .countdown {
+            font-size: 48px;
+            font-weight: bold;
+            color: #667eea;
+            margin: 20px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .countdown {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🚀</div>
+        <h1>We've Moved!</h1>
+        <p class="subtitle">
+            This site has relocated to a new home. All content has been transferred and is now available on our new blogging platform.
+        </p>
+
+        <div class="info-box">
+            <h2>📝 What's New?</h2>
+            <ul>
+                <li><strong>Personal Posts:</strong> All personal articles and stories are now on the new blog</li>
+                <li><strong>Tech Posts:</strong> Technical articles and tutorials have been moved</li>
+                <li><strong>Chat Platform:</strong> Interactive discussions and community features</li>
+                <li><strong>Better Experience:</strong> Improved navigation and reading experience</li>
+            </ul>
+        </div>
+
+        <div class="redirect-info">
+            <strong>⏱️ Automatic Redirect</strong><br>
+            You will be automatically redirected in <span id="countdown" class="countdown">5</span> seconds
+        </div>
+
+        <a href="https://netcify.netlify.app" class="button" id="redirectButton">
+            Visit New Site Now →
+        </a>
+
+        <div class="footer">
+            <p>If you're not redirected automatically, please click the button above.</p>
+        </div>
+    </div>
+
+    <script>
+        // Countdown timer
+        let timeLeft = 5;
+        const countdownElement = document.getElementById('countdown');
+        const redirectButton = document.getElementById('redirectButton');
+        const redirectUrl = 'https://netcify.netlify.app';
+
+        // Update countdown every second
+        const countdownTimer = setInterval(() => {
+            timeLeft--;
+            countdownElement.textContent = timeLeft;
+
+            if (timeLeft <= 0) {
+                clearInterval(countdownTimer);
+                window.location.href = redirectUrl;
+            }
+        }, 1000);
+
+        // Manual redirect on button click
+        redirectButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            clearInterval(countdownTimer);
+            window.location.href = redirectUrl;
+        });
+
+        // Clear timer if user navigates away
+        window.addEventListener('beforeunload', () => {
+            clearInterval(countdownTimer);
+        });
+    </script>
+</body>
+</html>
