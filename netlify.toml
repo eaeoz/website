@@ -4,8 +4,6 @@
   command = "echo 'Static site - no build needed'"
   # Publish the root directory containing index.html
   publish = "."
-  # Ignore any UI build command settings
-  ignore = false
 
 [[headers]]
   # Define which paths this specific [[headers]] block applies to
