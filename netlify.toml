@@ -1,0 +1,23 @@
+[build]
+  # This is a static HTML site, no build command needed
+  command = ""
+  # Publish the root directory containing index.html
+  publish = "."
+
+[[headers]]
+  # Define which paths this specific [[headers]] block applies to
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Redirect rules (optional - your HTML already handles redirect with JavaScript)
+# Uncomment if you want server-side redirect instead
+# [[redirects]]
+#   from = "/*"
+#   to = "https://netcify.netlify.app/:splat"
+#   status = 301
+#   force = false
